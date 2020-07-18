@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.power_orb\\\"}\"},id:\"library:power_orb\",CustomModelData:12760001}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

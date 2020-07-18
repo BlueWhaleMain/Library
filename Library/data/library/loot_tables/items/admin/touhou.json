@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.library.touhou\"}',Lore:['{\"translate\":\"item.library.touhou.lore\"}']},id:'library:touhou',permission:'admin',CustomModelData:12760000}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

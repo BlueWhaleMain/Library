@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "library:item/yin_yang_yu/support_yukari_yakumo"
+    }
+}

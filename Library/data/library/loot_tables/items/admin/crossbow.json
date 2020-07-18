@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.library.admin_crossbow\"}',Lore:['{\"translate\":\"item.library.admin_crossbow.lore\"}']},id:'library:admin_crossbow',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:quick_charge',lvl:5},{id:'minecraft:piercing',lvl:1}],Unbreakable:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

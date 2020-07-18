@@ -1,0 +1,29 @@
+{
+  "parent": "library:battle/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword",
+      "nbt": "{Enchantments :[{id:\"minecraft:sharpness\",lvl:1},{id:\"minecraft:knockback\",lvl:1},{id:\"minecraft:sweeping\",lvl:1}]}"
+    },
+    "title": {
+      "translate": "advancements.library.advanced_attack.title"
+    },
+    "description": {
+      "translate": "advancements.library.advanced_attack.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advanced_attack": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "advanced_attack"
+    ]
+  ]
+}

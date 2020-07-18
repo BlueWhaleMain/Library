@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.yin_yang_yu\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.shoot.owner.hakurei_reimu\\\"}\",\"{\\\"translate\\\":\\\"item.library.yin_yang_yu.support_yukari_yakumo\\\"}\"]},id:\"library:yin_yang_yu\",mode:\"support_yukari_yakumo\",CustomModelData:12760002}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

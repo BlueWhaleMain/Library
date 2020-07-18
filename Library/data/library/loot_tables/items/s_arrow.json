@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.s_arrow\\\"}\"},id:\"library:s_arrow\",CustomModelData:12760002}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

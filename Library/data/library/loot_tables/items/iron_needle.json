@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.iron_needle\\\"}\"},id:\"library:iron_needle\",CustomModelData:12760001}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

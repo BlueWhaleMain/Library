@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"library:main/1t",
+		"library:main/1s",
+		"library:entity/main/load"
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.factory_ring\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.empty\\\"}\"]},id:\"library:factory_ring\",item:\"minecraft:empty\",CustomModelData:12760006}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

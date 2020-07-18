@@ -1,0 +1,20 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/redstone"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 12760001
+            },
+            "model": "library:item/power_orb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12760002
+            },
+            "model": "library:item/small_power_orb"
+        }
+    ]
+}

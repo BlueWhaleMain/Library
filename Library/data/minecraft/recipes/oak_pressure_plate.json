@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "pattern": [
+    "#",
+	"X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+	"X": {
+	  "item": "minecraft:redstone"
+	}
+  },
+  "result": {
+    "item": "minecraft:oak_pressure_plate",
+	"count": 16
+  }
+}

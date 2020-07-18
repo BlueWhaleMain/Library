@@ -1,0 +1,29 @@
+{
+    "parent": "library:touhou/yin_yang_yu",
+    "display": {
+        "icon": {
+            "item": "minecraft:quartz",
+            "nbt": "{CustomModelData:12760001,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}"
+        },
+        "title": {
+            "translate": "advancements.library.touhou.bomb.title"
+        },
+        "description": {
+            "translate": "advancements.library.touhou.bomb.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bomb": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "bomb"
+        ]
+    ]
+}

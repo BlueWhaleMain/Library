@@ -1,0 +1,29 @@
+{
+    "parent": "library:touhou/shoot",
+    "display": {
+        "icon": {
+            "item": "minecraft:quartz",
+            "nbt": "{CustomModelData:12760001}"
+        },
+        "title": {
+            "translate": "advancements.library.touhou.yin_yang_yu.title"
+        },
+        "description": {
+            "translate": "advancements.library.touhou.yin_yang_yu.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "yin_yang_yu": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "yin_yang_yu"
+        ]
+    ]
+}

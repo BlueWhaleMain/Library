@@ -1,0 +1,28 @@
+{
+    "parent": "library:install/admin",
+    "display": {
+        "icon": {
+            "item": "minecraft:chain_command_block"
+        },
+        "title": {
+            "translate": "advancements.library.admin_shell.title"
+        },
+        "description": {
+            "translate": "advancements.library.admin_shell.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "admin_shell": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "admin_shell"
+        ]
+    ]
+}

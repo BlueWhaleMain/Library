@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.player_1up\\\"}\"},id:\"library:player_1up\",CustomModelData:12760001}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

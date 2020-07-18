@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "_comment": "御札",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "block": {
+                                            "nbt": "{Items:[{Slot:4b,id:'minecraft:paper',tag:{display:{Name:\"{\\\"text\\\":\\\"Bill\\\"}\"}},Count:1b}]}"
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "minecraft:loot_table",
+                            "name": "library:items/bill"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "_comment": "小玉",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "block": {
+                                            "nbt": "{Items:[{Slot:4b,id:'minecraft:quartz',tag:{display:{Name:\"{\\\"text\\\":\\\"SmallJade\\\"}\"}},Count:1b}]}"
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "minecraft:loot_table",
+                            "name": "library:items/small_jade"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

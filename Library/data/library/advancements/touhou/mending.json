@@ -1,0 +1,28 @@
+{
+    "parent": "library:touhou/scrap",
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {
+            "translate": "advancements.library.touhou.mending.title"
+        },
+        "description": {
+            "translate": "advancements.library.touhou.mending.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "mending": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "mending"
+        ]
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.player_orb\\\"}\"},id:\"library:player_orb\",CustomModelData:12760001}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+	"parent": "library:battle/advanced_attack",
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:strength\"}"
+        },
+        "title": {
+			"translate": "advancements.library.attack_fever.title"
+		},
+        "description": {
+			"translate": "advancements.library.attack_fever.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+		"hidden": false
+    },
+    "criteria": {
+		"fever": {
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"requirements": [
+		[
+			"fever"
+		]
+	]
+}

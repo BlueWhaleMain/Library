@@ -1,0 +1,29 @@
+{
+  "parent": "library:battle/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:shield",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    },
+    "title": {
+      "translate": "advancements.library.block_a_attack.title"
+    },
+    "description": {
+      "translate": "advancements.library.block_a_attack.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "block_a_attack": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "block_a_attack"
+    ]
+  ]
+}

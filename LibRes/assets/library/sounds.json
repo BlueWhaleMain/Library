@@ -1,0 +1,138 @@
+{
+    "item.shoot.shoot": {
+        "sounds": [
+            {
+                "name": "library:shoot"
+            }
+        ],
+        "subtitle": "subtitles.item.shoot.shoot"
+    },
+    "item.bomb.shoot": {
+        "sounds": [
+            {
+                "name": "library:bomb_shoot"
+            }
+        ],
+        "subtitle": "subtitles.item.bomb.shoot"
+    },
+    "item.bomb.in_out": {
+        "sounds": [
+            {
+                "name": "library:bomb_in_out"
+            }
+        ],
+        "subtitle": "subtitles.item.bomb.in_out"
+    },
+    "item.bomb.lay": {
+        "sounds": [
+            {
+                "name": "library:bomb_lay"
+            }
+        ],
+        "subtitle": "subtitles.item.bomb.lay"
+    },
+    "item.support_yukari_yakumo.in": {
+        "sounds": [
+            {
+                "name": "library:left_to_right"
+            }
+        ],
+        "subtitle": "subtitles.item.support_yukari_yakumo.in"
+    },
+    "item.support_yukari_yakumo.out": {
+        "sounds": [
+            {
+                "name": "library:right_to_left"
+            }
+        ],
+        "subtitle": "subtitles.item.support_yukari_yakumo.out"
+    },
+    "item.power_orb.use": {
+        "sounds": [
+            {
+                "name": "library:power_up"
+            }
+        ],
+        "subtitle": "subtitles.item.power_orb.use"
+    },
+    "player.dead.miss": {
+        "sounds": [
+            {
+                "name": "library:dead"
+            }
+        ],
+        "subtitle": "subtitles.player.dead.miss"
+    },
+    "player.extend": {
+        "sounds": [
+            {
+                "name": "library:extend"
+            }
+        ],
+        "subtitle": "subtitles.player.extend"
+    },
+    "shoot.change_track": {
+        "sounds": [
+            {
+                "name": "library:change_track"
+            }
+        ],
+        "subtitle": "subtitles.shoot.change_track"
+    },
+    "item.chain.shoot": {
+        "sounds": [
+            {
+                "name": "library:chain_shoot"
+            }
+        ],
+        "subtitle": "subtitles.item.chain.shoot"
+    },
+    "synthesis.charge": {
+        "sounds": [
+            {
+                "name": "library:charge"
+            }
+        ],
+        "subtitle": "subtitles.synthesis.charge"
+    },
+    "synthesis.discharge": {
+        "sounds": [
+            {
+                "name": "library:discharge"
+            }
+        ],
+        "subtitle": "subtitles.synthesis.discharge"
+    },
+    "synthesis.electric_buzz": {
+        "sounds": [
+            {
+                "name": "library:electric_buzz"
+            }
+        ],
+        "subtitle": "subtitles.synthesis.electric_buzz"
+    },
+    "synthesis.energy_bolt": {
+        "sounds": [
+            {
+                "name": "library:energy_bolt"
+            }
+        ],
+        "subtitle": "subtitles.synthesis.energy_bolt"
+    },
+    "synthesis.fusion_complete": {
+        "sounds": [
+            {
+                "name": "library:fusion_complete"
+            }
+        ],
+        "subtitle": "subtitles.synthesis.fusion_complete"
+    },
+    "item.levitation": {
+        "sounds": [
+            {
+                "name": "library:jetpack_loop"
+            }
+        ],
+        "subtitle": "subtitles.item.levitation"
+    }
+}
