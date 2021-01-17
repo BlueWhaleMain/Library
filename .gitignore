@@ -1,6 +1,10 @@
 HELP.md
 nwjs_run/
 nwjs/
+Blocking/
+Pack/
+Resources/
+Test/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
