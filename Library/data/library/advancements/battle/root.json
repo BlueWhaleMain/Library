@@ -1,28 +1,28 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:wooden_sword"
-        },
-        "title": {
-			"translate": "advancements.library.battle.title"
-		},
-        "description": {
-			"translate": "advancements.library.battle.description"
-		},
-		"frame": "task",
-		"show_toast": false,
-		"announce_to_chat": false,
-        "hidden": false,
-        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword"
     },
-    "criteria": {
-        "battle": {
-            "trigger": "minecraft:player_killed_entity"
-        }
+    "title": {
+      "translate": "advancements.library.battle.title"
     },
-	"requirements": [
-		[
-			"battle"
-		]
-	]
+    "description": {
+      "translate": "advancements.library.battle.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "battle": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "battle"
+    ]
+  ]
 }

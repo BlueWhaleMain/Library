@@ -1,33 +1,33 @@
 {
-	"parent": "library:battle/root",
-    "display": {
-        "icon": {
-            "item": "minecraft:zombie_head"
-        },
-        "title": {
-			"translate": "advancements.library.kill_a_zombie.title"
-		},
-		"frame": "task",
-        "description": {
-			"translate": "advancements.library.kill_a_zombie.description"
-		},
-		"show_toast": true,
-		"announce_to_chat": true,
-        "hidden": false
+  "parent": "library:battle/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
     },
-    "criteria": {
-        "kill_a_zombie": {
-            "trigger": "minecraft:player_killed_entity",
-			"conditions": {
-                "entity": {
-                    "type": "zombie"
-				}
-			}
+    "title": {
+      "translate": "advancements.library.kill_a_zombie.title"
+    },
+    "frame": "task",
+    "description": {
+      "translate": "advancements.library.kill_a_zombie.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_a_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie"
         }
-    },
-	"requirements": [
-		[
-			"kill_a_zombie"
-		]
-	]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_a_zombie"
+    ]
+  ]
 }

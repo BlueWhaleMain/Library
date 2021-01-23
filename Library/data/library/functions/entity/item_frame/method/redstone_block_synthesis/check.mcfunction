@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if entity @e[type=!minecraft:item_frame,distance=..0.5] run function library:entity/item_frame/method/redstone_block_synthesis/overload
 # 杂物
 execute if score @s libTouhouCTime matches ..-1 run particle minecraft:firework ~ ~ ~ 0.2 0.2 0.2 0.5 1

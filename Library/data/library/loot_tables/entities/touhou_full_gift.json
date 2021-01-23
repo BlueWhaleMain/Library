@@ -1,18 +1,18 @@
 {
-    "type": "minecraft:entity",
-    "pools": [
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "library:items/small_power_orb"
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "library:items/blue_orb"
-                }
-            ]
+          "type": "minecraft:loot_table",
+          "name": "library:items/small_power_orb"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "library:items/blue_orb"
         }
-    ]
+      ]
+    }
+  ]
 }

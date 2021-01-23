@@ -1,28 +1,28 @@
 {
-    "parent": "library:touhou/root",
-    "display": {
-        "icon": {
-            "item": "minecraft:barrier"
-        },
-        "title": {
-            "translate": "advancements.library.touhou.barrier.title"
-        },
-        "description": {
-            "translate": "advancements.library.touhou.barrier.description"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": true
+  "parent": "library:touhou/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
     },
-    "criteria": {
-        "barrier": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "advancements.library.touhou.barrier.title"
     },
-    "requirements": [
-        [
-            "barrier"
-        ]
+    "description": {
+      "translate": "advancements.library.touhou.barrier.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "barrier": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "barrier"
     ]
+  ]
 }

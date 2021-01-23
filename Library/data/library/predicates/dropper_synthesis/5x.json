@@ -1,14 +1,14 @@
 {
-    "condition": "minecraft:alternative",
-    "terms": [
-        {
-            "_comment": "御币",
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "block": {
-                    "nbt": "{Items:[{Slot:2b,id:'minecraft:stick',Count:1b},{Slot:4b,id:'minecraft:stick',Count:1b},{Slot:5b,id:'minecraft:paper',Count:1b},{Slot:6b,id:'minecraft:stick',Count:1b},{Slot:8b,id:'minecraft:paper',Count:1b}]}"
-                }
-            }
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "_comment": "御币",
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:2b,id:'minecraft:stick',Count:1b},{Slot:4b,id:'minecraft:stick',Count:1b},{Slot:5b,id:'minecraft:paper',Count:1b},{Slot:6b,id:'minecraft:stick',Count:1b},{Slot:8b,id:'minecraft:paper',Count:1b}]}"
         }
-    ]
+      }
+    }
+  ]
 }

@@ -1,29 +1,29 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "_comment": "御币",
+              "conditions": [
                 {
-                    "type": "minecraft:alternatives",
-                    "children": [
-                        {
-                            "_comment": "御币",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:location_check",
-                                    "predicate": {
-                                        "block": {
-                                            "nbt": "{Items:[{Slot:2b,id:'minecraft:stick',Count:1b},{Slot:4b,id:'minecraft:stick',Count:1b},{Slot:5b,id:'minecraft:paper',Count:1b},{Slot:6b,id:'minecraft:stick',Count:1b},{Slot:8b,id:'minecraft:paper',Count:1b}]}"
-                                        }
-                                    }
-                                }
-                            ],
-                            "type": "minecraft:loot_table",
-                            "name": "library:items/shoot/empty"
-                        }
-                    ]
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:2b,id:'minecraft:stick',Count:1b},{Slot:4b,id:'minecraft:stick',Count:1b},{Slot:5b,id:'minecraft:paper',Count:1b},{Slot:6b,id:'minecraft:stick',Count:1b},{Slot:8b,id:'minecraft:paper',Count:1b}]}"
+                    }
+                  }
                 }
-            ]
+              ],
+              "type": "minecraft:loot_table",
+              "name": "library:items/shoot/empty"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

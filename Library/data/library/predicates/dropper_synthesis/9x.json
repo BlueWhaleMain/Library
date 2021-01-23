@@ -1,14 +1,14 @@
 {
-    "condition": "minecraft:alternative",
-    "terms": [
-        {
-            "_comment": "节制器",
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "block": {
-                    "nbt": "{Items:[{Slot:0b,id:'minecraft:iron_nugget',Count:1b},{Slot:1b,id:'minecraft:redstone',Count:1b},{Slot:2b,id:'minecraft:iron_nugget',Count:1b},{Slot:3b,id:'minecraft:iron_nugget',Count:1b},{Slot:4b,tag:{id:'library:magnet'},Count:1b},{Slot:5b,id:'minecraft:iron_nugget',Count:1b},{Slot:6b,id:'minecraft:iron_nugget',Count:1b},{Slot:7b,id:'minecraft:quartz',Count:1b},{Slot:8b,id:'minecraft:iron_nugget',Count:1b}]}"
-                }
-            }
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "_comment": "节制器",
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:0b,id:'minecraft:iron_nugget',Count:1b},{Slot:1b,id:'minecraft:redstone',Count:1b},{Slot:2b,id:'minecraft:iron_nugget',Count:1b},{Slot:3b,id:'minecraft:iron_nugget',Count:1b},{Slot:4b,tag:{id:'library:magnet'},Count:1b},{Slot:5b,id:'minecraft:iron_nugget',Count:1b},{Slot:6b,id:'minecraft:iron_nugget',Count:1b},{Slot:7b,id:'minecraft:quartz',Count:1b},{Slot:8b,id:'minecraft:iron_nugget',Count:1b}]}"
         }
-    ]
+      }
+    }
+  ]
 }

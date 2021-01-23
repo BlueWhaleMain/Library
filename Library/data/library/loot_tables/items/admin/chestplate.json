@@ -1,19 +1,19 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_chestplate",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"translate\":\"item.library.admin_chestplate\"}',Lore:['{\"translate\":\"item.library.admin_chestplate.lore\"}']},id:'library:admin_chestplate',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:projectile_protection',lvl:2147483647}],Unbreakable:1,AttributeModifiers:[{Slot:'chest',AttributeName:'generic.armor_toughness',Name:'generic.armor_toughness',Amount:80,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.library.admin_chestplate\"}',Lore:['{\"translate\":\"item.library.admin_chestplate.lore\"}']},id:'library:admin_chestplate',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:projectile_protection',lvl:2147483647}],Unbreakable:1,AttributeModifiers:[{Slot:'chest',AttributeName:'generic.armor_toughness',Name:'generic.armor_toughness',Amount:80,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

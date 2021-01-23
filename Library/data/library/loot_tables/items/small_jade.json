@@ -1,19 +1,19 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:fire_charge",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.small_jade\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.only_recipe\\\"}\"]},id:\"library:small_jade\",CustomModelData:12760001}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:fire_charge",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.small_jade\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.only_recipe\\\"}\"]},id:\"library:small_jade\",CustomModelData:12760001}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

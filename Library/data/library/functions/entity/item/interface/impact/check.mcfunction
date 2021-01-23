@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute store result score #ItemMX libTemp run data get entity @s Motion[0] 10000
 execute store result score #ItemMY libTemp run data get entity @s Motion[1] 10000
 execute store result score #ItemMZ libTemp run data get entity @s Motion[2] 10000

@@ -1,4 +1,4 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 scoreboard players add @s[scores={libraryFood=..14,libraryFat=120..}] libFood 1
 scoreboard players add @s[scores={libraryFood=..13,libraryFat=110..}] libFood 1
 scoreboard players add @s[scores={libraryFood=..12,libraryFat=100..}] libFood 1

@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 effect give @s[nbt={ActiveEffects:[{Id:1b,Amplifier:13b}]}] minecraft:speed 2 14 true
 effect give @s[nbt={ActiveEffects:[{Id:1b,Amplifier:12b}]}] minecraft:speed 2 13 true
 effect give @s[nbt={ActiveEffects:[{Id:1b,Amplifier:11b}]}] minecraft:speed 2 12 true

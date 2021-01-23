@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 tag @s add base
 execute if score @s libTemp matches 1..2 run summon minecraft:experience_orb ~ ~ ~ {Value:1s,Tags:["new"]}
 execute if score @s libTemp matches 3..6 run summon minecraft:experience_orb ~ ~ ~ {Value:3s,Tags:["new"]}

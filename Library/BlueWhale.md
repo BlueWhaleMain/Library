@@ -1,7 +1,7 @@
 Copyright by BlueWhale. All Rights Reserved.
 
 /give @s minecraft:player_head{SkullOwner:"BlueWhaleMain"}
-*注：这是作者的头qwq
+*注：这是作者的头
 
 特别注意：此项目尚未开源，请不要以任何形式抄袭代码，或对包进行变造，若有开发意向的，
 请联系BlueWhaleMain

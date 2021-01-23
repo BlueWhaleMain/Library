@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players set @s libTemp 0
 ##堆叠铁粒
 execute store result score @s libTemp run clear @s minecraft:iron_ingot{} 0

@@ -1,19 +1,19 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:redstone",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.small_power_orb\\\"}\"},id:\"library:small_power_orb\",CustomModelData:12760002}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.small_power_orb\\\"}\"},id:\"library:small_power_orb\",CustomModelData:12760002}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

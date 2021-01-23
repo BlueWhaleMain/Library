@@ -1,3 +1,3 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 tp @s ^ ^ ^1
-#移动
+# 移动

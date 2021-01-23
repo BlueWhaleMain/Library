@@ -8,12 +8,12 @@
     "#": {
       "item": "minecraft:acacia_planks"
     },
-	"X": {
-	  "item": "minecraft:redstone"
-	}
+    "X": {
+      "item": "minecraft:redstone"
+    }
   },
   "result": {
     "item": "minecraft:acacia_button",
-	"count": 64
+    "count": 64
   }
 }

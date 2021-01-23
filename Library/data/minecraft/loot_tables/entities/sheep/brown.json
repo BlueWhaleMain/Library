@@ -1,34 +1,34 @@
 {
-	"type": "minecraft:entity",
-    "pools": [
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "conditions": [
         {
-            "conditions": [
-                {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "on_fire": false
-                    }
-                }
-            ],
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:brown_wool",
-                    "weight": 1
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:entities/sheep",
-                    "weight": 1
-                }
-            ]
+          "condition": "entity_properties",
+          "entity": "this",
+          "properties": {
+            "on_fire": false
+          }
         }
-    ]
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_wool",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "minecraft:entities/sheep",
+          "weight": 1
+        }
+      ]
+    }
+  ]
 }

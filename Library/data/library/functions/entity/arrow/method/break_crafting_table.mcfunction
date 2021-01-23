@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players set @s libTemp 0
 execute unless block ~ ~ ~ minecraft:crafting_table store success score @s libTemp run kill @e[distance=..3,sort=nearest,type=minecraft:item,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}]
 # 销毁工作台物品

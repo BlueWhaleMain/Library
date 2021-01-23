@@ -1,5 +1,5 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 kill
-#清除自身
+# 清除自身
 summon experience_orb ~ ~ ~ {Value:1s}
-#召唤经验球
+# 召唤经验球

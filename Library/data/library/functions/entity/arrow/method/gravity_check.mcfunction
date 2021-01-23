@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players set #EntityArrowMotion libTemp 0
 execute store result score #EntityArrowMotionX libTemp run data get entity @s Motion[0] 2
 execute store result score #EntityArrowMotionY libTemp run data get entity @s Motion[1] 2

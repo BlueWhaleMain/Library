@@ -1,29 +1,29 @@
 {
-    "parent": "library:touhou/root",
-    "display": {
-        "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:12760001}"
-        },
-        "title": {
-            "translate": "advancements.library.touhou.shoot.title"
-        },
-        "description": {
-            "translate": "advancements.library.touhou.shoot.description"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "library:touhou/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:12760001}"
     },
-    "criteria": {
-        "shoot": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "advancements.library.touhou.shoot.title"
     },
-    "requirements": [
-        [
-            "shoot"
-        ]
+    "description": {
+      "translate": "advancements.library.touhou.shoot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shoot": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "shoot"
     ]
+  ]
 }

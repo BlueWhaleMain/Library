@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players set @s libTemp 0
 ##填充工作台
 execute store result score @s libTemp run clear @s minecraft:crafting_table 0

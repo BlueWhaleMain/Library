@@ -1,49 +1,49 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "_comment": "阴阳玉",
+              "conditions": [
                 {
-                    "type": "minecraft:alternatives",
-                    "children": [
-                        {
-                            "_comment": "阴阳玉",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:location_check",
-                                    "predicate": {
-                                        "block": {
-                                            "nbt": "{Items:[{Slot:4b,id:'minecraft:fire_charge',tag:{id:'library:small_jade'},Count:1b},{Slot:5b,id:'minecraft:fire_charge',tag:{id:'library:bill'},Count:1b}]}"
-                                        }
-                                    }
-                                }
-                            ],
-                            "type": "minecraft:loot_table",
-                            "name": "library:items/yin_yang_yu"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:alternatives",
-                    "children": [
-                        {
-                            "_comment": "直线形弹幕/札弹",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:location_check",
-                                    "predicate": {
-                                        "block": {
-                                            "nbt": "{Items:[{Slot:4b,id:'minecraft:carrot_on_a_stick',tag:{id:'library:shoot',model:empty},Count:1b},{Slot:5b,id:'minecraft:fire_charge',tag:{id:'library:bill'},Count:1b}]}"
-                                        }
-                                    }
-                                }
-                            ],
-                            "type": "minecraft:loot_table",
-                            "name": "library:items/shoot/line/bill"
-                        }
-                    ]
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:4b,id:'minecraft:fire_charge',tag:{id:'library:small_jade'},Count:1b},{Slot:5b,id:'minecraft:fire_charge',tag:{id:'library:bill'},Count:1b}]}"
+                    }
+                  }
                 }
-            ]
+              ],
+              "type": "minecraft:loot_table",
+              "name": "library:items/yin_yang_yu"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "_comment": "直线形弹幕/札弹",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:4b,id:'minecraft:carrot_on_a_stick',tag:{id:'library:shoot',model:empty},Count:1b},{Slot:5b,id:'minecraft:fire_charge',tag:{id:'library:bill'},Count:1b}]}"
+                    }
+                  }
+                }
+              ],
+              "type": "minecraft:loot_table",
+              "name": "library:items/shoot/line/bill"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

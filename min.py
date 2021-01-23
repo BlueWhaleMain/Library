@@ -118,7 +118,7 @@ if __name__ == "__main__":
                 r = ''
                 res = []
                 with open(file_list[file_index], encoding=get_encoding(file_list[file_index], _index)) as f:
-                    res.append("#Copyright by BlueWhale. All Rights Reserved.\n")
+                    res.append("# Copyright by BlueWhale. All Rights Reserved.\n")
                     while True:
                         r = f.readline()
                         if r:

@@ -1,28 +1,28 @@
 {
-    "parent": "library:install/root",
-    "display": {
-        "icon": {
-            "item": "minecraft:command_block"
-        },
-        "title": {
-            "translate": "advancements.library.admin.title"
-        },
-        "description": {
-            "translate": "advancements.library.admin.description"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": true
+  "parent": "library:install/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:command_block"
     },
-    "criteria": {
-        "admin": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "advancements.library.admin.title"
     },
-    "requirements": [
-        [
-            "admin"
-        ]
+    "description": {
+      "translate": "advancements.library.admin.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "admin": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "admin"
     ]
+  ]
 }

@@ -3,9 +3,9 @@
   "ingredients": [
     {
       "item": "minecraft:bread"
-	},
-	{
-	  "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
     }
   ],
   "result": {

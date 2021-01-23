@@ -1,28 +1,28 @@
 {
-    "parent": "library:battle/root",
-    "display": {
-        "icon": {
-            "item": "minecraft:red_bed"
-        },
-        "title": {
-            "translate": "advancements.library.sleep.title"
-        },
-        "frame": "task",
-        "description": {
-            "translate": "advancements.library.sleep.description"
-        },
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "library:battle/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
     },
-    "criteria": {
-        "sleep": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "advancements.library.sleep.title"
     },
-    "requirements": [
-        [
-            "sleep"
-        ]
+    "frame": "task",
+    "description": {
+      "translate": "advancements.library.sleep.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sleep": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "sleep"
     ]
+  ]
 }

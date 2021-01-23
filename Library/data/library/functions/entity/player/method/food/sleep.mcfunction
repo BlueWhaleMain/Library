@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 effect give @s[scores={libTemp=1}] minecraft:hunger 2 10 true
 effect give @s[scores={libTemp=2}] minecraft:hunger 2 20 true
 effect give @s[scores={libTemp=3}] minecraft:hunger 2 30 true

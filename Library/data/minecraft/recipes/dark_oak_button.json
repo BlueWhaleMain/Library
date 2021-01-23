@@ -8,12 +8,12 @@
     "#": {
       "item": "minecraft:dark_oak_planks"
     },
-	"X": {
-	  "item": "minecraft:redstone"
-	}
+    "X": {
+      "item": "minecraft:redstone"
+    }
   },
   "result": {
     "item": "minecraft:dark_oak_button",
-	"count": 64
+    "count": 64
   }
 }

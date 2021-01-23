@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute at @s[nbt={Item:{id:"minecraft:water_bucket"}}] run function library:entity/item/method/bucket_dump
 # 水桶
 execute at @s[nbt={Item:{id:"minecraft:lava_bucket"}}] run function library:entity/item/method/bucket_dump

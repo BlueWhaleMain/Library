@@ -1,4 +1,4 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 execute if entity @s[nbt={inGround:true},tag=player] run kill
 # 地面清除
 execute if entity @s[tag=!library_shoot_spy,tag=!NoGravity] run function library:entity/arrow/method/gravity_check

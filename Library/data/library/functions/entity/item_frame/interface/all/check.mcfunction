@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if entity @s[tag=touhou] run function library:entity/player/method/touhou/select
 # 消弹
 execute if entity @s[tag=tick] run function library:entity/item_frame/method/rotate
@@ -13,7 +13,7 @@ execute at @s[tag=crafting_table_synthesis] run function library:entity/item_fra
 # 扩展工作台
 execute at @s[tag=loom_synthesis] run function library:entity/item_frame/method/loom_synthesis/check
 # 扩展织布机
-#execute at @s[tag=anvil_synthesis] run function library:entity/item_frame/method/anvil_synthesis/check
+# execute at @s[tag=anvil_synthesis] run function library:entity/item_frame/method/anvil_synthesis/check
 # 扩展铁砧
-#execute at @s[tag=hopper_compressor] positioned ~ ~-1 ~ run function library:entity/item_frame/method/hopper_compressor/check
+# execute at @s[tag=hopper_compressor] positioned ~ ~-1 ~ run function library:entity/item_frame/method/hopper_compressor/check
 # 漏斗压缩机

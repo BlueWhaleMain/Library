@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "group": "wooden_fence_gate",
   "pattern": [
     "#W#",
@@ -15,6 +15,6 @@
   },
   "result": {
     "item": "minecraft:spruce_fence_gate",
-	"count": 16
+    "count": 16
   }
 }

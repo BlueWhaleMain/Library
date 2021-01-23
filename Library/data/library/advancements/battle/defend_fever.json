@@ -1,29 +1,29 @@
 {
-	"parent": "library:battle/block_a_attack",
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-			"nbt": "{Potion:\"minecraft:resistance\"}"
-        },
-        "title": {
-			"translate": "advancements.library.defend_fever.title"
-		},
-        "description": {
-			"translate": "advancements.library.defend_fever.description"
-		},
-		"frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-		"hidden": false
+  "parent": "library:battle/block_a_attack",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:resistance\"}"
     },
-    "criteria": {
-		"fever": {
-			"trigger": "minecraft:impossible"
-		}
+    "title": {
+      "translate": "advancements.library.defend_fever.title"
     },
-	"requirements": [
-		[
-			"fever"
-		]
-	]
+    "description": {
+      "translate": "advancements.library.defend_fever.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fever": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "fever"
+    ]
+  ]
 }

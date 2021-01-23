@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 ## 计算参数初始化
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libTouhouCTime=0..}] libScoreCheck 1

@@ -36,11 +36,11 @@ execute at @s if block ^ ^ ^-1 minecraft:crafting_table run tag @s add crafting_
 tag @s[tag=loom_synthesis] remove loom_synthesis
 execute at @s if block ^ ^ ^-1 minecraft:loom run tag @s add loom_synthesis
 # 更新
-#tag @s[tag=anvil_synthesis] remove anvil_synthesis
-#execute at @s if block ^ ^ ^-1 minecraft:anvil run tag @s add anvil_synthesis
+# tag @s[tag=anvil_synthesis] remove anvil_synthesis
+# execute at @s if block ^ ^ ^-1 minecraft:anvil run tag @s add anvil_synthesis
 # 更新
-#tag @s remove hopper_compressor
-#execute at @s[nbt={Facing:1b}] if block ~ ~-1 ~ minecraft:hopper run tag @s add hopper_compressor
+# tag @s remove hopper_compressor
+# execute at @s[nbt={Facing:1b}] if block ~ ~-1 ~ minecraft:hopper run tag @s add hopper_compressor
 # 更新
-#execute at @s[tag=hopper_compressor] positioned ~ ~-1 ~ run function library:entity/item_frame/method/hopper_compressor/execution
+# execute at @s[tag=hopper_compressor] positioned ~ ~-1 ~ run function library:entity/item_frame/method/hopper_compressor/execution
 # 漏斗压缩机

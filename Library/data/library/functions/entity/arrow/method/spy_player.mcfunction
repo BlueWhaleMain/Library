@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute store result score #PlayerPos libTemp run data get entity @p[distance=..64,gamemode=survival] Pos[0] 1000
 execute store result score #EntityArrowPos libTemp run data get entity @s Pos[0] 1000
 execute store result entity @s Motion[0] double 0.01 run scoreboard players operation #PlayerPos libTemp -= #EntityArrowPos libTemp

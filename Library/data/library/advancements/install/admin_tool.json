@@ -1,29 +1,29 @@
 {
-    "parent": "library:install/admin",
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_sword",
-            "nbt": "{display:{Name:'{\"translate\":\"item.library.admin_sword\"}',Lore:['{\"translate\":\"item.library.admin_sword.lore\"}']},id:'library:admin_sword',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:sharpness',lvl:2147483647},{id:'minecraft:sweeping',lvl:50}],Unbreakable:1}"
-        },
-        "title": {
-            "translate": "advancements.library.admin_tool.title"
-        },
-        "description": {
-            "translate": "advancements.library.admin_tool.description"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+  "parent": "library:install/admin",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword",
+      "nbt": "{display:{Name:'{\"translate\":\"item.library.admin_sword\"}',Lore:['{\"translate\":\"item.library.admin_sword.lore\"}']},id:'library:admin_sword',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:sharpness',lvl:2147483647},{id:'minecraft:sweeping',lvl:50}],Unbreakable:1}"
     },
-    "criteria": {
-        "admin_tool": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "advancements.library.admin_tool.title"
     },
-    "requirements": [
-        [
-            "admin_tool"
-        ]
+    "description": {
+      "translate": "advancements.library.admin_tool.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "admin_tool": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "admin_tool"
     ]
+  ]
 }

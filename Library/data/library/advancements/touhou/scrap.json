@@ -1,28 +1,28 @@
 {
-    "parent": "library:touhou/root",
-    "display": {
-        "icon": {
-            "item": "minecraft:carrot_on_a_stick"
-        },
-        "title": {
-            "translate": "advancements.library.touhou.scrap.title"
-        },
-        "description": {
-            "translate": "advancements.library.touhou.scrap.description"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "library:touhou/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick"
     },
-    "criteria": {
-        "scrap": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "advancements.library.touhou.scrap.title"
     },
-    "requirements": [
-        [
-            "scrap"
-        ]
+    "description": {
+      "translate": "advancements.library.touhou.scrap.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "scrap": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "scrap"
     ]
+  ]
 }

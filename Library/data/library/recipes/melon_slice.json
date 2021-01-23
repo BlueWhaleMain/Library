@@ -4,12 +4,12 @@
     {
       "item": "minecraft:melon"
     },
-	{
+    {
       "item": "minecraft:stick"
     }
   ],
   "result": {
     "item": "minecraft:melon_slice",
-	"count": 9
+    "count": 9
   }
 }

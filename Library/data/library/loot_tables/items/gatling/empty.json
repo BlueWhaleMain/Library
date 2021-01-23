@@ -1,19 +1,19 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:crossbow",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"translate\":\"item.library.gatling\"}',Lore:['{\"translate\":\"item.library.gatling.lore\"}']},id:'library:gatling',CustomModelData:12760001,Charged:0b,Enchantments:[{id:'minecraft:quick_charge',lvl:5}]}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.library.gatling\"}',Lore:['{\"translate\":\"item.library.gatling.lore\"}']},id:'library:gatling',CustomModelData:12760001,Charged:0b,Enchantments:[{id:'minecraft:quick_charge',lvl:5}]}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

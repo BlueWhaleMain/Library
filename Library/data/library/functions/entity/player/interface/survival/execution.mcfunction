@@ -1,36 +1,36 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 ##计算参数初始化
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libraryFat=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libraryFat=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libraryFat 10
-#检查libraryFat
+# 检查libraryFat
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libraryFatigue=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libraryFatigue=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libraryFatigue 0
-#检查libraryFatigue
+# 检查libraryFatigue
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libThirsty=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libThirsty=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libThirsty 0
-#检查libThirsty
+# 检查libThirsty
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libFood=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libFood=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libFood 0
-#检查libFood
+# 检查libFood
 #
 effect give @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] minecraft:slowness 2 1 true
-#减速
+# 减速
 effect give @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:gatling"}}]}] minecraft:slowness 2 0 true
-#副手减速
+# 副手减速
 ##组合动作
 execute if entity @s[scores={slw_sneak_time=1..,slw_damage_taken=1..}] run function library:entity/player/interface/survival/event/block
-#格挡
+# 格挡
 #
 execute if entity @s[tag=poison] run function library:entity/player/method/state/die
-#中毒
+# 中毒
 ##消耗计算
 execute if score #LibDifficulty libTemp matches 0 run scoreboard players set @s libConsumeLvlCac 0
 execute if score @s libConsumeLvlCac matches 50000.. run function library:entity/player/method/consume_level/add

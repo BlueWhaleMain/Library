@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 kill @s[nbt={Item:{tag:{id:"library:delete"}}}]
 # 删除不应该出现的物品
 execute at @s if block ~ ~ ~ minecraft:water run function library:entity/item/interface/in_water/check

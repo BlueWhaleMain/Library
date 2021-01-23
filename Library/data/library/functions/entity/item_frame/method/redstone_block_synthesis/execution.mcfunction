@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 ## 计算参数初始化
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libTouhouCTime=0..}] libScoreCheck 1
@@ -18,9 +18,9 @@ scoreboard players set @s[scores={libScoreCheck=..0}] libTouhouCFlag 0
 #
 execute store success score @s libTemp run data get entity @s Item
 execute if entity @s[scores={libTemp=1..},tag=!charging] run playsound library:synthesis.electric_buzz voice @a ~ ~ ~ 1.0
-#播放声音：升压
+# 播放声音：升压
 execute unless entity @s[scores={libTemp=1..},tag=!charging] run stopsound @a voice library:synthesis.electric_buzz
-#停止声音：升压
+# 停止声音：升压
 execute if entity @s[tag=cancel,scores={libTemp=0}] run function library:entity/item_frame/method/redstone_block_synthesis/cancel
 # 放电
 scoreboard players remove @s[scores={libTemp=1..},tag=!charging] libTouhouCTime 1

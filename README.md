@@ -1,6 +1,8 @@
 # Library
 Minecraft数据包&资源包
 
+[![Contributors](https://img.shields.io/github/contributors/bluewhalemain/Library.svg)](https://github.com/bluewhalemain/Library/graphs/contributors)![GitHub repo size in bytes](https://img.shields.io/github/repo-size/bluewhalemain/Library.svg)
+
 修改原版机制使游戏规则趋于常理化，添加新机制拓展原版内容
 
 添加东方内容，尝试在Minecraft中实现符卡规则

@@ -1,6 +1,6 @@
 {
-	"replace": false,
-	"values": [
-		"library:entity/small_fireball/shell/unist"
-	]
+  "replace": false,
+  "values": [
+    "library:entity/small_fireball/shell/unist"
+  ]
 }

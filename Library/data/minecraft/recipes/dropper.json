@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#R"
+    "C#R"
   ],
   "key": {
     "R": {
@@ -9,6 +9,9 @@
     },
     "#": {
       "item": "minecraft:furnace"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {

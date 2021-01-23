@@ -1,12 +1,12 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:empty"
-                }
-            ]
+          "type": "minecraft:empty"
         }
-    ]
+      ]
+    }
+  ]
 }

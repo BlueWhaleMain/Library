@@ -1,33 +1,33 @@
 {
-	"parent": "library:battle/hunger",
-    "display": {
-        "icon": {
-            "item": "minecraft:milk_bucket"
-        },
-        "title": {
-			"translate": "advancements.library.drink_milk.title"
-		},
-        "description": {
-			"translate": "advancements.library.drink_milk.description"
-		},
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-        "hidden": false
+  "parent": "library:battle/hunger",
+  "display": {
+    "icon": {
+      "item": "minecraft:milk_bucket"
     },
-    "criteria": {
-		"drink": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"item": "minecraft:milk_bucket"
-				}
-			}
-		}
+    "title": {
+      "translate": "advancements.library.drink_milk.title"
     },
-	"requirements": [
-		[
-			"drink"
-		]
+    "description": {
+      "translate": "advancements.library.drink_milk.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:milk_bucket"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drink"
     ]
+  ]
 }

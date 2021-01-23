@@ -1,31 +1,31 @@
 {
-	"parent": "library:battle/root",
-    "display": {
-        "icon": {
-            "item": "minecraft:enchanted_golden_apple"
-        },
-        "title": {
-			"translate": "advancements.library.battle_fever.title"
-		},
-        "description": {
-			"translate": "advancements.library.battle_fever.description"
-		},
-		"frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-		"hidden": false
+  "parent": "library:battle/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
     },
-    "criteria": {
-		"fever": {
-			"trigger": "minecraft:impossible"
-		}
+    "title": {
+      "translate": "advancements.library.battle_fever.title"
     },
-    "rewards": {
-		"experience": 200
+    "description": {
+      "translate": "advancements.library.battle_fever.description"
     },
-	"requirements": [
-		[
-			"fever"
-		]
-	]
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fever": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "requirements": [
+    [
+      "fever"
+    ]
+  ]
 }

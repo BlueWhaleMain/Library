@@ -1,19 +1,19 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.crafting_ring\\\"}\",Lore:[\"{\\\"translate\\\":\\\"block.minecraft.crafting_table\\\"}\"]},id:\"library:crafting_ring\",item:\"minecraft:crafting_table\",CustomModelData:12760005}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.crafting_ring\\\"}\",Lore:[\"{\\\"translate\\\":\\\"block.minecraft.crafting_table\\\"}\"]},id:\"library:crafting_ring\",item:\"minecraft:crafting_table\",CustomModelData:12760005}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:shoot"}}}] run function library:entity/player/method/shoot/check
 # 御币射击
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:yin_yang_yu"}},Inventory:[{Slot:-106b,tag:{id:"library:shoot"}}]},tag=!is_already_bomb] run function library:entity/player/method/shoot/bomb
@@ -9,8 +9,8 @@ execute at @s[nbt={SelectedItem:{tag:{id:"library:factory_ring",item:"minecraft:
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:levitation"}}}] run function library:entity/player/method/admin/levitation
 # 升空
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:levitation"}}]}] run function library:entity/player/method/admin/levitation
-#副手也能工作
+# 副手也能工作
 execute at @s[nbt={SelectedItem:{tag:{id:"library:teleport"}}}] run function library:entity/player/method/admin/teleport/loop
 # 近场传送
 execute at @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:teleport"}}]}] run function library:entity/player/method/admin/teleport/loop
-#副手也能工作
+# 副手也能工作

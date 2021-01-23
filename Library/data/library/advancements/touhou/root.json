@@ -1,37 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:paper",
-            "nbt": "{CustomModelData:12760000}"
-        },
-        "title": {
-            "translate": "advancements.library.touhou.title"
-        },
-        "description": {
-            "translate": "advancements.library.touhou.description"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false,
-        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  "display": {
+    "icon": {
+      "item": "minecraft:paper",
+      "nbt": "{CustomModelData:12760000}"
     },
-    "criteria": {
-        "has_the_shoot": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:carrot_on_a_stick",
-                        "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.shoot\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.empty\\\"}\"]},id:\"library:shoot\",model:\"empty\",CustomModelData:12760001}"
-                    }
-                ]
-            }
-        }
+    "title": {
+      "translate": "advancements.library.touhou.title"
     },
-    "requirements": [
-        [
-            "has_the_shoot"
+    "description": {
+      "translate": "advancements.library.touhou.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "has_the_shoot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.shoot\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.empty\\\"}\"]},id:\"library:shoot\",model:\"empty\",CustomModelData:12760001}"
+          }
         ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_shoot"
     ]
+  ]
 }

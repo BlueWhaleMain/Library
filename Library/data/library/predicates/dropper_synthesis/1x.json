@@ -1,23 +1,23 @@
 {
-    "condition": "minecraft:alternative",
-    "terms": [
-        {
-            "_comment": "御札",
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "block": {
-                    "nbt": "{Items:[{Slot:4b,id:'minecraft:paper',tag:{display:{Name:\"{\\\"text\\\":\\\"Bill\\\"}\"}},Count:1b}]}"
-                }
-            }
-        },
-        {
-            "_comment": "小玉",
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "block": {
-                    "nbt": "{Items:[{Slot:4b,id:'minecraft:quartz',tag:{display:{Name:\"{\\\"text\\\":\\\"SmallJade\\\"}\"}},Count:1b}]}"
-                }
-            }
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "_comment": "御札",
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,id:'minecraft:paper',tag:{display:{Name:\"{\\\"text\\\":\\\"Bill\\\"}\"}},Count:1b}]}"
         }
-    ]
+      }
+    },
+    {
+      "_comment": "小玉",
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,id:'minecraft:quartz',tag:{display:{Name:\"{\\\"text\\\":\\\"SmallJade\\\"}\"}},Count:1b}]}"
+        }
+      }
+    }
+  ]
 }

@@ -1,31 +1,31 @@
 {
-	"parent": "library:install/root",
-    "display": {
-        "icon": {
-            "item": "minecraft:written_book"
-        },
-        "title": {
-			"translate": "advancements.library.open_sysBook.title"
-		},
-        "description": {
-			"translate": "advancements.library.open_sysBook.description"
-		},
-		"frame": "task",
-        "show_toast": false,
-        "announce_to_chat": true,
-		"hidden": false
+  "parent": "library:install/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book"
     },
-    "criteria": {
-		"use": {
-			"trigger": "minecraft:impossible"
-		}
+    "title": {
+      "translate": "advancements.library.open_sysBook.title"
     },
-    "rewards": {
-		"function": "library:entity/player/main/impossible/gift"
+    "description": {
+      "translate": "advancements.library.open_sysBook.description"
     },
-	"requirements": [
-		[
-			"use"
-		]
-	]
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/impossible/gift"
+  },
+  "requirements": [
+    [
+      "use"
+    ]
+  ]
 }

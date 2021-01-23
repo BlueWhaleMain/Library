@@ -8,12 +8,12 @@
     "#": {
       "item": "minecraft:birch_planks"
     },
-	"X": {
-	  "item": "minecraft:redstone"
-	}
+    "X": {
+      "item": "minecraft:redstone"
+    }
   },
   "result": {
     "item": "minecraft:birch_button",
-	"count": 64
+    "count": 64
   }
 }

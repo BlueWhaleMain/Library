@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if entity @s[scores={libTouhouCTime=0,libTouhouCEscape=0},tag=!x] run function library:entity/item_frame/method/dropper_synthesis/recharge/entry
 # 充能准备
 ## 充能

@@ -1,23 +1,23 @@
 {
-    "condition": "minecraft:alternative",
-    "terms": [
-        {
-            "_comment": "阴阳玉",
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "block": {
-                    "nbt": "{Items:[{Slot:4b,id:'minecraft:fire_charge',tag:{id:'library:small_jade'},Count:1b},{Slot:5b,id:'minecraft:fire_charge',tag:{id:'library:bill'},Count:1b}]}"
-                }
-            }
-        },
-        {
-            "_comment": "直线形弹幕/札弹",
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "block": {
-                    "nbt": "{Items:[{Slot:4b,id:'minecraft:carrot_on_a_stick',tag:{id:'library:shoot',model:empty},Count:1b},{Slot:5b,id:'minecraft:fire_charge',tag:{id:'library:bill'},Count:1b}]}"
-                }
-            }
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "_comment": "阴阳玉",
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,id:'minecraft:fire_charge',tag:{id:'library:small_jade'},Count:1b},{Slot:5b,id:'minecraft:fire_charge',tag:{id:'library:bill'},Count:1b}]}"
         }
-    ]
+      }
+    },
+    {
+      "_comment": "直线形弹幕/札弹",
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,id:'minecraft:carrot_on_a_stick',tag:{id:'library:shoot',model:empty},Count:1b},{Slot:5b,id:'minecraft:fire_charge',tag:{id:'library:bill'},Count:1b}]}"
+        }
+      }
+    }
+  ]
 }

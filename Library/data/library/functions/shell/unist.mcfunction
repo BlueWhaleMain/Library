@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard objectives remove libraryRandom
 scoreboard objectives remove libraryRandomMax
 scoreboard objectives remove libraryRandomMin

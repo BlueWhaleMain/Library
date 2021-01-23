@@ -12,9 +12,9 @@
     "X": {
       "item": "minecraft:string"
     },
-	"I": {
-	  "item": "minecraft:iron_nugget"
-	}
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
   },
   "result": {
     "item": "minecraft:fishing_rod"

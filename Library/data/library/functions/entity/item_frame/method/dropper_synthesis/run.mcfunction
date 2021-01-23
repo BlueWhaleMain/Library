@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if entity @s[scores={libTouhouCTime=0,libTouhouCEscape=0},tag=x] run function library:entity/item_frame/method/dropper_synthesis/run/entry
 # 合成准备
 ## 冷却

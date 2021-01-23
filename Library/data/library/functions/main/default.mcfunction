@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 say Barrage is disabled by default.
 function library:shell/barrage/disable
 # 默认禁用弹幕

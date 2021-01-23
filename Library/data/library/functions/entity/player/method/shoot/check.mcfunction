@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute at @s[nbt=!{SelectedItem:{tag:{model:empty}}},tag=!not_allowed_touhou] if entity @s[nbt={SelectedItem:{tag:{Damage:0}}}] anchored eyes run function library:entity/player/method/shoot/model/check
 # 不为空
 execute if entity @s[nbt={SelectedItem:{tag:{model:empty}}}] run function library:entity/player/method/shoot/no_card

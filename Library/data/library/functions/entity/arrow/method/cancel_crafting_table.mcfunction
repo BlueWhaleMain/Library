@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players set @s libTemp 0
 execute store success score @s libTemp run give @p[tag=shooting_crafting_table] minecraft:crafting_table
 # 归还工作台

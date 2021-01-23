@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 effect give @s[nbt={ActiveEffects:[{Id:8b,Amplifier:13b}]}] minecraft:jump_boost 2 14 true
 effect give @s[nbt={ActiveEffects:[{Id:8b,Amplifier:12b}]}] minecraft:jump_boost 2 13 true
 effect give @s[nbt={ActiveEffects:[{Id:8b,Amplifier:11b}]}] minecraft:jump_boost 2 12 true

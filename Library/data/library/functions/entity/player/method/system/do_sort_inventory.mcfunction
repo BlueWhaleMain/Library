@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 data modify storage library:trim_inventory Items set from entity @s Inventory
 # 复制背包
 data modify storage library:trim_inventory Items[{Slot:27b}].Slot set value 0b

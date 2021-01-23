@@ -1,37 +1,37 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:repeating_command_block"
-        },
-        "title": [
-			{
-				"translate": "system.library.name"
-			},
-			{
-				"text": "V2.4.0.2",
-				"color": "green"
-			}
-		],
-        "description": {
-			"translate": "system.library.thanks"
-		},
-		"frame": "task",
-        "show_toast": false,
-        "announce_to_chat": true,
-		"hidden": false,
-        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  "display": {
+    "icon": {
+      "item": "minecraft:repeating_command_block"
     },
-    "criteria": {
-        "install": {
-            "trigger": "minecraft:tick"
-        }
+    "title": [
+      {
+        "translate": "system.library.name"
+      },
+      {
+        "text": "V2.5.0.0",
+        "color": "green"
+      }
+    ],
+    "description": {
+      "translate": "system.library.thanks"
     },
-    "rewards": {
-		"function": "library:entity/player/main/tick/thanks"
-    },
-	"requirements": [
-		[
-			"install"
-		]
-	]
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "install": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/tick/thanks"
+  },
+  "requirements": [
+    [
+      "install"
+    ]
+  ]
 }

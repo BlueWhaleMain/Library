@@ -1,4 +1,4 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 effect give @s[scores={libraryFatigue=100..}] minecraft:blindness 2 0 true
 effect give @s[scores={libraryFatigue=120..}] minecraft:mining_fatigue 2 0 true
 effect give @s[scores={libraryFatigue=140..}] minecraft:weakness 2 0 true

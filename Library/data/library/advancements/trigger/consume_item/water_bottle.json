@@ -1,21 +1,21 @@
 {
-	"parent": "library:trigger/root",
-    "criteria": {
-		"drink": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"potion": "minecraft:water"
-				}
-			}
-		}
-    },
-    "rewards": {
-		"function": "library:entity/player/main/consume_item/water_bottle"
-    },
-	"requirements": [
-		[
-			"drink"
-		]
-	]
+  "parent": "library:trigger/root",
+  "criteria": {
+    "drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "potion": "minecraft:water"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/consume_item/water_bottle"
+  },
+  "requirements": [
+    [
+      "drink"
+    ]
+  ]
 }

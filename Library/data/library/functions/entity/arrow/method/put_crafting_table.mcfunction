@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 setblock ~ ~ ~ minecraft:crafting_table replace
 # 放置工作台
 data merge entity @s {Motion:[0.0d,0.0d,0.0d]}

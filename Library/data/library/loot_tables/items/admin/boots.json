@@ -1,19 +1,19 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_boots",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"translate\":\"item.library.admin_boots\"}',Lore:['{\"translate\":\"item.library.admin_boots.lore\"}']},id:'library:admin_boots',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:feather_falling',lvl:2147483647},{id:'minecraft:protection',lvl:2147483647},{id:'minecraft:depth_strider',lvl:3}],Unbreakable:1,AttributeModifiers:[{Slot:'feet',AttributeName:'generic.armor_toughness',Name:'generic.armor_toughness',Amount:30,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{Slot:'feet',AttributeName:'generic.knockback_resistance',Name:'generic.knockback_resistance',Amount:1,Operation:0,UUID:[I;1498693495,1027158889,1898994006,860320108]}]}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.library.admin_boots\"}',Lore:['{\"translate\":\"item.library.admin_boots.lore\"}']},id:'library:admin_boots',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:feather_falling',lvl:2147483647},{id:'minecraft:protection',lvl:2147483647},{id:'minecraft:depth_strider',lvl:3}],Unbreakable:1,AttributeModifiers:[{Slot:'feet',AttributeName:'generic.armor_toughness',Name:'generic.armor_toughness',Amount:30,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{Slot:'feet',AttributeName:'generic.knockback_resistance',Name:'generic.knockback_resistance',Amount:1,Operation:0,UUID:[I;1498693495,1027158889,1898994006,860320108]}]}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 playsound minecraft:item.bucket.empty voice @a ~ ~ ~ 1.0
 # 播放音效：桶倒空
 data modify entity @s Item.id set value "minecraft:bucket"

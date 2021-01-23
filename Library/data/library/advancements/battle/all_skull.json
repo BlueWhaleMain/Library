@@ -1,47 +1,47 @@
 {
-	"parent": "library:battle/kill_a_zombie",
-    "display": {
-        "icon": {
+  "parent": "library:battle/kill_a_zombie",
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.library.all_skull.title"
+    },
+    "description": {
+      "translate": "advancements.library.all_skull.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "item": "minecraft:skeleton_skull"
-        },
-        "title": {
-			"translate": "advancements.library.all_skull.title"
-		},
-        "description": {
-			"translate": "advancements.library.all_skull.description"
-		},
-		"frame": "challenge",
-		"show_toast": true,
-		"announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "all_skull": {
-            "trigger": "minecraft:inventory_changed",
-			"conditions": {
-			    "items": [
-					{
-						"item": "minecraft:skeleton_skull"
-					},
-					{
-						"item": "minecraft:wither_skeleton_skull"
-					},
-					{
-						"item": "minecraft:zombie_head"
-					},
-					{
-						"item": "minecraft:creeper_head"
-					}
-				]
-			}
-        }
-    },
-    "rewards": {
-        "experience":200
-    },
-	"requirements": [
-		[
-			"all_skull"
-		]
+          },
+          {
+            "item": "minecraft:wither_skeleton_skull"
+          },
+          {
+            "item": "minecraft:zombie_head"
+          },
+          {
+            "item": "minecraft:creeper_head"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "requirements": [
+    [
+      "all_skull"
     ]
+  ]
 }

@@ -1,19 +1,19 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.controller\\\"}\"},id:\"library:controller\",Switch:1b,CustomModelData:12760004}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.controller\\\"}\"},id:\"library:controller\",Switch:1b,CustomModelData:12760004}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

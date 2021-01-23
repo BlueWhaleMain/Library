@@ -1,19 +1,19 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:written_book",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{\"display\":{\"Name\":\"{\\\"translate\\\":\\\"system.library.sysBook.title\\\"}\"},\"author\":\"BlueWhaleMain\",\"title\":\"数据包指南\",\"pages\":[\"[{\\\"translate\\\":\\\"system.library.sysBook.page_1.obj_1\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/trigger showVersion\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":{\\\"text\\\":\\\"/trigger showVersion\\\"}}},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.sysBook.page_1.obj_2\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"2\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":{\\\"text\\\":\\\"To page_2\\\"}}},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.sysBook.page_1.obj_3\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":{\\\"text\\\":\\\"To page_3\\\"}}},{\\\"text\\\":\\\"\\\\n\\\"}]\",\"[{\\\"translate\\\":\\\"system.library.sysBook.page_2.obj_1\\\"}]\",\"[{\\\"translate\\\":\\\"system.library.book.about.updateTime\\\"},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.about.qq\\\"},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.about.bilibili\\\"},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.click\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://space.bilibili.com/336800070/#/\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":{\\\"text\\\":\\\"https://space.bilibili.com/336800070/#/\\\"}}},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.about.reference\\\"},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.return\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1\\\"}}]\"],\"id\":\"library:sys_book\",\"version\":\"7\"}"
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{\"display\":{\"Name\":\"{\\\"translate\\\":\\\"system.library.sysBook.title\\\"}\"},\"author\":\"BlueWhaleMain\",\"title\":\"数据包指南\",\"pages\":[\"[{\\\"translate\\\":\\\"system.library.sysBook.page_1.obj_1\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/trigger showVersion\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":{\\\"text\\\":\\\"/trigger showVersion\\\"}}},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.sysBook.page_1.obj_2\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"2\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":{\\\"text\\\":\\\"To page_2\\\"}}},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.sysBook.page_1.obj_3\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":{\\\"text\\\":\\\"To page_3\\\"}}},{\\\"text\\\":\\\"\\\\n\\\"}]\",\"[{\\\"translate\\\":\\\"system.library.sysBook.page_2.obj_1\\\"}]\",\"[{\\\"translate\\\":\\\"system.library.book.about.updateTime\\\"},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.about.qq\\\"},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.about.bilibili\\\"},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.click\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://space.bilibili.com/336800070/#/\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":{\\\"text\\\":\\\"https://space.bilibili.com/336800070/#/\\\"}}},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.about.reference\\\"},{\\\"text\\\":\\\"\\\\n\\\"},{\\\"translate\\\":\\\"system.library.book.return\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1\\\"}}]\"],\"id\":\"library:sys_book\",\"version\":\"7\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 tag @s[nbt={SelectedItem:{tag:{Switch:0b}}}] add on
 # 执行检查
 loot replace entity @s[tag=on] weapon.mainhand 1 loot library:items/controller/on

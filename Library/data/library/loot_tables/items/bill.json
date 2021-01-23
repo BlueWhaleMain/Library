@@ -1,19 +1,19 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:fire_charge",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.bill\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.shoot.owner.hakurei_reimu\\\"}\",\"{\\\"translate\\\":\\\"system.library.only_recipe\\\"}\"]},id:\"library:bill\",CustomModelData:12760002}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:fire_charge",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.bill\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.shoot.owner.hakurei_reimu\\\"}\",\"{\\\"translate\\\":\\\"system.library.only_recipe\\\"}\"]},id:\"library:bill\",CustomModelData:12760002}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

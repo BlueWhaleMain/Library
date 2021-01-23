@@ -9,12 +9,12 @@
     "#": {
       "tag": "minecraft:planks"
     },
-	"I": {
-	  "item": "minecraft:iron_nugget"
-	}
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
   },
   "result": {
     "item": "minecraft:chest",
-	"count": 8
+    "count": 8
   }
 }

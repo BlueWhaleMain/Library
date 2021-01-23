@@ -1,40 +1,40 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 ##变量：使用
 scoreboard objectives remove used_COAS
 scoreboard objectives remove _used_COAS
-#使用胡萝卜钓竿
+# 使用胡萝卜钓竿
 #
 ##变量：虚拟
 scoreboard objectives remove libraryFat
-#肥胖度
+# 肥胖度
 scoreboard objectives remove libraryFatigue
-#疲劳度
+# 疲劳度
 scoreboard objectives remove libThirsty
-#口渴度
+# 口渴度
 scoreboard objectives remove libConsumeLevel
-#消耗程度
+# 消耗程度
 scoreboard objectives remove libConsumeLvlCac
-#消耗程度计算缓存
+# 消耗程度计算缓存
 scoreboard objectives remove libAtkFever
-#攻击亢奋程度
+# 攻击亢奋程度
 scoreboard objectives remove libDefFever
-#防御专注程度
+# 防御专注程度
 scoreboard objectives remove libAtkValue
-#攻击附加参数
+# 攻击附加参数
 scoreboard objectives remove libDefValue
-#防御附加参数
+# 防御附加参数
 scoreboard objectives remove libAtk
-#攻击计算参数
+# 攻击计算参数
 scoreboard objectives remove libDef
-#防御计算参数
+# 防御计算参数
 scoreboard objectives remove libHealth
-#生命计算参数
+# 生命计算参数
 scoreboard objectives remove libFood
-#饱和计算参数（肥胖支出）
+# 饱和计算参数（肥胖支出）
 scoreboard objectives remove libSleepTime
-#睡觉时间戳
+# 睡觉时间戳
 scoreboard objectives remove libSleepEff
-#睡眠效率（常量）
+# 睡眠效率（常量）
 #
 ##只读变量：饱和度
 scoreboard objectives remove libraryFood
@@ -94,5 +94,5 @@ scoreboard objectives remove slw_damage_taken
 scoreboard objectives remove showVersion
 #
 scoreboard players reset #LibEntityPlayer libTemp
-#重置安装状态
+# 重置安装状态
 schedule clear #library:entity/player/open

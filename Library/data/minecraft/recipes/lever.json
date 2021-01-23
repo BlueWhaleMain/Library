@@ -3,7 +3,7 @@
   "pattern": [
     "X",
     "#",
-	"R"
+    "R"
   ],
   "key": {
     "#": {
@@ -12,12 +12,12 @@
     "X": {
       "item": "minecraft:stick"
     },
-	"R": {
-	  "item": "minecraft:redstone"
-	}
+    "R": {
+      "item": "minecraft:redstone"
+    }
   },
   "result": {
     "item": "minecraft:lever",
-	"count": 4
+    "count": 4
   }
 }

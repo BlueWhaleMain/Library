@@ -1,29 +1,29 @@
 {
-	"parent": "library:install/open_sys_book",
-    "display": {
-        "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-			"nbt": "{CustomModelData:12760002}"
-        },
-        "title": {
-			"translate": "advancements.library.query_me.title"
-		},
-        "description": {
-			"translate": "advancements.library.query_me.description"
-		},
-		"frame": "task",
-        "show_toast": false,
-        "announce_to_chat": true,
-		"hidden": false
+  "parent": "library:install/open_sys_book",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:12760002}"
     },
-    "criteria": {
-		"use": {
-			"trigger": "minecraft:impossible"
-		}
+    "title": {
+      "translate": "advancements.library.query_me.title"
     },
-	"requirements": [
-		[
-			"use"
-		]
-	]
+    "description": {
+      "translate": "advancements.library.query_me.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "use"
+    ]
+  ]
 }

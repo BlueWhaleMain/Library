@@ -3,18 +3,18 @@
   "group": "wooden_pressure_plate",
   "pattern": [
     "#",
-	"X"
+    "X"
   ],
   "key": {
     "#": {
       "item": "minecraft:spruce_planks"
     },
-	"X": {
-	  "item": "minecraft:redstone"
-	}
+    "X": {
+      "item": "minecraft:redstone"
+    }
   },
   "result": {
     "item": "minecraft:spruce_pressure_plate",
-	"count": 16
+    "count": 16
   }
 }

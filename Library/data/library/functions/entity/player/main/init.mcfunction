@@ -1,43 +1,43 @@
-#(c) Copyright by BlueWhale. All Rights Reserved.
+# (c) Copyright by BlueWhale. All Rights Reserved.
 execute if score #LibEntityPlayer libScoreCheck matches 1 run say updating player...
 ###注意：所有的可写变量都是独占的，使用相同类型的只能添加新的，除非能够避开操作冲突
 ###提示：如果与其他数据包冲突，请检查本函数，原因同上
 ##变量：使用
 scoreboard objectives add used_COAS minecraft.used:minecraft.carrot_on_a_stick {"translate":"score.library.used_COAS"}
 scoreboard objectives add _used_COAS minecraft.used:minecraft.carrot_on_a_stick {"translate":"score.library._used_COAS"}
-#使用胡萝卜钓竿
+# 使用胡萝卜钓竿
 #
 ##变量：虚拟
 scoreboard objectives add libraryFat dummy {"translate":"score.library.libraryFat"}
-#肥胖度
+# 肥胖度
 scoreboard objectives add libraryFatigue dummy {"translate":"score.library.libraryFatigue"}
-#疲劳度
+# 疲劳度
 scoreboard objectives add libThirsty dummy {"translate":"score.library.libThirsty"}
-#口渴度
+# 口渴度
 scoreboard objectives add libConsumeLevel dummy {"translate":"score.library.libConsumeLevel"}
-#消耗程度
+# 消耗程度
 scoreboard objectives add libConsumeLvlCac dummy {"translate":"score.library.libConsumeLvlCac"}
-#消耗程度计算缓存
+# 消耗程度计算缓存
 scoreboard objectives add libAtkFever dummy {"translate":"score.library.libAtkFever"}
-#攻击亢奋程度
+# 攻击亢奋程度
 scoreboard objectives add libDefFever dummy {"translate":"score.library.libDefFever"}
-#防御专注程度
+# 防御专注程度
 scoreboard objectives add libAtkValue dummy {"translate":"score.library.libAtkValue"}
-#攻击附加参数
+# 攻击附加参数
 scoreboard objectives add libDefValue dummy {"translate":"score.library.libDefValue"}
-#防御附加参数
+# 防御附加参数
 scoreboard objectives add libAtk dummy {"translate":"score.library.libAtk"}
-#攻击计算参数
+# 攻击计算参数
 scoreboard objectives add libDef dummy {"translate":"score.library.libDef"}
-#防御计算参数
+# 防御计算参数
 scoreboard objectives add libHealth dummy {"translate":"score.library.libHealth"}
-#生命计算参数
+# 生命计算参数
 scoreboard objectives add libFood dummy {"translate":"score.library.libFood"}
-#饱和计算参数（肥胖支出）
+# 饱和计算参数（肥胖支出）
 scoreboard objectives add libSleepTime dummy {"translate":"score.library.libSleepTime"}
-#睡觉时间戳
+# 睡觉时间戳
 scoreboard objectives add libSleepEff dummy {"translate":"score.library.libSleepEff"}
-#睡眠效率（常量）
+# 睡眠效率（常量）
 #
 ##只读变量：饱和度
 scoreboard objectives add libraryFood food {"translate":"score.library.libraryFood"}

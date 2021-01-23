@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 function library:entity/player/method/battle/clear
 # 不受负面影响，也免疫加成
 scoreboard players set @s libConsumeLvlCac 0
