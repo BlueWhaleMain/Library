@@ -8,7 +8,7 @@
           "name": "minecraft:fire_charge",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.small_jade\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.only_recipe\\\"}\"]},id:\"library:small_jade\",CustomModelData:12760001}"
             }
           ]

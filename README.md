@@ -14,7 +14,7 @@ Minecraft数据包&资源包
 
 弹幕造成的卡/炸服问题，见Wiki
 
-由于是后期开源，在此不提供历史版本及其release，详见[发布网站](http://genghelidemc.sxl.cn/)
+由于是后期开源，在此不提供历史版本及其release，详见[发布网站](http://bamboomc.top/datapacks/)
 
 ## TODO
 持续跟进原版版本，使用新机制实现更多功能

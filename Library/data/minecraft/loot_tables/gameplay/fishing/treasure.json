@@ -17,14 +17,14 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "set_damage",
+              "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.0,
                 "max": 0.25
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
             }
@@ -35,14 +35,14 @@
           "name": "minecraft:fishing_rod",
           "functions": [
             {
-              "function": "set_damage",
+              "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.0,
                 "max": 0.25
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
             }
@@ -53,7 +53,7 @@
           "name": "minecraft:book",
           "functions": [
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
             }
@@ -127,14 +127,14 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_damage",
+              "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.0,
                 "max": 0.25
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
             }
@@ -145,14 +145,14 @@
           "name": "minecraft:leather_helmet",
           "functions": [
             {
-              "function": "set_damage",
+              "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.0,
                 "max": 0.25
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
             }
@@ -163,14 +163,14 @@
           "name": "minecraft:leather_leggings",
           "functions": [
             {
-              "function": "set_damage",
+              "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.0,
                 "max": 0.25
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
             }
@@ -181,14 +181,14 @@
           "name": "minecraft:leather_chestplate",
           "functions": [
             {
-              "function": "set_damage",
+              "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.0,
                 "max": 0.25
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
             }

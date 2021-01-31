@@ -8,7 +8,7 @@
           "name": "minecraft:quartz",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.yin_yang_yu\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.shoot.owner.hakurei_reimu\\\"}\",\"{\\\"translate\\\":\\\"system.library.empty\\\"}\"]},id:\"library:yin_yang_yu\",mode:\"empty\",CustomModelData:12760001}"
             }
           ]

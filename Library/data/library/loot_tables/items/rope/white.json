@@ -8,7 +8,7 @@
           "name": "minecraft:string",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.white_rope\\\"}\"},id:\"library:white_rope\",CustomModelData:12760001}"
             }
           ]

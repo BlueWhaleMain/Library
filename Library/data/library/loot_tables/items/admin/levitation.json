@@ -8,7 +8,7 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"{\\\"translate\\\":\\\"effect.minecraft.levitation\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.levitation.lore\\\"}\"]},id:\"library:levitation\",permission:'admin',CustomModelData:12761001}"
             }
           ]

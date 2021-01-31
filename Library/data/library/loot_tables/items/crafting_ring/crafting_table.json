@@ -8,7 +8,7 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.crafting_ring\\\"}\",Lore:[\"{\\\"translate\\\":\\\"block.minecraft.crafting_table\\\"}\"]},id:\"library:crafting_ring\",item:\"minecraft:crafting_table\",CustomModelData:12760005}"
             }
           ]

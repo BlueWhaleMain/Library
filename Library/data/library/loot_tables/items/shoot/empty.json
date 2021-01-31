@@ -8,7 +8,7 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.shoot\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.shoot.owner.hakurei_reimu\\\"}\",\"{\\\"translate\\\":\\\"system.library.empty\\\"}\"]},id:\"library:shoot\",model:\"empty\",CustomModelData:12760001}"
             }
           ]

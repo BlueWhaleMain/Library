@@ -4,51 +4,12 @@
 压缩json和mcfunction文件
 """
 import getopt
-import os
+import json
 import os.path
 import sys
-import json
 import time
 
-import chardet
-
-from util import time_escape
-
-
-def get_encoding(file_name, index):
-    """
-    获取文件的可能字符编码
-    :param file_name: 文件名
-    :param index: 下标
-    :return: 字符编码字符串
-    """
-    # 二进制方式读取，获取字节数据，检测类型
-    with open(file_name, 'rb') as _f:
-        if index:
-            _f.seek(index)
-        return chardet.detect(_f.read())['encoding']
-
-
-def get_file_as_type(path, files, _type):
-    """
-    根据文件扩展名获取文件列表
-    :param path: 路径
-    :param files: 数组
-    :param _type: 扩展名
-    :return: 文件列表
-    """
-    try:
-        for file_names in os.listdir(path):
-            if os.path.isdir(path + '/' + file_names):
-                get_file_as_type(path + '/' + file_names, files, _type)
-            else:
-                if os.path.splitext(file_names)[1] == _type:
-                    files.append(path + '/' + file_names)
-        return files
-    except NotADirectoryError as ex:
-        print(ex.filename, ex.strerror)
-        sys.exit(2)
-
+from util import time_escape, get_file_as_type, get_encoding
 
 if __name__ == "__main__":
     err_msg = 'min.py -i <input_path> -t <type>'

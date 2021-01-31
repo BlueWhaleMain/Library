@@ -8,7 +8,7 @@
           "name": "minecraft:iron_nugget",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.iron_needle\\\"}\"},id:\"library:iron_needle\",CustomModelData:12760001}"
             }
           ]

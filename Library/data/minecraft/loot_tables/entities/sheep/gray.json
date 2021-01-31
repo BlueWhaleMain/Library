@@ -4,7 +4,7 @@
     {
       "conditions": [
         {
-          "condition": "entity_properties",
+          "condition": "minecraft:entity_properties",
           "entity": "this",
           "properties": {
             "on_fire": false
@@ -24,7 +24,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "name": "minecraft:entities/sheep",
           "weight": 1
         }

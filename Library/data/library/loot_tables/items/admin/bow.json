@@ -8,7 +8,7 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"translate\":\"item.library.admin_bow\"}',Lore:['{\"translate\":\"item.library.admin_bow.lore\"}']},id:'library:admin_bow',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:power',lvl:2147483647},{id:'minecraft:infinity',lvl:1}],Unbreakable:1}"
             }
           ]

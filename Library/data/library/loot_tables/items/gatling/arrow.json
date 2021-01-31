@@ -8,7 +8,7 @@
           "name": "minecraft:crossbow",
           "functions": [
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"translate\":\"item.library.gatling\"}',Lore:['{\"translate\":\"item.library.gatling.lore\"}']},id:'library:gatling',CustomModelData:12760001,ChargedProjectiles:[{id:'minecraft:arrow',Count:1b}],Charged:1b,Enchantments:[{id:'minecraft:quick_charge',lvl:5}]}"
             }
           ]
