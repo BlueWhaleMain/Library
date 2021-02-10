@@ -206,7 +206,7 @@
     "system.library.critical": "§c危§r",
     "system.library.name": "§9Library§r",
     "system.library.loadSuccess": "§a加载成功§r",
-    "system.library.libVersion": "§9资源包版本：V1.7.0.1§r",
+    "system.library.libVersion": "§9资源包版本：V1.7.0.2§r",
     "system.library.thanks": "§6感谢您的使用§r",
     "system.library.authors": "§l§6【了解作者】§r",
     "system.library.warning": "§c警告：如果与其他修改Minecraft命名空间的数据包共用，可能会互相覆盖§r",
