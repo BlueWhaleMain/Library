@@ -1,0 +1,5 @@
+{
+  "_comment": "雷暴",
+  "condition": "minecraft:weather_check",
+  "thundering": true
+}

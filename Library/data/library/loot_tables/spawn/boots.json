@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:diamond_boots",
           "weight": 1,
           "functions": [
             {
@@ -30,7 +30,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
+          "name": "minecraft:golden_boots",
           "weight": 2,
           "functions": [
             {
@@ -50,7 +50,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:iron_boots",
           "weight": 4,
           "functions": [
             {
@@ -70,7 +70,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_sword",
+          "name": "minecraft:chainmail_boots",
           "weight": 2,
           "functions": [
             {
@@ -90,7 +90,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_sword",
+          "name": "minecraft:leather_boots",
           "weight": 1,
           "functions": [
             {

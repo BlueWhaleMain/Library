@@ -1,0 +1,5 @@
+{
+  "_comment": "下雨",
+  "condition": "minecraft:weather_check",
+  "raining": true
+}

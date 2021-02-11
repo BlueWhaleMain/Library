@@ -7,6 +7,8 @@ data modify entity @s[tag=library_shoot_pierce] PierceLevel set value 10b
 # 穿透箭
 execute at @s[tag=library_shoot_spy] if entity @e[distance=..2,tag=library_shoot_target] run function library:entity/arrow/method/spy_target
 # 瞄准
+execute at @s[tag=target_player] if entity @p[distance=..64,gamemode=survival] run function library:entity/arrow/method/spy_player
+# 攻击玩家
 execute at @s[tag=waiting_crafting_table] run function library:entity/arrow/method/waiting_crafting_table
 # 等待工作台
 execute at @s[tag=crafting_table] run function library:entity/arrow/method/crafting_table
