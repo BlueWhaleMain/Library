@@ -14,13 +14,7 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1.0,
-                "max": 50.0,
-                "type": "minecraft:uniform"
-              },
-              "treasure": true
+              "function": "minecraft:enchant_randomly"
             },
             {
               "function": "minecraft:set_nbt",
@@ -38,13 +32,7 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1.0,
-                "max": 50.0,
-                "type": "minecraft:uniform"
-              },
-              "treasure": true
+              "function": "minecraft:enchant_randomly"
             }
           ]
         },
@@ -58,13 +46,7 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1.0,
-                "max": 50.0,
-                "type": "minecraft:uniform"
-              },
-              "treasure": true
+              "function": "minecraft:enchant_randomly"
             }
           ]
         },
@@ -78,13 +60,7 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1.0,
-                "max": 50.0,
-                "type": "minecraft:uniform"
-              },
-              "treasure": true
+              "function": "minecraft:enchant_randomly"
             }
           ]
         },
@@ -98,19 +74,9 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1.0,
-                "max": 50.0,
-                "type": "minecraft:uniform"
-              },
-              "treasure": true
+              "function": "minecraft:enchant_randomly"
             }
           ]
-        },
-        {
-          "weight": 8,
-          "type": "minecraft:empty"
         }
       ]
     }

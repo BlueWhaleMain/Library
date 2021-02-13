@@ -1,14 +1,14 @@
 #Copyright by BlueWhale. All Rights Reserved.
 # 附近玩家缓慢
 effect give @p[distance=..2,gamemode=survival] minecraft:slowness 1 0 true
-# spitting
-execute if entity @p[distance=..20,gamemode=survival] if predicate library:random/10 run summon minecraft:arrow ^ ^2 ^ {Motion:[0.0d,0.0d,0.0d],NoGravity:true,pickup:2b,damage:2.0d,Potion:"minecraft:long_poison",Tags:["library_shoot","target_player","hostile"]}
+# 随机发狂
+execute if predicate library:random/10 run tag @s add crazy
 ## 召唤
 scoreboard players set #ZombiesCount libTemp 0
 scoreboard players set #ZombiesMax libTemp 2
 scoreboard players set #ZombiesBoss libTemp 0
-execute as @e[distance=..20,type=zombie,tag=!boss] run scoreboard players add #ZombiesCount libTemp 1
-execute as @e[distance=..20,type=zombie,tag=boss] run scoreboard players add #ZombiesBoss libTemp 1
+execute as @e[distance=..16,type=zombie,tag=!boss] run scoreboard players add #ZombiesCount libTemp 1
+execute as @e[distance=..16,type=zombie,tag=boss] run scoreboard players add #ZombiesBoss libTemp 1
 # Boss总数
 scoreboard players operation #ZombiesMax libTemp *= #ZombiesBoss libTemp
 # 难度系数

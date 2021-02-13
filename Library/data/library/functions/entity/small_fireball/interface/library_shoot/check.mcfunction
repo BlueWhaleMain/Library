@@ -1,4 +1,7 @@
 # Copyright by BlueWhale. All Rights Reserved.
+# 怪物窝里斗不太行
+# execute at @s[tag=hostile,tag=!hasOwner] run function library:entity/method/owner/hostile
+execute at @s[tag=player,tag=!hasOwner] run function library:entity/method/owner/player
 execute at @s[tag=library_shoot_spy] if entity @e[distance=..2,tag=library_shoot_target] run function library:entity/small_fireball/method/spy_target
 # 瞄准
 tag @s[tag=track] add target_hostile

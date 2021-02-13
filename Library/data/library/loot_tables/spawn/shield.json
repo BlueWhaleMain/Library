@@ -14,19 +14,9 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1.0,
-                "max": 50.0,
-                "type": "minecraft:uniform"
-              },
-              "treasure": true
+              "function": "minecraft:enchant_randomly"
             }
           ]
-        },
-        {
-          "weight": 5,
-          "type": "minecraft:empty"
         }
       ]
     }

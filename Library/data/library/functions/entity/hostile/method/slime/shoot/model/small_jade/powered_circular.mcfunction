@@ -1,5 +1,6 @@
 # Copyright by BlueWhale. All Rights Reserved.
-effect give @s minecraft:slowness 1 2 true
+effect clear @s minecraft:speed
+effect give @s minecraft:slowness 1 3 true
 # 给予缓慢避免误伤
 ###生成弹幕
 ##0

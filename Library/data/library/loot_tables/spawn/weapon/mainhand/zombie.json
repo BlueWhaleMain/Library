@@ -7,6 +7,29 @@
         {
           "type": "minecraft:loot_table",
           "name": "library:spawn/swords",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "library:spawn/axes",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "library:spawn/shovel",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",

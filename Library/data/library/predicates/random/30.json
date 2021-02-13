@@ -1,0 +1,5 @@
+{
+  "_comment": "30%几率",
+  "condition": "minecraft:random_chance",
+  "chance": 0.3
+}
