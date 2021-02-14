@@ -17,8 +17,16 @@
               "function": "minecraft:enchant_randomly"
             },
             {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.delete"
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['{\"translate\":\"system.library.delete\"}']},id:\"library:delete\"}"
+              "tag": "{id:'library:delete'}"
             }
           ]
         },

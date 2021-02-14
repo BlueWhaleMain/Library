@@ -8,8 +8,35 @@
           "name": "minecraft:crossbow",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.admin_crossbow"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.admin_crossbow.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.library.admin_crossbow\"}',Lore:['{\"translate\":\"item.library.admin_crossbow.lore\"}']},id:'library:admin_crossbow',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:quick_charge',lvl:5},{id:'minecraft:piercing',lvl:1}],Unbreakable:1}"
+              "tag": "{id:'library:admin_crossbow',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:quick_charge',lvl:5},{id:'minecraft:piercing',lvl:1}],Unbreakable:1}"
             }
           ]
         }

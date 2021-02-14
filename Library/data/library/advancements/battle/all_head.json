@@ -34,55 +34,55 @@
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.blaze_head\\\"}\"},SkullOwner:{Id:\"7ceb88b2-7f5f-4399-abb9-7068251baa9d\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.blaze_head\\'}'},SkullOwner:{Id:'7ceb88b2-7f5f-4399-abb9-7068251baa9d'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.cavespider_head\\\"}\"},SkullOwner:{Id:\"39173a7a-c957-4ec1-ac1a-43e5a64983df\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.cavespider_head\\'}'},SkullOwner:{Id:'39173a7a-c957-4ec1-ac1a-43e5a64983df'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.chicken_head\\\"}\"},SkullOwner:{Id:\"7d3a8ace-e045-4eba-ab71-71dbf525daf1\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.chicken_head\\'}'},SkullOwner:{Id:'7d3a8ace-e045-4eba-ab71-71dbf525daf1'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.cow_head\\\"}\"},SkullOwner:{Id:\"97ddf3b3-9dbe-4a3b-8a0f-1b19ddeac0bd\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.cow_head\\'}'},SkullOwner:{Id:'97ddf3b3-9dbe-4a3b-8a0f-1b19ddeac0bd'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.enderman_head\\\"}\"},SkullOwner:{Id:\"0de98464-1274-4dd6-bba8-370efa5d41a8\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.enderman_head\\'}'},SkullOwner:{Id:'0de98464-1274-4dd6-bba8-370efa5d41a8'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.iron_golem_head\\\"}\"},SkullOwner:{Id:\"7cb6e9a5-994f-40d5-9bfc-4ba5d796d21e\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.iron_golem_head\\'}'},SkullOwner:{Id:'7cb6e9a5-994f-40d5-9bfc-4ba5d796d21e'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.mooshroom_head\\\"}\"},SkullOwner:{Id:\"e206ac29-ae69-475b-909a-fb523d894336\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.mooshroom_head\\'}'},SkullOwner:{Id:'e206ac29-ae69-475b-909a-fb523d894336'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.ocelot_head\\\"}\"},SkullOwner:{Id:\"664dd492-3fcd-443b-9e61-4c7ebd9e4e10\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.ocelot_head\\'}'},SkullOwner:{Id:'664dd492-3fcd-443b-9e61-4c7ebd9e4e10'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.pig_head\\\"}\"},SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.pig_head\\'}'},SkullOwner:{Id:'e1e1c2e4-1ed2-473d-bde2-3ec718535399'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.sheep_head\\\"}\"},SkullOwner:{Id:\"fa234925-9dbe-4b8f-a544-7c70fb6b6ac5\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.sheep_head\\'}'},SkullOwner:{Id:'fa234925-9dbe-4b8f-a544-7c70fb6b6ac5'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.spider_head\\\"}\"},SkullOwner:{Id:\"8bdb71d0-4724-48b2-9344-e79480424798\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.spider_head\\'}'},SkullOwner:{Id:'8bdb71d0-4724-48b2-9344-e79480424798'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.villager_head\\\"}\"},SkullOwner:{Id:\"0a9e8efb-9191-4c81-80f5-e27ca5433156\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.villager_head\\'}'},SkullOwner:{Id:'0a9e8efb-9191-4c81-80f5-e27ca5433156'}}"
           },
           {
             "item": "minecraft:player_head",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.zombie_pigman_head\\\"}\"},SkullOwner:{Id:\"6540c046-d6ea-4aff-9766-32a54ebe6958\"}}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.zombie_pigman_head\\'}'},SkullOwner:{Id:'6540c046-d6ea-4aff-9766-32a54ebe6958'}}"
           }
         ]
       }

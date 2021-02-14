@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:resistance\"}"
+      "nbt": "{Potion:'minecraft:resistance'}"
     },
     "title": {
       "translate": "advancements.library.defend_fever.title"

@@ -6,7 +6,7 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:3b,id:'minecraft:lapis_lazuli',Count:1b},{Slot:4b,tag:{display:{Name:\"{\\\"text\\\":\\\"magnet\\\"}\"}},Count:1b},{Slot:5b,id:'minecraft:redstone',Count:1b},{Slot:7b,id:'minecraft:quartz',Count:1b}]}"
+          "nbt": "{Items:[{Slot:3b,id:'minecraft:lapis_lazuli',Count:1b},{Slot:4b,tag:{display:{Name:'{\\'text\\':\\'magnet\\'}'}},Count:1b},{Slot:5b,id:'minecraft:redstone',Count:1b},{Slot:7b,id:'minecraft:quartz',Count:1b}]}"
         }
       }
     }

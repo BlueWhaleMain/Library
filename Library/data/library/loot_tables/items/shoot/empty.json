@@ -8,8 +8,26 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.shoot"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.shoot.owner.hakurei_reimu"
+                },
+                {
+                  "translate": "system.library.empty"
+                }
+              ],
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.shoot\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.shoot.owner.hakurei_reimu\\\"}\",\"{\\\"translate\\\":\\\"system.library.empty\\\"}\"]},id:\"library:shoot\",model:\"empty\",CustomModelData:12760001}"
+              "tag": "{id:'library:shoot',model:'empty',CustomModelData:12760001}"
             }
           ]
         }

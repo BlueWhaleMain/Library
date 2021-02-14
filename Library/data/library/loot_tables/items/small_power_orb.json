@@ -8,8 +8,35 @@
           "name": "minecraft:redstone",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.small_power_orb"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.small_power_orb.description"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "translate": "system.library.unknown"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.small_power_orb\\\"}\"},id:\"library:small_power_orb\",CustomModelData:12760002}"
+              "tag": "{id:'library:small_power_orb',CustomModelData:12760002}"
             }
           ]
         }

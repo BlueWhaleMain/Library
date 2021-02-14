@@ -11,3 +11,5 @@ execute if entity @s[tag=sprinter] if entity @p[distance=..40,gamemode=survival]
 execute if entity @s[tag=jumper] if entity @p[distance=..32,gamemode=survival] run function library:entity/hostile/method/zombie/jump
 # 召唤物
 data merge entity @s[tag=summon] {HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],CanPickUpLoot:0b}
+# 不会中毒
+effect clear @s minecraft:poison

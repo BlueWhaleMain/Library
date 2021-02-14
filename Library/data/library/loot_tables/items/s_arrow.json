@@ -8,8 +8,14 @@
           "name": "minecraft:arrow",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.s_arrow"
+              }
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.s_arrow\\\"}\"},id:\"library:s_arrow\",CustomModelData:12760002}"
+              "tag": "{id:'library:s_arrow',CustomModelData:12760002}"
             }
           ]
         }

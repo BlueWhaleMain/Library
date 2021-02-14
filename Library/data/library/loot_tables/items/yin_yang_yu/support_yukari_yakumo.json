@@ -8,8 +8,26 @@
           "name": "minecraft:quartz",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.yin_yang_yu"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.shoot.owner.hakurei_reimu"
+                },
+                {
+                  "translate": "item.library.yin_yang_yu.support_yukari_yakumo"
+                }
+              ],
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.yin_yang_yu\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.shoot.owner.hakurei_reimu\\\"}\",\"{\\\"translate\\\":\\\"item.library.yin_yang_yu.support_yukari_yakumo\\\"}\"]},id:\"library:yin_yang_yu\",mode:\"support_yukari_yakumo\",CustomModelData:12760002}"
+              "tag": "{id:'library:yin_yang_yu',mode:'support_yukari_yakumo',CustomModelData:12760002}"
             }
           ]
         }

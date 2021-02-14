@@ -120,7 +120,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:slowness\"}"
+              "tag": "{Potion:'minecraft:slowness'}"
             }
           ]
         }

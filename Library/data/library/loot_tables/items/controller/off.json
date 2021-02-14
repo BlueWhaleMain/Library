@@ -8,8 +8,14 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.controller"
+              }
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.controller\\\"}\"},id:\"library:controller\",Switch:0b,CustomModelData:12760003}"
+              "tag": "{id:'library:controller',Switch:0b,CustomModelData:12760003}"
             }
           ]
         }

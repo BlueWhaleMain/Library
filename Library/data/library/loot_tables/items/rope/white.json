@@ -8,8 +8,14 @@
           "name": "minecraft:string",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.white_rope"
+              }
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.white_rope\\\"}\"},id:\"library:white_rope\",CustomModelData:12760001}"
+              "tag": "{id:'library:white_rope',CustomModelData:12760001}"
             }
           ]
         }

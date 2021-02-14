@@ -8,8 +8,34 @@
           "name": "minecraft:fire_charge",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.small_jade"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "translate": "system.library.unknown"
+                  }
+                ],
+                {
+                  "translate": "system.library.only_recipe"
+                }
+              ],
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.small_jade\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.only_recipe\\\"}\"]},id:\"library:small_jade\",CustomModelData:12760001}"
+              "tag": "{id:'library:small_jade',CustomModelData:12760001}"
             }
           ]
         }

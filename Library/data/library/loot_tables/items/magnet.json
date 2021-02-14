@@ -8,8 +8,14 @@
           "name": "minecraft:iron_ingot",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.magnet"
+              }
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.magnet\\\"}\"},id:\"library:magnet\",CustomModelData:12760001}"
+              "tag": "{id:'library:magnet',CustomModelData:12760001}"
             }
           ]
         }

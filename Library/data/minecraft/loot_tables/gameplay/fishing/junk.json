@@ -53,7 +53,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:water\"}"
+              "tag": "{Potion:'minecraft:water'}"
             }
           ]
         },
@@ -77,7 +77,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:empty\"}"
+              "tag": "{Potion:'minecraft:empty'}"
             }
           ]
         },

@@ -23,7 +23,7 @@
         "items": [
           {
             "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.shoot\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.empty\\\"}\"]},id:\"library:shoot\",model:\"empty\",CustomModelData:12760001}"
+            "nbt": "{display:{Name:'{\\'translate\\':\\'item.library.shoot\\'}',Lore:['{\\'translate\\':\\'system.library.empty\\'}']},id:'library:shoot',model:'empty',CustomModelData:12760001}"
           }
         ]
       }

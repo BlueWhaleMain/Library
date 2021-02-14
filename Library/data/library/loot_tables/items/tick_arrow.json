@@ -8,8 +8,14 @@
           "name": "minecraft:arrow",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.tick_arrow"
+              }
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.tick_arrow\\\"}\"},id:\"library:tick_arrow\",CustomModelData:12760001}"
+              "tag": "{id:'library:tick_arrow',CustomModelData:12760001}"
             }
           ]
         }

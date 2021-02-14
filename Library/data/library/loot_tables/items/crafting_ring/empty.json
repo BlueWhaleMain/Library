@@ -8,8 +8,23 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.crafting_ring"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.empty"
+                }
+              ],
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.crafting_ring\\\"}\",Lore:[\"{\\\"translate\\\":\\\"system.library.empty\\\"}\"]},id:\"library:crafting_ring\",item:\"minecraft:empty\",CustomModelData:12760005}"
+              "tag": "{id:'library:crafting_ring',item:'minecraft:empty',CustomModelData:12760005}"
             }
           ]
         }

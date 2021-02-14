@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:quartz",
-      "nbt": "{CustomModelData:12760001,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}"
+      "nbt": "{CustomModelData:12760001,Enchantments:[{id:'minecraft:unbreaking',lvl:3}]}"
     },
     "title": {
       "translate": "advancements.library.touhou.bomb.title"

@@ -13,7 +13,7 @@
                   "condition": "minecraft:location_check",
                   "predicate": {
                     "block": {
-                      "nbt": "{Items:[{Slot:4b,id:'minecraft:paper',tag:{display:{Name:\"{\\\"text\\\":\\\"Bill\\\"}\"}},Count:1b}]}"
+                      "nbt": "{Items:[{Slot:4b,id:'minecraft:paper',tag:{display:{Name:'{\\'text\\':\\'Bill\\'}'}},Count:1b}]}"
                     }
                   }
                 }
@@ -33,7 +33,7 @@
                   "condition": "minecraft:location_check",
                   "predicate": {
                     "block": {
-                      "nbt": "{Items:[{Slot:4b,id:'minecraft:quartz',tag:{display:{Name:\"{\\\"text\\\":\\\"SmallJade\\\"}\"}},Count:1b}]}"
+                      "nbt": "{Items:[{Slot:4b,id:'minecraft:quartz',tag:{display:{Name:'{\\'text\\':\\'SmallJade\\'}'}},Count:1b}]}"
                     }
                   }
                 }

@@ -8,8 +8,35 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.teleport"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.teleport.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.library.teleport\"}',Lore:['{\"translate\":\"item.library.teleport.lore\"}']},id:'library:teleport',permission:'admin',CustomModelData:12761000}"
+              "tag": "{id:'library:teleport',permission:'admin',CustomModelData:12761000}"
             }
           ]
         }

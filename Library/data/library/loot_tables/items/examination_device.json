@@ -8,8 +8,23 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.examination_device"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.examination_device.info"
+                }
+              ],
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.examination_device\\\"}\",Lore:[\"{\\\"translate\\\":\\\"item.library.examination_device.info\\\"}\"]},id:\"library:examination_device\",CustomModelData:12760002}"
+              "tag": "{id:'library:examination_device',CustomModelData:12760002}"
             }
           ]
         }

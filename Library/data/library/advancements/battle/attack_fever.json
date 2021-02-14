@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:strength\"}"
+      "nbt": "{Potion:'minecraft:strength'}"
     },
     "title": {
       "translate": "advancements.library.attack_fever.title"

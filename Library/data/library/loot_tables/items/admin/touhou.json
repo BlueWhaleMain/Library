@@ -8,8 +8,35 @@
           "name": "minecraft:paper",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.touhou"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.touhou.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.library.touhou\"}',Lore:['{\"translate\":\"item.library.touhou.lore\"}']},id:'library:touhou',permission:'admin',CustomModelData:12760000}"
+              "tag": "{id:'library:touhou',permission:'admin',CustomModelData:12760000}"
             }
           ]
         }

@@ -8,8 +8,35 @@
           "name": "minecraft:emerald",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.blue_orb"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.blue_orb.description"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "translate": "system.library.unknown"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.blue_orb\\\"}\"},id:\"library:blue_orb\",CustomModelData:12760001}"
+              "tag": "{id:'library:blue_orb',CustomModelData:12760001}"
             }
           ]
         }

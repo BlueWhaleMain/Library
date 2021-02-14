@@ -8,8 +8,14 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.white_bag"
+              }
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.white_bag\\\"}\"},id:\"library:white_bag\",CustomModelData:12760007}"
+              "tag": "{id:'library:white_bag',CustomModelData:12760007}"
             }
           ]
         }

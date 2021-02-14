@@ -8,8 +8,47 @@
           "name": "minecraft:netherite_chestplate",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.admin_chestplate"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.admin_chestplate.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "generic.armor_toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "multiply_total",
+                  "amount": 80,
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.library.admin_chestplate\"}',Lore:['{\"translate\":\"item.library.admin_chestplate.lore\"}']},id:'library:admin_chestplate',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:projectile_protection',lvl:2147483647}],Unbreakable:1,AttributeModifiers:[{Slot:'chest',AttributeName:'generic.armor_toughness',Name:'generic.armor_toughness',Amount:80,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}"
+              "tag": "{id:'library:admin_chestplate',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:projectile_protection',lvl:2147483647}],Unbreakable:1}"
             }
           ]
         }

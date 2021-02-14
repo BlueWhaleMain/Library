@@ -8,8 +8,35 @@
           "name": "minecraft:paper",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.player_orb"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.player_orb.description"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "translate": "system.library.unknown"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.library.player_orb\\\"}\"},id:\"library:player_orb\",CustomModelData:12760001}"
+              "tag": "{id:'library:player_orb',CustomModelData:12760001}"
             }
           ]
         }
