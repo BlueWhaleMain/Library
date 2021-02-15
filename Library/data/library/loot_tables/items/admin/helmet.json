@@ -38,10 +38,24 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
+                  "name": "generic.armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 5,
+                  "slot": "head"
+                },
+                {
                   "name": "generic.armor_toughness",
                   "attribute": "generic.armor_toughness",
-                  "operation": "multiply_total",
-                  "amount": 30,
+                  "operation": "addition",
+                  "amount": 3,
+                  "slot": "head"
+                },
+                {
+                  "name": "generic.knockback_resistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "amount": 1,
                   "slot": "head"
                 }
               ]

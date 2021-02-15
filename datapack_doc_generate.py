@@ -233,6 +233,8 @@ def entries_to_str(entries_data: dict) -> str:
             for c in entries_data["children"]:
                 results.append(entries_to_str(c))
             result += "\n" + "\n或".join(results)
+    elif entries_type == "minecraft:dynamic":
+        result += "方块特定掉落物（省略）\n"
     elif entries_type == "minecraft:empty":
         result += "空\n"
     else:
@@ -259,7 +261,7 @@ def function_to_str(function_data: dict) -> str:
     :return: 文本
     """
     result = ""
-    function = function_data["function"]
+    function = function_data.pop("function")
     if function == "minecraft:set_count":
         result += "设置数量：" + count_to_str(function_data["count"]) + "\n"
     elif function == "minecraft:set_damage":
@@ -268,6 +270,20 @@ def function_to_str(function_data: dict) -> str:
         result += "熔炉烧炼\n"
     elif function == "minecraft:set_nbt":
         result += "设置nbt：" + function_data["tag"] + "\n"
+    elif function == "minecraft:set_name":
+        result += "设置名称：" + json.dumps(function_data) + "\n"
+    elif function == "minecraft:set_lore":
+        result += "设置Lore：" + json.dumps(function_data) + "\n"
+    elif function == "minecraft:set_attributes":
+        result += "设置属性：" + json.dumps(function_data) + "\n"
+    elif function == "minecraft:set_contents":
+        result += "设置内容物：" + json.dumps(function_data) + "\n"
+    elif function == "minecraft:copy_name":
+        result += "复制名称：" + json.dumps(function_data) + "\n"
+    elif function == "minecraft:copy_nbt":
+        result += "复制nbt：" + json.dumps(function_data) + "\n"
+    elif function == "minecraft:enchant_randomly":
+        result += "随机附魔：" + json.dumps(function_data) + "\n"
     elif function == "minecraft:enchant_with_levels":
         result += "附魔等级：" + count_to_str(function_data["levels"]) + "\n"
         if "treasure" in function_data:

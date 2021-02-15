@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players set #Success libTemp 0
 execute if predicate library:random/10 run scoreboard players set #Success libTemp 1
 # 下雨额外抽取一次

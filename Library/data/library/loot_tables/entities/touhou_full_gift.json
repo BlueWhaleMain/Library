@@ -2,11 +2,26 @@
   "type": "minecraft:entity",
   "pools": [
     {
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "library:items/small_power_orb"
+          "name": "library:items/small_power_orb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:loot_table",

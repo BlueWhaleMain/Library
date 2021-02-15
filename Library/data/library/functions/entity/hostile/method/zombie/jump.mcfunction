@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 助跑跳
 function library:entity/hostile/method/zombie/sprint
 execute if score #LibDifficulty libTemp matches 3 run function library:entity/hostile/method/zombie/jump/hard

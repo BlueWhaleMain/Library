@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 ## 生成装备
 # 头盔
 loot replace entity @s armor.head 1 loot library:spawn/armor/head/zombie

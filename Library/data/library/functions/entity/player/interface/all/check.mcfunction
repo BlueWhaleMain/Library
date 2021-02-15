@@ -84,8 +84,7 @@ execute if score @s libTemp matches 5.. at @s run function library:entity/player
 #
 ##堆叠P点
 execute store result score @s libTemp run clear @s minecraft:redstone{id:"library:small_power_orb"} 0
-loot give @s[scores={libTemp=20..}] loot library:items/power_orb
-clear @s[scores={libTemp=20..}] minecraft:redstone{id:"library:small_power_orb"} 20
+execute if score @s libTemp matches 20.. at @s run function library:entity/player/method/small_power_orb/extend
 #
 ##PowerUp
 execute store result score @s libTemp run clear @s minecraft:redstone{id:"library:power_orb"} 0

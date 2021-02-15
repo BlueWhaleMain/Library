@@ -68,6 +68,6 @@ clear @s[scores={libTemp=9..}] minecraft:bone_meal 9
 #
 ##堆叠粘液球
 execute store result score @s libTemp run clear @s minecraft:slime_ball 0
-give @s[scores={libTemp=9..}] minecraft:slime_block
-clear @s[scores={libTemp=9..}] minecraft:slime_ball 9
+give @s[scores={libTemp=64..}] minecraft:slime_block
+clear @s[scores={libTemp=64..}] minecraft:slime_ball 64
 #

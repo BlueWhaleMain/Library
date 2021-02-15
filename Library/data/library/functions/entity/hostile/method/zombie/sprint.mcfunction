@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if score #LibDifficulty libTemp matches 3 run function library:entity/hostile/method/zombie/sprint/hard
 execute if score #LibDifficulty libTemp matches 2 run function library:entity/hostile/method/zombie/sprint/normal
 execute if score #LibDifficulty libTemp matches 1 run function library:entity/hostile/method/zombie/sprint/easy

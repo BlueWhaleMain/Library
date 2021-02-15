@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 ## 通用
 # 生命恢复
 effect give @s minecraft:regeneration 2 0 true

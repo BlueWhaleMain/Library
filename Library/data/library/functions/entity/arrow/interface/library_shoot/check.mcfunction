@@ -20,3 +20,5 @@ execute at @s[tag=target_player] if entity @p[distance=..64,gamemode=survival] r
 execute at @s[tag=waiting_crafting_table] run function library:entity/arrow/method/waiting_crafting_table
 # 飞行工作台
 execute at @s[tag=crafting_table] run function library:entity/arrow/method/crafting_table
+# 周围64格没有玩家时清除自身
+execute at @s unless entity @p[distance=..64] run kill

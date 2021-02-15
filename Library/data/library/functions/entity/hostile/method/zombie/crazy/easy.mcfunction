@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 effect give @s minecraft:speed 30 0 true
 effect give @s minecraft:strength 30 0 true
 effect give @s minecraft:jump_boost 30 0 true

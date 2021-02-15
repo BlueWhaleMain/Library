@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 附近有村民即尝试发狂（并不能轻易攻击到的目标）
 execute if entity @e[distance=16..40,type=villager] run function library:entity/hostile/method/zombie/go_crazy
 # 狂暴

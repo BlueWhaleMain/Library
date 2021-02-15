@@ -2,21 +2,22 @@
   "type": "minecraft:entity",
   "pools": [
     {
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "library:items/small_power_orb"
+          "name": "library:items/small_power_orb",
+          "weight": 3
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "library:items/blue_orb"
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 2
+          "name": "library:items/blue_orb",
+          "weight": 1
         }
       ]
     }

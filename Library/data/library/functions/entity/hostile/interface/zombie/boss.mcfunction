@@ -1,4 +1,4 @@
-#Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 附近玩家缓慢
 effect give @p[distance=..2,gamemode=survival] minecraft:slowness 1 0 true
 # 随机发狂

@@ -1,6 +1,6 @@
-#Copyright by BlueWhale. All Rights Reserved.
-# 改名
-data merge entity @s {CustomName:'{"translate":"entity.library.zombie.boss"}',CustomNameVisible:1b}
+# Copyright by BlueWhale. All Rights Reserved.
+# 改名，不会自然消失
+data merge entity @s {CustomName:'{"translate":"entity.library.zombie.boss"}',CustomNameVisible:1b,PersistenceRequired:1b}
 ## 难度分支
 execute if score #LibDifficulty libTemp matches 3 run function library:entity/hostile/method/zombie/select_boss/hard
 execute if score #LibDifficulty libTemp matches 2 run function library:entity/hostile/method/zombie/select_boss/normal
