@@ -1,0 +1,16 @@
+{
+  "parent": "library:trigger/root",
+  "criteria": {
+    "used_totem": {
+      "trigger": "minecraft:used_totem"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/used_totem"
+  },
+  "requirements": [
+    [
+      "used_totem"
+    ]
+  ]
+}

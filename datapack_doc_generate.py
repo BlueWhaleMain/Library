@@ -402,7 +402,7 @@ if __name__ == '__main__':
                     if "pools" in data:
                         pools = data["pools"]
                         for pool in pools:
-                            out.write("\n--------\n")
+                            out.write("\n\n")
                             if "entries" in pool:
                                 out.write("实体列表：\n")
                                 entries_list = pool["entries"]

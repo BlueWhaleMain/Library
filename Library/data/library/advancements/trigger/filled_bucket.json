@@ -1,0 +1,16 @@
+{
+  "parent": "library:trigger/root",
+  "criteria": {
+    "filled_bucket": {
+      "trigger": "minecraft:filled_bucket"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/filled_bucket"
+  },
+  "requirements": [
+    [
+      "filled_bucket"
+    ]
+  ]
+}

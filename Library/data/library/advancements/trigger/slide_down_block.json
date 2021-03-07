@@ -1,0 +1,16 @@
+{
+  "parent": "library:trigger/root",
+  "criteria": {
+    "slide_down_block": {
+      "trigger": "minecraft:slide_down_block"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/slide_down_block"
+  },
+  "requirements": [
+    [
+      "slide_down_block"
+    ]
+  ]
+}

@@ -1,13 +1,19 @@
 # Copyright by BlueWhale. All Rights Reserved.
+## 检查libTouhouCTime
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libTouhouCTime=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libTouhouCTime=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libTouhouCTime 0
-# 检查libTouhouCTime
+#
+## 吸收能量
 data modify entity @s[nbt={Item:{tag:{id:"library:tick_arrow"}}}] Item set value {id:"minecraft:arrow",Count:1b}
 data modify entity @s[nbt={Item:{tag:{id:"library:s_arrow"}}}] Item set value {id:"minecraft:arrow",Count:1b}
-# 吸收动能箭
+#
+## 放电中
+# 合成环
 scoreboard players remove @s[tag=crafting_ring,nbt={Item:{id:"minecraft:paper",tag:{id:"library:crafting_ring"}}},scores={libTouhouCTime=1..}] libTouhouCTime 1
-# 放电中：合成环
+# 工厂环
 scoreboard players remove @s[tag=factory_ring,nbt={Item:{id:"minecraft:paper",tag:{id:"library:factory_ring"}}},scores={libTouhouCTime=1..}] libTouhouCTime 1
-# 放电中：工厂环
+#
+# 给予进度：放电台
+advancement grant @a[distance=..1,advancements={library:guide/iron_block_synthesis=false}] only library:guide/iron_block_synthesis

@@ -1,7 +1,7 @@
 # (c) Copyright by BlueWhale. All Rights Reserved.
-function library:entity/player/method/shoot/model/small_jade/consume
 # 弹消耗
-scoreboard players set @s libTemp 100
+function library:entity/player/method/shoot/model/small_jade/consume
 # 固定添加100作为消耗（靶机*1）
-execute if entity @s run function library:entity/player/method/consume_level/calculate_consume
+scoreboard players set @s libTemp 100
 # 执行消耗
+function library:entity/player/method/consume_level/calculate_consume

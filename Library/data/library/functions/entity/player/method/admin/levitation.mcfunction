@@ -1,4 +1,5 @@
 # Copyright by BlueWhale. All Rights Reserved.
+## 升空
 effect give @s[nbt={ActiveEffects:[{Id:25b,Amplifier:13b}]}] minecraft:levitation 2 14 true
 effect give @s[nbt={ActiveEffects:[{Id:25b,Amplifier:12b}]}] minecraft:levitation 2 13 true
 effect give @s[nbt={ActiveEffects:[{Id:25b,Amplifier:11b}]}] minecraft:levitation 2 12 true
@@ -14,4 +15,6 @@ effect give @s[nbt={ActiveEffects:[{Id:25b,Amplifier:2b}]}] minecraft:levitation
 effect give @s[nbt={ActiveEffects:[{Id:25b,Amplifier:1b}]}] minecraft:levitation 2 2 true
 effect give @s[nbt={ActiveEffects:[{Id:25b,Amplifier:0b}]}] minecraft:levitation 2 1 true
 effect give @s minecraft:levitation 2 0 true
-# 升空
+#
+# 生存缓降保护
+tag @s[gamemode=survival] add slow_falling

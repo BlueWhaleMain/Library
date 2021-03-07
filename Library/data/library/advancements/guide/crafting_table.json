@@ -1,0 +1,35 @@
+{
+  "parent": "library:guide/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "advancements.library.crafting_table.title"
+    },
+    "description": {
+      "translate": "advancements.library.crafting_table.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crafting_table"
+    ]
+  ]
+}

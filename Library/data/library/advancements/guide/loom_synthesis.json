@@ -1,0 +1,28 @@
+{
+  "parent": "library:guide/item_frame",
+  "display": {
+    "icon": {
+      "item": "minecraft:loom"
+    },
+    "title": {
+      "translate": "advancements.library.loom_synthesis.title"
+    },
+    "description": {
+      "translate": "advancements.library.loom_synthesis.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "loom_synthesis": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "loom_synthesis"
+    ]
+  ]
+}

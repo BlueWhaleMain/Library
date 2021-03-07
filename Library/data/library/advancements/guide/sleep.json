@@ -1,0 +1,28 @@
+{
+  "parent": "library:guide/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "advancements.library.sleep.title"
+    },
+    "frame": "task",
+    "description": {
+      "translate": "advancements.library.sleep.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sleep": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "sleep"
+    ]
+  ]
+}

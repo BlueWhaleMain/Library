@@ -1,0 +1,16 @@
+{
+  "parent": "library:trigger/root",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/inventory_changed"
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

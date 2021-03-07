@@ -1,0 +1,16 @@
+{
+  "parent": "library:trigger/root",
+  "criteria": {
+    "fishing_rod_hooked": {
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/fishing_rod_hooked"
+  },
+  "requirements": [
+    [
+      "fishing_rod_hooked"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "library:trigger/root",
+  "criteria": {
+    "item_used_on_block": {
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/item_used_on_block"
+  },
+  "requirements": [
+    [
+      "item_used_on_block"
+    ]
+  ]
+}

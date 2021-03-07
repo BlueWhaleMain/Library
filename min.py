@@ -86,6 +86,11 @@ if __name__ == "__main__":
                             if r.split():
                                 if r[0] != '#':
                                     res.append(r)
+                                elif len(r) > 2:
+                                    if r[1] == "@":
+                                        if r[2:] == "Debug":
+                                            res.append(f"say from file:{file_list[file_index]}")
+                                            print(f"注意：{file_list[file_index]}包含Debug注解")
                         else:
                             break
                 if len(res) > 1:

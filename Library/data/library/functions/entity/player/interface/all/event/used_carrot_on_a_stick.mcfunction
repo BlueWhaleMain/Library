@@ -1,4 +1,5 @@
 # (c) Copyright by BlueWhale. All Rights Reserved.
+scoreboard players add @s[gamemode=survival] libConsumeLvlCac 10
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:shoot"}}}] run function library:entity/player/method/shoot/check
 # 御币射击
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:yin_yang_yu"}},Inventory:[{Slot:-106b,tag:{id:"library:shoot"}}]},tag=!is_already_bomb] run function library:entity/player/method/shoot/bomb

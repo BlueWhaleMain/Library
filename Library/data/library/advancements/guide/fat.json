@@ -1,0 +1,28 @@
+{
+  "parent": "library:guide/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "advancements.library.fat.title"
+    },
+    "frame": "task",
+    "description": {
+      "translate": "advancements.library.fat.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "fat": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "fat"
+    ]
+  ]
+}

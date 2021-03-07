@@ -1,28 +1,28 @@
 {
-  "parent": "library:battle/root",
+  "parent": "library:guide/root",
   "display": {
     "icon": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:string"
     },
     "title": {
-      "translate": "advancements.library.sleep.title"
+      "translate": "advancements.library.item.title"
     },
     "frame": "task",
     "description": {
-      "translate": "advancements.library.sleep.description"
+      "translate": "advancements.library.item.description"
     },
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {
-    "sleep": {
+    "item": {
       "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
     [
-      "sleep"
+      "item"
     ]
   ]
 }

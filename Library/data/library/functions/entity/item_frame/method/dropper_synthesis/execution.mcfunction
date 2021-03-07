@@ -12,7 +12,9 @@ scoreboard players set @s[scores={libScoreCheck=..0}] libTouhouCEscape 0
 # 检查libTouhouCEscape
 #
 execute store result score @s libTemp run data get block ~ ~ ~ Items
-execute if block ~ ~-1 ~ minecraft:lapis_block run scoreboard players remove @s[scores={libTouhouCTime=1..,libTemp=1..},tag=s] libTouhouCTime 1
 # 充能倒计时
-execute unless block ~ ~-1 ~ minecraft:lapis_block run scoreboard players remove @s[scores={libTouhouCEscape=1..,libTemp=1..},tag=s] libTouhouCEscape 1
+execute if block ~ ~-1 ~ minecraft:lapis_block run scoreboard players remove @s[scores={libTouhouCTime=1..,libTemp=1..},tag=s] libTouhouCTime 1
 # 冷却倒计时
+execute unless block ~ ~-1 ~ minecraft:lapis_block run scoreboard players remove @s[scores={libTouhouCEscape=1..,libTemp=1..},tag=s] libTouhouCEscape 1
+# 给予进度：祭坛
+advancement grant @a[distance=..1,advancements={library:guide/dropper_synthesis=false}] only library:guide/dropper_synthesis

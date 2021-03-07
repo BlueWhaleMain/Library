@@ -1,39 +1,41 @@
 # (c) Copyright by BlueWhale. All Rights Reserved.
 ##计算参数初始化
+# 检查libraryFat
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libraryFat=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libraryFat=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libraryFat 10
-# 检查libraryFat
+# 检查libraryFatigue
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libraryFatigue=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libraryFatigue=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libraryFatigue 0
-# 检查libraryFatigue
+# 检查libThirsty
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libThirsty=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libThirsty=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libThirsty 0
-# 检查libThirsty
+# 检查libFood
 scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libFood=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libFood=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libFood 0
-# 检查libFood
 #
-effect give @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] minecraft:slowness 2 1 true
 # 减速
-effect give @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:gatling"}}]}] minecraft:slowness 2 0 true
+effect give @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] minecraft:slowness 2 1 true
+scoreboard players add @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] libConsumeLvlCac 20
 # 副手减速
+effect give @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:gatling"}}]}] minecraft:slowness 2 0 true
+scoreboard players add @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] libConsumeLvlCac 10
 ##组合动作
-execute if entity @s[scores={slw_sneak_time=1..,slw_damage_taken=1..}] run function library:entity/player/interface/survival/event/block
 # 格挡
+execute if entity @s[scores={slw_sneak_time=1..,slw_damage_taken=1..}] run function library:entity/player/interface/survival/event/block
 #
-execute if entity @s[tag=poison] run function library:entity/player/method/state/die
 # 中毒
+execute if entity @s[tag=poison] run function library:entity/player/method/state/die
 ##消耗计算
 execute if score #LibDifficulty libTemp matches 0 run scoreboard players set @s libConsumeLvlCac 0
-execute if score @s libConsumeLvlCac matches 50000.. run function library:entity/player/method/consume_level/add
+execute if score @s libConsumeLvlCac matches 10000.. run function library:entity/player/method/consume_level/add
 #
 ##肥胖系统
 execute if entity @s[scores={libraryFood=..14,libraryFat=-20..}] run function library:entity/player/method/fat/check
@@ -59,3 +61,5 @@ execute if score #LibDifficulty libTemp matches 0 run scoreboard players set @s 
 execute if score @s libThirsty matches 100.. run function library:entity/player/method/thirsty/thirsty
 execute if score @s libThirsty matches ..-100 run function library:entity/player/method/thirsty/water_poisoning
 #
+# 正常消耗
+scoreboard players add @s libConsumeLvlCac 10

@@ -1,0 +1,16 @@
+{
+  "parent": "library:trigger/root",
+  "criteria": {
+    "item_durability_changed": {
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/item_durability_changed"
+  },
+  "requirements": [
+    [
+      "item_durability_changed"
+    ]
+  ]
+}

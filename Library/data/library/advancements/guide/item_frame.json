@@ -1,0 +1,28 @@
+{
+  "parent": "library:guide/item",
+  "display": {
+    "icon": {
+      "item": "minecraft:item_frame"
+    },
+    "title": {
+      "translate": "advancements.library.item_frame.title"
+    },
+    "frame": "task",
+    "description": {
+      "translate": "advancements.library.item_frame.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "item_frame": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "item_frame"
+    ]
+  ]
+}
