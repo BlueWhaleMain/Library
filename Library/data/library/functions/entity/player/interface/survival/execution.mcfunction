@@ -42,10 +42,24 @@ execute if entity @s[scores={libraryFood=..14,libraryFat=-20..}] run function li
 execute if entity @s[scores={libraryFat=..199,libHealth=-20..}] run function library:entity/player/method/fat/slim
 execute if entity @s[scores={libraryFat=20..,libHealth=..200}] run function library:entity/player/method/fat/fat
 effect give @s[scores={libraryFat=200..}] minecraft:slowness 2 0 true
+advancement grant @s[scores={libraryFat=500..},advancements={library:state/fat/big=false}] only library:state/fat/big
+advancement grant @s[scores={libraryFat=200..499},advancements={library:state/fat/porkchop=false}] only library:state/fat/porkchop
+advancement grant @s[scores={libraryFat=120..199},advancements={library:state/fat/gold_ingot=false}] only library:state/fat/gold_ingot
+advancement grant @s[scores={libraryFat=20..119},advancements={library:state/fat/iron_ingot=false}] only library:state/fat/iron_ingot
+advancement grant @s[scores={libraryFat=0..19},advancements={library:state/fat/apple=false}] only library:state/fat/apple
+advancement grant @s[scores={libraryFat=-40..-20},advancements={library:state/fat/bamboo=false}] only library:state/fat/bamboo
+advancement grant @s[scores={libraryFat=-80..-41},advancements={library:state/fat/sugar_cane=false}] only library:state/fat/sugar_cane
+advancement grant @s[scores={libraryFat=-100..-81},advancements={library:state/fat/grass=false}] only library:state/fat/grass
+advancement grant @s[scores={libraryFat=..-101},advancements={library:state/fat/skeleton=false}] only library:state/fat/skeleton
 #
 ##疲劳系统
 execute if score #LibDifficulty libTemp matches 0 run scoreboard players set @s libraryFatigue 0
 execute if score @s libraryFatigue matches 100.. run function library:entity/player/method/fatigue/lack_of_sleep
+advancement grant @s[scores={libraryFatigue=180..},advancements={library:state/fatigue/die=false}] only library:state/fatigue/die
+advancement grant @s[scores={libraryFatigue=140..179},advancements={library:state/fatigue/weak=false}] only library:state/fatigue/weak
+advancement grant @s[scores={libraryFatigue=100..139},advancements={library:state/fatigue/blind=false}] only library:state/fatigue/blind
+advancement grant @s[scores={libraryFatigue=50..99},advancements={library:state/fatigue/fatigue=false}] only library:state/fatigue/fatigue
+advancement grant @s[scores={libraryFatigue=..49},advancements={library:state/fatigue/night_vision=false}] only library:state/fatigue/night_vision
 #
 ##饱食度相关
 execute if score @s libFood matches 1.. run function library:entity/player/method/state/slim
@@ -60,6 +74,11 @@ scoreboard players add @s[scores={libraryHealth=20..,libDefValue=..20}] libDefVa
 execute if score #LibDifficulty libTemp matches 0 run scoreboard players set @s libThirsty 0
 execute if score @s libThirsty matches 100.. run function library:entity/player/method/thirsty/thirsty
 execute if score @s libThirsty matches ..-100 run function library:entity/player/method/thirsty/water_poisoning
+advancement grant @s[scores={libThirsty=300..},advancements={library:state/thirsty/sand=false}] only library:state/thirsty/sand
+advancement grant @s[scores={libThirsty=100..299},advancements={library:state/thirsty/bottle=false}] only library:state/thirsty/bottle
+advancement grant @s[scores={libThirsty=-99..99},advancements={library:state/thirsty/water_bottle=false}] only library:state/thirsty/water_bottle
+advancement grant @s[scores={libThirsty=-299..-100},advancements={library:state/thirsty/water_bucket=false}] only library:state/thirsty/water_bucket
+advancement grant @s[scores={libThirsty=..-300},advancements={library:state/thirsty/water=false}] only library:state/thirsty/water
 #
 # 正常消耗
 scoreboard players add @s libConsumeLvlCac 10

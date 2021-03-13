@@ -1,0 +1,31 @@
+{
+  "parent": "library:state/thirsty/water_bottle",
+  "display": {
+    "icon": {
+      "item": "minecraft:glass_bottle"
+    },
+    "title": {
+      "translate": "item.minecraft.glass_bottle"
+    },
+    "description": {
+      "translate": "state.library.thirsty.bottle"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bottle": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/method/thirsty/bottle"
+  },
+  "requirements": [
+    [
+      "bottle"
+    ]
+  ]
+}

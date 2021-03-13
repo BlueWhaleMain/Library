@@ -1,0 +1,32 @@
+{
+  "parent": "library:state/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'minecraft:water'}"
+    },
+    "title": {
+      "translate": "item.minecraft.potion.effect.water"
+    },
+    "description": {
+      "translate": "state.library.thirsty.water_bottle"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "water_bottle": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/method/thirsty/water_bottle"
+  },
+  "requirements": [
+    [
+      "water_bottle"
+    ]
+  ]
+}

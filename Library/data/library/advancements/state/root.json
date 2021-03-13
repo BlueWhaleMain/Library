@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:12760002}"
+    },
+    "title": {
+      "translate": "advancements.library.state.title"
+    },
+    "description": {
+      "translate": "advancements.library.state.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "install": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "install"
+    ]
+  ]
+}

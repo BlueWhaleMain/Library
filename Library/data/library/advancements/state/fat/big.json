@@ -1,0 +1,32 @@
+{
+  "parent": "library:state/fat/porkchop",
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "entity.minecraft.giant"
+    },
+    "description": {
+      "translate": "state.library.fat.big"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "big": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200,
+    "function": "library:entity/player/method/fat/big"
+  },
+  "requirements": [
+    [
+      "big"
+    ]
+  ]
+}

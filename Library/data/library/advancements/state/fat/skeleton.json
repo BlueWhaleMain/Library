@@ -1,0 +1,32 @@
+{
+  "parent": "library:state/fat/grass",
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "block.minecraft.skeleton_skull"
+    },
+    "description": {
+      "translate": "state.library.fat.skeleton"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "skeleton": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/method/fat/skeleton",
+    "experience": 200
+  },
+  "requirements": [
+    [
+      "skeleton"
+    ]
+  ]
+}

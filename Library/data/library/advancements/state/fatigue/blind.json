@@ -1,0 +1,32 @@
+{
+  "parent": "library:state/fatigue/fatigue",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'minecraft:blind'}"
+    },
+    "title": {
+      "translate": "state.library.fatigue.blind.title"
+    },
+    "description": {
+      "translate": "state.library.fatigue.blind.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "blind": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/method/fatigue/blind"
+  },
+  "requirements": [
+    [
+      "blind"
+    ]
+  ]
+}

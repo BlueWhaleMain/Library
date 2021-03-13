@@ -1,0 +1,31 @@
+{
+  "parent": "library:state/thirsty/bottle",
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": {
+      "translate": "block.minecraft.sand"
+    },
+    "description": {
+      "translate": "state.library.thirsty.sand"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sand": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/method/thirsty/sand"
+  },
+  "requirements": [
+    [
+      "sand"
+    ]
+  ]
+}

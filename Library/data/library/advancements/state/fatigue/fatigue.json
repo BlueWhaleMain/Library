@@ -1,0 +1,32 @@
+{
+  "parent": "library:state/fatigue/night_vision",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'minecraft:mining_fatigue'}"
+    },
+    "title": {
+      "translate": "state.library.fatigue.fatigue.title"
+    },
+    "description": {
+      "translate": "state.library.fatigue.fatigue.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "fatigue": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/method/fatigue/fatigue"
+  },
+  "requirements": [
+    [
+      "fatigue"
+    ]
+  ]
+}
