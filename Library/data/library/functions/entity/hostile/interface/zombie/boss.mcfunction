@@ -1,4 +1,7 @@
 # Copyright by BlueWhale. All Rights Reserved.
+# 附近玩家失明
+effect give @p[distance=..2,gamemode=survival] minecraft:night_vision 2 0 true
+effect give @p[distance=..16,gamemode=survival] minecraft:blindness 2 0 true
 # 附近玩家缓慢
 effect give @p[distance=..2,gamemode=survival] minecraft:slowness 1 0 true
 # 随机发狂

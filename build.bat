@@ -3,6 +3,8 @@
 set name=%1
 set ver=%2
 set before=%time%
+@rem 这里设置是否Debug
+set debug=1
 if not "%2"=="" (
     echo build对象：%~dp0%1
 	echo 准备中...
@@ -26,9 +28,13 @@ if not "%2"=="" (
 	echo 复制文件...
 	xcopy %~dp0%1 %~dp0Pack\%name% /K /X /I /O /E /Q /Y
 	echo min json...
-	min.pyc -i %~dp0Pack\%name% -t .json
+	min.py -i %~dp0Pack\%name% -t .json
 	echo min mcfunction...
-	min.pyc -i %~dp0Pack\%name% -t .mcfunction
+	if %debug%==1 (
+	    min.py -i %~dp0Pack\%name% -t .mcfunction
+	) else (
+	    min.py -i %~dp0Pack\%name% -t .mcfunction -r
+	)
 	echo 应用只读属性...
 	attrib +r %~dp0Pack\%name%\*.* /s /d
 	if not "%9"=="" (
@@ -41,7 +47,7 @@ if not "%2"=="" (
 		)
 	)
 	echo 压缩文件...
-	zip.pyc -i %~dp0Pack\%name% -o %~dp0Pack -n %name%-%ver%.zip && attrib +r %~dp0Pack\%name%-%ver%.zip
+	zip.py -i %~dp0Pack\%name% -o %~dp0Pack -n %name%-%ver%.zip && attrib +r %~dp0Pack\%name%-%ver%.zip
 	echo 清理临时文件...
 	rd /s /q %~dp0Pack\%name%\.
 ) else (

@@ -21,7 +21,7 @@
     }
   },
   "rewards": {
-    "function": "library:entity/player/method/thirsty/sand"
+    "function": "library:entity/player/main/impossible/state/thirsty/sand"
   },
   "requirements": [
     [

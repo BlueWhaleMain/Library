@@ -41,7 +41,7 @@
                   "name": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "addition",
-                  "amount": 11,
+                  "amount": 8,
                   "slot": "chest"
                 },
                 {

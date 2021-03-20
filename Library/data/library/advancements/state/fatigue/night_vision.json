@@ -22,7 +22,7 @@
     }
   },
   "rewards": {
-    "function": "library:entity/player/method/fatigue/night_vision"
+    "function": "library:entity/player/main/impossible/state/fatigue/night_vision"
   },
   "requirements": [
     [

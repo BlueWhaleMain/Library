@@ -21,7 +21,7 @@
     }
   },
   "rewards": {
-    "function": "library:entity/player/method/fat/porkchop"
+    "function": "library:entity/player/main/impossible/state/fat/porkchop"
   },
   "requirements": [
     [

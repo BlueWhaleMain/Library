@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.character.sans.jacket"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.character.sans.jacket.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:sans_jacket',display:{color:3949738},CustomModelData:12760001}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

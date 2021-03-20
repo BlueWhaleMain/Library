@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:entities/skeleton"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "library:items/gatling/arrow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "library:items/gatling/empty",
+          "weight": 4
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.5,
+          "looting_multiplier": 0.1
+        }
+      ]
+    }
+  ]
+}

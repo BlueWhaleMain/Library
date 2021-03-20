@@ -22,7 +22,7 @@
   },
   "rewards": {
     "experience": 200,
-    "function": "library:entity/player/method/fat/big"
+    "function": "library:entity/player/main/impossible/state/fat/big"
   },
   "requirements": [
     [

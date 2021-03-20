@@ -45,13 +45,6 @@
                   "slot": "mainhand"
                 },
                 {
-                  "name": "generic.armor",
-                  "attribute": "generic.armor",
-                  "operation": "multiply_total",
-                  "amount": 5,
-                  "slot": "mainhand"
-                },
-                {
                   "name": "generic.armor_toughness",
                   "attribute": "generic.armor_toughness",
                   "operation": "multiply_total",

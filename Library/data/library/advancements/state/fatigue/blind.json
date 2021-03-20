@@ -22,7 +22,7 @@
     }
   },
   "rewards": {
-    "function": "library:entity/player/method/fatigue/blind"
+    "function": "library:entity/player/main/impossible/state/fatigue/blind"
   },
   "requirements": [
     [

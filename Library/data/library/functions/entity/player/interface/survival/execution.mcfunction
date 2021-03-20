@@ -63,6 +63,7 @@ advancement grant @s[scores={libraryFatigue=..49},advancements={library:state/fa
 #
 ##饱食度相关
 execute if score @s libFood matches 1.. run function library:entity/player/method/state/slim
+execute if score @s libFood matches 50.. run function library:entity/player/method/state/slim
 execute if score @s libraryFood matches ..8 run function library:entity/player/method/food/hunger
 scoreboard players add @s[scores={libraryFood=20..},tag=!is_already_bomb] libAtkValue 1
 #

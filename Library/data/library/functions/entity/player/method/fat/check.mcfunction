@@ -1,4 +1,5 @@
 # (c) Copyright by BlueWhale. All Rights Reserved.
+execute if entity @s[scores={libraryFat=200..}] run function library:entity/player/method/fat/porkchop
 scoreboard players add @s[scores={libraryFood=..14,libraryFat=120..}] libFood 1
 scoreboard players add @s[scores={libraryFood=..13,libraryFat=110..}] libFood 1
 scoreboard players add @s[scores={libraryFood=..12,libraryFat=100..}] libFood 1

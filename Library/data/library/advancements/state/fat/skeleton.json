@@ -21,7 +21,7 @@
     }
   },
   "rewards": {
-    "function": "library:entity/player/method/fat/skeleton",
+    "function": "library:entity/player/main/impossible/state/fat/skeleton",
     "experience": 200
   },
   "requirements": [

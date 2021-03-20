@@ -9,3 +9,5 @@ execute at @s[tag=!spawned,nbt={PersistenceRequired:0b}] run function library:en
 execute at @s[tag=boss] run function library:entity/hostile/interface/all/boss
 # 僵尸
 execute at @s[type=minecraft:zombie] run function library:entity/hostile/interface/zombie/execution
+# 骷髅
+execute at @s[type=minecraft:skeleton] run function library:entity/hostile/interface/skeleton/execution

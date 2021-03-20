@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.character.sans.shorts"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.character.sans.shorts.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ]
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:sans_shorts',display:{color:1908001},CustomModelData:12760001}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

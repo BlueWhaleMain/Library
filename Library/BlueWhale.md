@@ -19,6 +19,11 @@ Copyright by BlueWhale. All Rights Reserved.
 数据包植物魔法内容：
 合成环与工厂环
 
+数据包传说之下内容：
+骷髅Boss（Sans）
+BlueHeart状态
+Sans的套装
+
 [BlueWhaleMain]: https://space.bilibili.com/336800070/#/
 
 bluewhalemain@outlook.com

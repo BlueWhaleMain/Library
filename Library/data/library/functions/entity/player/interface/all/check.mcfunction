@@ -46,6 +46,8 @@ scoreboard players add @s[scores={libTouhouCFlag=1..,libTouhouCEscape=..0}] libT
 # bomb
 execute if entity @s[tag=is_already_bomb,scores={libTouhouCEscape=..0}] run function library:entity/player/interface/all/event/bomb
 #
+# BlueHeart
+execute if entity @s[tag=BlueHeart] run function library:entity/player/method/state/blue_heart
 ##一般检测
 # 显示版本
 execute if score @s showVersion matches 1.. run function library:entity/player/method/system/show_version
