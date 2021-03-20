@@ -7,6 +7,9 @@ import os
 import sys
 
 import chardet
+from colorama import Fore, init
+
+init(autoreset=True)
 
 
 def get_encoding(file_name, index):
@@ -69,3 +72,26 @@ def time_escape(t: float = 0, iteration: bool = False) -> str:
         return f"{int(t / 3600)}时{time_escape(t % 3600, True)}"
     else:
         return f"{int(t / 86400)}天{time_escape(t % 86400, True)}"
+
+
+class Console:
+
+    @staticmethod
+    def log(*args) -> None:
+        print(*args)
+
+    @staticmethod
+    def info(msg, *args) -> None:
+        print(Fore.CYAN + str(msg), *args)
+
+    @staticmethod
+    def success(msg, *args) -> None:
+        print(Fore.GREEN + str(msg), *args)
+
+    @staticmethod
+    def warning(msg, *args) -> None:
+        print(Fore.YELLOW + str(msg), *args)
+
+    @staticmethod
+    def error(msg, *args) -> None:
+        print(Fore.RED + str(msg), *args)
