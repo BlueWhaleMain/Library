@@ -131,9 +131,10 @@
 | 名称 | 概率 |
 | ---- | ---- |
 | 僵尸 | 10%  |
+| 骷髅 | 10%  |
 
 僵尸召唤最大值32
-
+Boss骷髅必须要附近没有任何敌对生物Boss时才会生成
 
 ---
 
@@ -912,4 +913,7 @@ TNT
 ### LICENSE
 MIT.
 
-[BlueWhaleMain](https://space.bilibili.com/336800070/#/)
+### BlueWhaleMain
++ [GitHub](https://github.com/BlueWhaleMain)
++ [BiliBili](https://space.bilibili.com/336800070/#/)
++ [Outlook](mailto:bluewhalemain@outlook.com)
