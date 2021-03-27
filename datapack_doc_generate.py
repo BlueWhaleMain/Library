@@ -131,7 +131,7 @@ def condition_to_str(condition_data: dict) -> str:
     elif condition_name == "minecraft:killed_by_player":
         result += "被玩家或驯服的狼杀死\n"
     elif condition_name == "minecraft:location_check":
-        result += "检查当前位置：\n" + predicate_to_str(condition_data['predicate']) + "\n"
+        result += "检查当前位置：\n\n" + predicate_to_str(condition_data['predicate']) + "\n"
     elif condition_name == "minecraft:alternative":
         if "terms" in condition_data:
             results = []
@@ -165,22 +165,22 @@ def predicate_to_str(predicate: dict) -> str:
     """
     result = ""
     if "block" in predicate:
-        result += "检查方块\n"
+        result += "检查方块\n\n"
         block = predicate["block"]
         if "nbt" in block:
-            result += f"检查nbt：{block['nbt']}\n"
+            result += f"检查nbt：{block['nbt']}"
     elif "item" in predicate:
         result += "检查物品：" + try_translate(minecraft_lang, get_translate_str("item",
                                                                             predicate["item"].split(':')[0],
                                                                             predicate["item"].split(':')[-1:][
-                                                                                0])) + "\n"
+                                                                                0])) + "\n\n"
     elif "enchantments" in predicate:
-        result += "检查附魔\n"
+        result += "检查附魔\n\n"
         enchantments = predicate["enchantments"]
         for enchantment in enchantments:
-            result += enchantment_to_str(enchantment) + "\n"
+            result += enchantment_to_str(enchantment) + "\n\n"
     elif "nbt" in predicate:
-        result += f"检查nbt：{predicate['nbt']}\n"
+        result += f"检查nbt：{predicate['nbt']}"
     elif "flags" in predicate:
         flags = predicate["flags"]
         if "is_on_fire" in flags:
@@ -221,7 +221,7 @@ def entries_to_str(entries_data: dict) -> str:
     entries_type = entries_data["type"]
     if entries_type == "minecraft:loot_table":
         entries_name = entries_data["name"]
-        result += "战利品表（套娃）：" + entries_name + "\n"
+        result += "战利品表（套娃）：" + entries_name + "\n\n"
     elif entries_type == "minecraft:item":
         entries_name = entries_data["name"]
         result += "物品：" + try_translate(minecraft_lang, get_translate_str(entries_type.split(':')[-1:][0],
@@ -382,40 +382,43 @@ if __name__ == '__main__':
     if _type == "loot_tables":
         with open(out_file_path, 'w', encoding="utf-8") as out:
             print("生成战利品表文档...")
-            out.write("# 战利品表")
+            lines = ""
+            lines += "# 战利品表"
             result_count = 0
             namespaces = os.listdir(f"{input_path}/data")
             for namespace in namespaces:
-                out.write(f"\n## {namespace}")
+                lines += f"\n## {namespace}"
                 loot_tables = []
                 get_file_as_type(f"{input_path}/data/{namespace}/loot_tables", loot_tables, ".json")
                 file_list += loot_tables
                 for loot_table in loot_tables:
-                    out.write("\n")
+                    lines += "\n"
                     data = json.load(open(loot_table, encoding="utf-8"))
                     if "type" in data:
                         n = try_translate(minecraft_lang, get_translate_str(data['type'].split(':')[-1:][0], namespace,
                                                                             os.path.split(loot_table)[1].split('.')[0]))
                     else:
                         n = get_translate_str("loot_tables", namespace, os.path.split(loot_table)[1].split('.')[0])
-                    out.write(f"\n### {n}")
+                    lines += f"\n### {n}\n"
                     if "pools" in data:
                         pools = data["pools"]
                         for pool in pools:
-                            out.write("\n\n")
                             if "entries" in pool:
-                                out.write("实体列表：\n")
+                                lines += "\n实体列表：\n\n"
                                 entries_list = pool["entries"]
                                 for entries in entries_list:
-                                    out.write(entries_to_str(entries) + "\n")
+                                    lines += (entries_to_str(entries))
                             if "conditions" in pool:
-                                out.write("条件列表：\n")
+                                lines += "\n条件列表：\n\n"
                                 conditions = pool["conditions"]
                                 for condition in conditions:
-                                    out.write(condition_to_str(condition) + "\n")
+                                    lines += (condition_to_str(condition))
                             if "rolls" in pool:
-                                out.write(f"抽取：{count_to_str(pool['rolls'])}次\n")
+                                lines += f"\n抽取：{count_to_str(pool['rolls'])}次\n"
                     result_count += 1
+            for line in lines.split("\n"):
+                if line:
+                    out.write(line + "\n\n")
     else:
         print("未知的操作：" + _type)
         sys.exit(2)
