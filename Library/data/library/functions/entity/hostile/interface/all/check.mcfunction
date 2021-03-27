@@ -8,3 +8,5 @@ scoreboard players remove @s[scores={libTouhouCTime=1..}] libTouhouCTime 1
 scoreboard players remove @s[scores={libTouhouCEscape=1..}] libTouhouCEscape 1
 scoreboard players add @s[scores={libTouhouCTime=1..,libTouhouCEscape=..0,libTouhouCFlag=1..}] libTouhouCFlag 1
 #
+# 骷髅
+execute at @s[type=minecraft:skeleton] run function library:entity/hostile/interface/skeleton/check

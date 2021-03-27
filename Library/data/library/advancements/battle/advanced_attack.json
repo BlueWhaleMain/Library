@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:iron_sword",
-      "nbt": "{Enchantments :[{id:'minecraft:sharpness',lvl:1},{id:'minecraft:knockback',lvl:1},{id:'minecraft:sweeping',lvl:1}]}"
+      "nbt": "{Enchantments:[{id:'minecraft:sharpness',lvl:1},{id:'minecraft:knockback',lvl:1},{id:'minecraft:sweeping',lvl:1}]}"
     },
     "title": {
       "translate": "advancements.library.advanced_attack.title"

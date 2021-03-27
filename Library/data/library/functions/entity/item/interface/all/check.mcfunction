@@ -14,3 +14,6 @@ execute at @s[tag=magnet] if entity @e[distance=1..16,tag=magnet] run function l
 # 磁铁互相吸引
 function library:entity/interface/all/check
 # 更新动能
+# 压缩
+execute at @s[tag=!compress] if block ~ ~1 ~ minecraft:moving_piston[facing=down] run tag @s add compress
+execute at @s[tag=compress] run function library:entity/item/interface/compress/check

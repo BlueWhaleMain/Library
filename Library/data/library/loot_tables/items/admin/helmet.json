@@ -62,7 +62,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{id:'library:admin_helmet',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:blast_protection',lvl:2147483647},{id:'minecraft:respiration',lvl:2147483647},{id:'minecraft:aqua_affinity',lvl:1}],Unbreakable:1}"
+              "tag": "{id:'library:admin_helmet',permission:'admin',CustomModelData:12760000,Enchantments:[{id:'minecraft:blast_protection',lvl:2147483647},{id:'minecraft:respiration',lvl:2147483647},{id:'minecraft:aqua_affinity',lvl:1}],Unbreakable:1}"
             }
           ]
         }

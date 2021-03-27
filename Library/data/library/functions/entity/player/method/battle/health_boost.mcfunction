@@ -3,4 +3,10 @@ effect give @s[scores={libHealth=10..49}] minecraft:health_boost 125 0 true
 effect give @s[scores={libHealth=50..99}] minecraft:health_boost 125 1 true
 effect give @s[scores={libHealth=100..149}] minecraft:health_boost 125 2 true
 effect give @s[scores={libHealth=150..199}] minecraft:health_boost 125 3 true
-effect give @s[scores={libHealth=200..}] minecraft:health_boost 125 4 true
+effect give @s[scores={libHealth=200..249}] minecraft:health_boost 125 4 true
+effect give @s[scores={libHealth=250..299}] minecraft:health_boost 125 5 true
+effect give @s[scores={libHealth=300..349}] minecraft:health_boost 125 6 true
+effect give @s[scores={libHealth=350..399}] minecraft:health_boost 125 7 true
+effect give @s[scores={libHealth=400..449}] minecraft:health_boost 125 8 true
+effect give @s[scores={libHealth=450..499}] minecraft:health_boost 125 9 true
+effect give @s[scores={libHealth=500..}] minecraft:health_boost 125 10 true

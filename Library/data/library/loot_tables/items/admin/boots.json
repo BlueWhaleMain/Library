@@ -62,7 +62,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{id:'library:admin_boots',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:feather_falling',lvl:10},{id:'minecraft:depth_strider',lvl:3}],Unbreakable:1}"
+              "tag": "{id:'library:admin_boots',permission:'admin',CustomModelData:12760000,Enchantments:[{id:'minecraft:feather_falling',lvl:10},{id:'minecraft:depth_strider',lvl:3}],Unbreakable:1}"
             }
           ]
         }

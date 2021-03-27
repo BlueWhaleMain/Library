@@ -134,5 +134,21 @@
             }
         ],
         "subtitle": "subtitles.item.levitation"
+    },
+    "entity.blue_heart": {
+        "sounds": [
+            {
+                "name": "library:blue_heart"
+            }
+        ],
+        "subtitle": "subtitles.entity.blue_heart"
+    },
+    "entity.bone_ready": {
+        "sounds": [
+            {
+                "name": "library:bone_ready"
+            }
+        ],
+        "subtitle": "subtitles.entity.bone_ready"
     }
 }

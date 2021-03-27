@@ -25,7 +25,8 @@ loot replace entity @s weapon.offhand 1 loot minecraft:empty
 # 跟随距离32
 attribute @s minecraft:generic.follow_range base set 32
 # 无敌时间
-effect give @s minecraft:resistance 60 255 true
+scoreboard players set @s libDefFever 60
+scoreboard players set @s libDefValue 180
 # 完全抵抗击退
 attribute @s minecraft:generic.knockback_resistance base set 1
 # 生成灵魂火焰粒子
@@ -34,3 +35,5 @@ particle minecraft:soul_fire_flame ~ ~1 ~ 0.4 0.4 0.4 0.4 100
 playsound minecraft:item.totem.use hostile @a ~ ~1 ~ 1.0
 # 标记
 tag @s add boss
+# 特殊标记
+tag @s add sans

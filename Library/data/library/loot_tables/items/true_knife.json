@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.true_knife"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.true_knife.lore"
+                },
+                {
+                  "translate": "item.library.true_knife.owner.chara"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:true_knife',CustomModelData:12760001,Enchantments:[{id:'minecraft:sharpness',lvl:5},{id:'minecraft:sweeping',lvl:3},{id:'minecraft:mending',lvl:1}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

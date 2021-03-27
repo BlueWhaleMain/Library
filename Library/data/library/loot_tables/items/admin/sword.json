@@ -62,7 +62,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{id:'library:admin_sword',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:sharpness',lvl:2147483647},{id:'minecraft:sweeping',lvl:50},{id:'minecraft:thorns',lvl:2147483647}],Unbreakable:1}"
+              "tag": "{id:'library:admin_sword',permission:'admin',CustomModelData:12760000,Enchantments:[{id:'minecraft:sharpness',lvl:2147483647},{id:'minecraft:sweeping',lvl:50},{id:'minecraft:thorns',lvl:2147483647}],Unbreakable:1}"
             }
           ]
         }

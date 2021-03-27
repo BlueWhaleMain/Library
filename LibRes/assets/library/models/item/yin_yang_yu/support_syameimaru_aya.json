@@ -1,5 +1,5 @@
 {
-    "parent": "item/generated",
+    "parent": "minecraft:item/generated",
     "textures": {
         "layer0": "library:item/yin_yang_yu/support_syameimaru_aya"
     }

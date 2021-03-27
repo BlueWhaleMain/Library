@@ -1,4 +1,4 @@
 @rem Copyright by BlueWhale. All Rights Reserved.
 @echo off
-call build.bat LibRes 1.7.0.5-1.16.5
-call build.bat LibRes 1.7.0.5-1.16.5-无GUI版本 rd /s /q Pack\LibRes\assets\minecraft\textures\gui\.
+call build.bat LibRes 1.7.0.6-1.16.5
+call build.bat LibRes 1.7.0.6-1.16.5-无GUI版本 rd /s /q Pack\LibRes\assets\minecraft\textures\gui\.

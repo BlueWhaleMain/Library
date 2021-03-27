@@ -62,7 +62,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{id:'library:admin_chestplate',permission:'admin',CustomModelData:12760000,Enchantments :[{id:'minecraft:projectile_protection',lvl:2147483647}],Unbreakable:1}"
+              "tag": "{id:'library:admin_chestplate',permission:'admin',CustomModelData:12760000,Enchantments:[{id:'minecraft:projectile_protection',lvl:2147483647}],Unbreakable:1}"
             }
           ]
         }
