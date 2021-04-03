@@ -20,7 +20,8 @@
 - 骷髅Boss（Sans）
 - Sans的套装
 - 真正的刀
-- 真正的刀+小僵尸（Chara）
+- 心形挂坠
+- 真正的刀、心形挂坠+小僵尸（Chara）
 
 ### BlueWhaleMain
 

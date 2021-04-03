@@ -30,6 +30,11 @@ execute if entity @p[distance=..2,tag=admin,nbt={SelectedItem:{tag:{id:"admin_sw
 execute if entity @e[distance=..2,nbt={SelectedItem:{tag:{id:"library:true_knife"}}},limit=1] unless entity @s[nbt={SelectedItem:{tag:{id:"library:true_knife"}}}] run function library:entity/player/method/message/critical
 # 真正的刀
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:true_knife"}}}] run function library:entity/player/method/true_knife/l_o_v_e_check
+# 心形挂坠盒
+execute if entity @s[nbt={SelectedItem:{tag:{id:"library:heart_pendant"}}}] run function library:entity/player/method/heart_pendant/l_o_v_e_check
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:heart_pendant"}}]}] run function library:entity/player/method/heart_pendant/l_o_v_e_check
+# 时钟
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:clock"}}] run function library:entity/player/method/message/time
 # 缓降
 execute if entity @s[tag=slow_falling] run function library:entity/player/method/state/slow_falling
 ##组合动作

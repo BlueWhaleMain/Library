@@ -1,6 +1,7 @@
 # Copyright by BlueWhale. All Rights Reserved.
-execute if entity @s[nbt={Item:{tag:{permission:"admin"}}},tag=!admin] run function library:entity/item_frame/method/setup_admin
-execute if entity @s[nbt=!{Item:{tag:{permission:"admin"}}},tag=admin] run function library:entity/item_frame/method/unist_admin
+execute at @s[nbt={Item:{tag:{permission:"admin"}}},tag=!admin] run function library:entity/item_frame/method/setup_admin
+execute at @s[nbt=!{Item:{tag:{permission:"admin"}}},tag=admin] run function library:entity/item_frame/method/unist_admin
+execute at @s[nbt={Item:{id:"minecraft:clock"}},tag=] positioned ^ ^ ^2 as @a[distance=..2] run function library:entity/player/method/message/time
 tag @s[nbt={Item:{tag:{id:"library:touhou"}}},tag=!touhou] add touhou
 tag @s[nbt=!{Item:{tag:{id:"library:touhou"}}},tag=touhou] remove touhou
 tag @s[nbt={Item:{tag:{id:"library:tick_arrow"}}},tag=!tick] add tick
@@ -10,7 +11,7 @@ tag @s[nbt=!{Item:{tag:{id:"library:s_arrow"}}},tag=s] remove s
 tag @s[nbt={Item:{tag:{id:"library:magnet"}}},tag=!magnet] add magnet
 tag @s[nbt=!{Item:{tag:{id:"library:magnet"}}},tag=magnet] remove magnet
 # 旋转
-execute if entity @s[tag=s] run function library:entity/item_frame/method/rotate
+execute at @s[tag=s] run function library:entity/item_frame/method/rotate
 # 更新
 tag @s[tag=dropper_synthesis] remove dropper_synthesis
 execute at @s[nbt={Facing:1b}] if block ~ ~-1 ~ minecraft:dropper run tag @s add dropper_synthesis

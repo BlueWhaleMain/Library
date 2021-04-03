@@ -6,7 +6,7 @@ execute at @s[tag=hostile] unless entity @p[distance=..32,gamemode=!spectator] r
 # 执行生成任务
 execute at @s[tag=!spawned,nbt={PersistenceRequired:0b}] run function library:entity/hostile/interface/all/spawn
 # boss常驻加成
-execute at @s[tag=boss] run function library:entity/hostile/interface/all/boss
+execute at @s[tag=boss] if entity @p[gamemode=survival,distance=..32] run function library:entity/hostile/interface/all/boss
 # 僵尸
 execute at @s[type=minecraft:zombie] run function library:entity/hostile/interface/zombie/execution
 # 尸壳

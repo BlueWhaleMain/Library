@@ -5,28 +5,28 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:shield",
           "functions": [
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.library.true_knife"
+                "translate": "item.library.heart_pendant"
               }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "item.library.true_knife.lore"
+                  "translate": "item.library.heart_pendant.lore"
                 },
                 {
-                  "translate": "item.library.true_knife.owner.chara"
+                  "translate": "item.library.heart_pendant.owner.chara"
                 }
               ]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{id:'library:true_knife',CustomModelData:12760001,Enchantments:[{id:'minecraft:sharpness',lvl:5},{id:'minecraft:sweeping',lvl:3},{id:'minecraft:unbreaking',lvl:3},{id:'minecraft:mending',lvl:1}]}"
+              "tag": "{id:'library:heart_pendant',CustomModelData:12760001,Enchantments:[{id:'minecraft:unbreaking',lvl:3},{id:'minecraft:mending',lvl:1}],BlockEntityTag:{Patterns:[{Pattern:\"mr\",Color:14},{Pattern:\"tt\",Color:0}]}}"
             }
           ]
         }

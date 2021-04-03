@@ -24,7 +24,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{id:'library:gatling',CustomModelData:12760001,ChargedProjectiles:[{id:'minecraft:arrow',Count:1b}],Charged:1b,Enchantments:[{id:'minecraft:quick_charge',lvl:5}]}"
+              "tag": "{id:'library:gatling',CustomModelData:12760001,ChargedProjectiles:[{id:'minecraft:arrow',Count:1b}],Charged:1b,Enchantments:[{id:'minecraft:piercing',lvl:5},{id:'minecraft:quick_charge',lvl:5},{id:'minecraft:unbreaking',lvl:3}]}"
             }
           ]
         }
