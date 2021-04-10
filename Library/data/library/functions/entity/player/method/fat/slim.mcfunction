@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players remove @s[scores={libraryFat=..-20,libHealth=-50..}] libHealth 1
 scoreboard players remove @s[scores={libraryFat=..-10,libHealth=-20..}] libHealth 1
 scoreboard players remove @s[scores={libraryFat=..-1,libHealth=-10..}] libHealth 1

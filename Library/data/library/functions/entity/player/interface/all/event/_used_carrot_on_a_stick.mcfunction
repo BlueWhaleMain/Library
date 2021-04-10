@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:examination_device"}}}] run function library:entity/player/method/examination_device/use
 # 使用体检器
 execute at @s[nbt={SelectedItem:{tag:{id:"library:controller"}}}] run function library:entity/player/method/controller/use

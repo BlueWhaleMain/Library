@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players add @s[gamemode=survival] libConsumeLvlCac 200
 # 给予生存模式玩家消耗
 execute if entity @s[tag=!is_already_bomb,nbt={SelectedItem:{tag:{id:"library:yin_yang_yu","mode":"empty"}},Inventory:[{Slot:-106b,tag:{id:"library:shoot"}}]}] run effect give @s minecraft:strength 1 15 true

@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 ##消耗等级
 scoreboard players set @s libConsumeLevel 0
 scoreboard players set @s libConsumeLvlCac 0
@@ -17,5 +17,5 @@ function library:entity/player/method/battle/death
 function library:entity/player/method/system/reset_trigger
 function library:entity/player/method/system/_reset_trigger
 #
-execute at @s[advancements={library:touhou/root=true}] run function library:entity/player/method/touhou/miss
+execute at @s[advancements={library:touhou/root=true}] run function library:entity/player/interface/touhou/event/death
 # miss

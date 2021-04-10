@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if entity @s[gamemode=survival,tag=!is_already_bomb] run function library:entity/player/method/shoot/model/small_jade/consume/line
 # 给生存模式玩家一定的消耗
 summon minecraft:small_fireball ^ ^ ^0.2 {Motion:[0.0d,0.0d,0.0d],direction:[0.0d,0.0d,0.0d],power:[0.0d,0.0d,0.0d],Item:{id:"minecraft:fire_charge",tag:{"CustomModelData":12760004},Count:2b},Tags:["library_shoot","library_shoot_spy","player"]}

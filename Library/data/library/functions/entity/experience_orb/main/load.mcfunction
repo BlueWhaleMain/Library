@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 say loading experience_orb...
 ##执行
 scoreboard players set #LibExperienceOrb libScoreCheck 0

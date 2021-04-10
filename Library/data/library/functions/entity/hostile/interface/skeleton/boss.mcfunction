@@ -9,8 +9,7 @@ scoreboard players set @s libScoreCheck 0
 scoreboard players set @s[scores={libDefValue=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libDefValue=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libDefValue 0
-# 附近玩家移除抗性提升（KR
-effect clear @p[distance=..32,gamemode=survival,level=19..] minecraft:resistance
-execute if score @s libDefValue matches 1.. if entity @p[level=19..,distance=..16] run tag @s add g
-execute if score @s libDefValue matches ..0 if score @s libDefFever matches 1.. if entity @p[level=19..,distance=..16] run tag @s add tp
-execute if score @s libDefValue matches ..0 if score @s libDefFever matches ..0 if entity @p[level=19..,distance=..16] run tag @s add sleep
+# 战斗
+execute if entity @p[distance=..16,level=19..,gamemode=survival] run function library:entity/hostile/method/skeleton/battle
+# 不能被传送
+data modify entity @s PortalCooldown set value 60

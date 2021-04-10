@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players add @s[gamemode=survival] libConsumeLvlCac 1
 scoreboard players add @s[scores={libDefFever=..10}] libDefFever 1
 effect give @s minecraft:jump_boost 2 0 true

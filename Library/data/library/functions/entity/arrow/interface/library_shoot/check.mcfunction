@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 怪物窝里斗不太行
 # execute at @s[tag=hostile,tag=!hasOwner] run function library:entity/method/owner/hostile
 execute at @s[tag=player,tag=!hasOwner] run function library:entity/method/owner/player

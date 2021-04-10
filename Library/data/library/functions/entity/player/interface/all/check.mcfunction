@@ -78,7 +78,13 @@ execute if score @s ctm_CO_cm matches 1.. run function library:entity/player/int
 #
 # 数据包指南
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:sys_book"}}}] run function library:entity/player/method/sys_book/sys_book
+# 合成环装填
+execute if entity @s[nbt={Inventory:[{tag:{id:"library:crafting_ring",item:"minecraft:empty"}}]}] run function library:entity/player/method/crafting_ring/fill
+# 工厂环装填
+execute if entity @s[nbt={Inventory:[{tag:{id:"library:factory_ring",item:"minecraft:empty"}}]}] run function library:entity/player/method/factory_ring/fill
 # 执行生存模式逻辑
 execute if entity @s[gamemode=survival] run function library:entity/player/interface/survival/check
+# 执行东方玩家逻辑
+execute if entity @s[advancements={library:touhou/root=true}] run function library:entity/player/interface/touhou/check
 # 重置触发器
 function library:entity/player/method/system/reset_trigger

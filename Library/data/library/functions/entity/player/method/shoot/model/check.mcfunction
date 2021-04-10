@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 effect give @s minecraft:fire_resistance 1 0 true
 # 抗火
 execute if entity @s[nbt={SelectedItem:{tag:{"bullet_item":"bill"}}}] run function library:entity/player/method/shoot/model/bill/check

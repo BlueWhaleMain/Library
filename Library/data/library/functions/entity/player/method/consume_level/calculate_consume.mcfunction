@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players operation @s libTemp *= #LibDifficulty libTemp
 # 根据难度决定消耗倍率
 scoreboard players operation @s libConsumeLvlCac += @s libTemp

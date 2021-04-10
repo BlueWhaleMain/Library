@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 data merge entity @s[tag=!induction,tag=!track] {Motion:[0.0d,0.0d,0.0d],direction:[0.0d,0.0d,0.0d],power:[0.0d,0.0d,0.0d]}
 # 清空运动状态（忽略诱导）
 execute store result score #EntityHostilePos libTemp run data get entity @e[distance=..32,sort=nearest,type=#library:hostile,limit=1] Pos[0] 10000

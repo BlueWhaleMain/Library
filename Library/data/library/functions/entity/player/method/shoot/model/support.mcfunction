@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute store result score @s libTemp run data get entity @s Inventory[{Slot:-106b}].Count
 # 获取阴阳玉的个数
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{"mode":"empty"}}],SelectedItem:{tag:{"model":"empty"}}}] run function library:entity/player/method/shoot/no_card

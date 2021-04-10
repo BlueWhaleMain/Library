@@ -17,7 +17,7 @@ scoreboard players operation #ZombiesMax libTemp *= #ZombiesBoss libTemp
 # 难度系数
 scoreboard players operation #ZombiesMax libTemp *= #LibDifficulty libTemp
 # 判断数量
-execute if score #ZombiesCount libTemp < #ZombiesMax libTemp if score #ZombiesCount libTemp < #ZombieDefaultMax libTemp run function library:entity/hostile/method/zombie/summon_kid
+execute if entity @s[nbt={OnGround:true}] if score #ZombiesCount libTemp < #ZombiesMax libTemp if score #ZombiesCount libTemp < #ZombieDefaultMax libTemp run function library:entity/hostile/method/zombie/summon_kid
 #
 # 石油（
 execute if entity @s[nbt={IsBaby:1b}] anchored eyes run particle minecraft:smoke ~ ~ ~ 0.2 0.2 0.2 0.2 10

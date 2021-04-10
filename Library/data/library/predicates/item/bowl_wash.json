@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "_comment": "甜菜汤",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:beetroot_soup'}}"
+      }
+    },
+    {
+      "_comment": "蘑菇煲",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:mushroom_stew'}}"
+      }
+    },
+    {
+      "_comment": "兔肉煲",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:rabbit_stew'}}"
+      }
+    },
+    {
+      "_comment": "迷之炖菜",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:suspicious_stew'}}"
+      }
+    }
+  ]
+}

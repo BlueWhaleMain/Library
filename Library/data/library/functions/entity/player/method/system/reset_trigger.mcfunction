@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 重置进度触发器
 advancement revoke @s from library:trigger
 # 变量：爬梯子（厘米）

@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players add @s[gamemode=survival] libConsumeLvlCac 10
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:shoot"}}}] run function library:entity/player/method/shoot/check
 # 御币射击

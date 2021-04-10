@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 kill @e[type=#library:projectile]
 # 消弹
 kill @e[type=minecraft:armor_stand,tag=library_shoot_target]

@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 effect give @s[scores={libTemp=21}] minecraft:regeneration 1 1 true
 effect give @s[scores={libTemp=22}] minecraft:regeneration 1 2 true
 effect give @s[scores={libTemp=23}] minecraft:regeneration 1 3 true

@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard objectives remove libTouhouCTime
 scoreboard objectives remove libTouhouCEscape
 scoreboard objectives remove libTouhouCFlag

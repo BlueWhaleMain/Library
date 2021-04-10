@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 function library:entity/player/method/battle/clear
 effect give @s minecraft:nausea 10 1 true
 # 必须有食物水平才能呕吐

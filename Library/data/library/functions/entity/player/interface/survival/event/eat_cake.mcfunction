@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 移除
 scoreboard players remove @s ctm_eatCake 1
 # 肥胖

@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 say loading entity...
 ##执行
 scoreboard players set #LibEntity libScoreCheck 0

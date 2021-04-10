@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 消耗
 execute if score @s libConsumeLevel matches 16.. run function library:entity/player/interface/survival/event/consume
 # 吃蛋糕

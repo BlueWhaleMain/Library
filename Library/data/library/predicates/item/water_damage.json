@@ -1,0 +1,445 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "_comment": "火药",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:gunpowder'}}"
+      }
+    },
+    {
+      "_comment": "纸",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:paper'}}"
+      }
+    },
+    {
+      "_comment": "书",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:book'}}"
+      }
+    },
+    {
+      "_comment": "发酵蜘蛛眼",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:fermented_spider_eye'}}"
+      }
+    },
+    {
+      "_comment": "烟火之星",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:firework_star'}}"
+      }
+    },
+    {
+      "_comment": "烟花火箭",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:fireworks'}}"
+      }
+    },
+    {
+      "_comment": "糖",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:sugar'}}"
+      }
+    },
+    {
+      "_comment": "面包",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:bread'}}"
+      }
+    },
+    {
+      "_comment": "蛋糕",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cake'}}"
+      }
+    },
+    {
+      "_comment": "曲奇",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cookie'}}"
+      }
+    },
+    {
+      "_comment": "干海带",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:dried_kelp'}}"
+      }
+    },
+    {
+      "_comment": "烤土豆",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:baked_potato'}}"
+      }
+    },
+    {
+      "_comment": "南瓜派",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:pumpkin_pie'}}"
+      }
+    },
+    {
+      "_comment": "牛排",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cooked_beef'}}"
+      }
+    },
+    {
+      "_comment": "熟鸡肉",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cooked_chicken'}}"
+      }
+    },
+    {
+      "_comment": "熟鳕鱼",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cooked_cod'}}"
+      }
+    },
+    {
+      "_comment": "熟羊肉",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cooked_mutton'}}"
+      }
+    },
+    {
+      "_comment": "熟猪排",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cooked_porkchop'}}"
+      }
+    },
+    {
+      "_comment": "熟兔肉",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cooked_rabbit'}}"
+      }
+    },
+    {
+      "_comment": "熟鲑鱼",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cooked_salmon'}}"
+      }
+    },
+    {
+      "_comment": "白色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:white_dye'}}"
+      }
+    },
+    {
+      "_comment": "淡灰色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:light_gray_dye'}}"
+      }
+    },
+    {
+      "_comment": "灰色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:gray_dye'}}"
+      }
+    },
+    {
+      "_comment": "黑色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:black_dye'}}"
+      }
+    },
+    {
+      "_comment": "棕色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:brown_dye'}}"
+      }
+    },
+    {
+      "_comment": "红色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:red_dye'}}"
+      }
+    },
+    {
+      "_comment": "橘黄色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:orange_dye'}}"
+      }
+    },
+    {
+      "_comment": "黄色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:yellow_dye'}}"
+      }
+    },
+    {
+      "_comment": "黄绿色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:lime_dye'}}"
+      }
+    },
+    {
+      "_comment": "绿色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:green_dye'}}"
+      }
+    },
+    {
+      "_comment": "青色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cyan_dye'}}"
+      }
+    },
+    {
+      "_comment": "蓝色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:blue_dye'}}"
+      }
+    },
+    {
+      "_comment": "紫色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:purple_dye'}}"
+      }
+    },
+    {
+      "_comment": "品红色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:magenta_dye'}}"
+      }
+    },
+    {
+      "_comment": "粉色染料",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:pink_dye'}}"
+      }
+    },
+    {
+      "_comment": "烈焰弹",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:fire_charge'}}"
+      }
+    },
+    {
+      "_comment": "雪球",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:snowball'}}"
+      }
+    },
+    {
+      "_comment": "雪",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:snow'}}"
+      }
+    },
+    {
+      "_comment": "雪块",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:snow_block'}}"
+      }
+    },
+    {
+      "_comment": "蜂蜜块",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:honey_block'}}"
+      }
+    },
+    {
+      "_comment": "白色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:white_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "淡灰色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:light_gray_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "灰色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:gray_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "黑色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:black_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "棕色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:brown_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "红色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:red_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "橘黄色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:orange_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "黄色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:yellow_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "黄绿色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:lime_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "绿色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:green_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "青色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:cyan_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "蓝色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:blue_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "紫色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:purple_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "品红色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:magenta_concrete_powder'}}"
+      }
+    },
+    {
+      "_comment": "粉色混凝土粉末",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:pink_concrete_powder'}}"
+      }
+    }
+  ]
+}

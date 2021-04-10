@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 弹消耗
 function library:entity/player/method/shoot/model/bill/consume
 # 固定添加100作为消耗（靶机*1）

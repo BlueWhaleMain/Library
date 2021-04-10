@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 clear @s[gamemode=survival] minecraft:quartz{id:"library:yin_yang_yu","mode":"empty"} 1
 # 清除阴阳玉
 execute if score @s libraryHealth <= #LibDifficulty libTemp run tag @s add is_already_bomb_last

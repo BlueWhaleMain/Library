@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if entity @s[nbt={SelectedItem:{tag:{"model":"empty"}}}] run function library:entity/player/method/shoot/no_card
 # 空
 execute if entity @s[nbt={SelectedItem:{tag:{"model":"line"}}}] run function library:entity/player/method/shoot/model/small_jade/line

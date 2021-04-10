@@ -77,6 +77,19 @@ def get_translate_str(type_name: str, namespace_: str, name: str) -> str:
     return f"{type_name}.{namespace_}.{name}"
 
 
+def try_translate_with_default(key: str) -> str:
+    """
+    尝试翻译，顺序为资源包->vanilla
+    :param key: 翻译序列
+    :return: 文本
+    """
+    value = try_translate(resources_lang, key)
+    if key != value:
+        return value
+    else:
+        return try_translate(minecraft_lang, key)
+
+
 def try_translate(lang_data: dict, key: str) -> str:
     """
     尝试翻译文本
@@ -168,7 +181,7 @@ def predicate_to_str(predicate: dict) -> str:
         result += "检查方块\n\n"
         block = predicate["block"]
         if "nbt" in block:
-            result += f"检查nbt：{block['nbt']}"
+            result += f"检查nbt：\n``` json\n{try_pretty_json_str(block['nbt'])}\n```\n"
     elif "item" in predicate:
         result += "检查物品：" + try_translate(minecraft_lang, get_translate_str("item",
                                                                             predicate["item"].split(':')[0],
@@ -180,7 +193,7 @@ def predicate_to_str(predicate: dict) -> str:
         for enchantment in enchantments:
             result += enchantment_to_str(enchantment) + "\n\n"
     elif "nbt" in predicate:
-        result += f"检查nbt：{predicate['nbt']}"
+        result += f"检查nbt：\n``` json\n{try_pretty_json_str(predicate['nbt'])}\n```\n"
     elif "flags" in predicate:
         flags = predicate["flags"]
         if "is_on_fire" in flags:
@@ -221,7 +234,7 @@ def entries_to_str(entries_data: dict) -> str:
     entries_type = entries_data["type"]
     if entries_type == "minecraft:loot_table":
         entries_name = entries_data["name"]
-        result += "战利品表（套娃）：" + entries_name + "\n\n"
+        result += f"战利品表：{entries_name}\n\n"
     elif entries_type == "minecraft:item":
         entries_name = entries_data["name"]
         result += "物品：" + try_translate(minecraft_lang, get_translate_str(entries_type.split(':')[-1:][0],
@@ -254,6 +267,18 @@ def entries_to_str(entries_data: dict) -> str:
     return result
 
 
+def try_pretty_json_str(json_str: str) -> str:
+    """
+    尝试美化json文本
+    :param json_str: json文本
+    :return: 美化结果
+    """
+    try:
+        return json.dumps(dict(json_str), indent=2)
+    except ValueError:
+        return json_str
+
+
 def function_to_str(function_data: dict) -> str:
     """
     内置函数转文本
@@ -269,11 +294,11 @@ def function_to_str(function_data: dict) -> str:
     elif function == "minecraft:furnace_smelt":
         result += "熔炉烧炼\n"
     elif function == "minecraft:set_nbt":
-        result += "设置nbt：" + function_data["tag"] + "\n"
+        result += f"设置nbt：\n``` json\n{try_pretty_json_str(function_data['tag'])}\n```\n"
     elif function == "minecraft:set_name":
-        result += "设置名称：" + json.dumps(function_data) + "\n"
+        result += "设置名称：" + resolve_name(function_data) + "\n"
     elif function == "minecraft:set_lore":
-        result += "设置Lore：" + json.dumps(function_data) + "\n"
+        result += "设置Lore：" + resolve_lore(function_data) + "\n"
     elif function == "minecraft:set_attributes":
         result += "设置属性：" + json.dumps(function_data) + "\n"
     elif function == "minecraft:set_contents":
@@ -301,6 +326,41 @@ def function_to_str(function_data: dict) -> str:
         else:
             result += condition_to_str(function_data["conditions"])
     return result
+
+
+def resolve_name(name_obj) -> str:
+    """
+    名称转文本
+    :param name_obj: 名称对象
+    :return: 文本
+    """
+    if not isinstance(name_obj, dict):
+        return str(name_obj)
+    if "name" in name_obj:
+        obj = name_obj["name"]
+        if not isinstance(obj, dict):
+            return str(obj)
+        if "translate" in obj:
+            return try_translate_with_default(obj["translate"])
+
+
+def resolve_lore(lore_obj) -> str:
+    """
+    解释对象转文本
+    :param lore_obj: 解释对象
+    :return: 文本
+    """
+    if not isinstance(lore_obj, dict):
+        return str(lore_obj)
+    if "lore" in lore_obj:
+        list_obj = lore_obj["lore"]
+        if not isinstance(list_obj, list):
+            return str(list_obj)
+        result = ""
+        for lore in list_obj:
+            if "translate" in lore:
+                result += try_translate_with_default(lore["translate"]) + "\n\n"
+        return result
 
 
 def count_to_str(count_obj) -> str:
@@ -387,6 +447,11 @@ if __name__ == '__main__':
             result_count = 0
             namespaces = os.listdir(f"{input_path}/data")
             for namespace in namespaces:
+                resources_lang = None
+                if resources_path:
+                    lang_path = f"{resources_path}/assets/{namespace}/lang/{lang}.json"
+                    if os.path.exists(lang_path):
+                        resources_lang = load_json_file(open(lang_path, "rb").read())
                 lines += f"\n## {namespace}"
                 loot_tables = []
                 get_file_as_type(f"{input_path}/data/{namespace}/loot_tables", loot_tables, ".json")
@@ -394,11 +459,17 @@ if __name__ == '__main__':
                 for loot_table in loot_tables:
                     lines += "\n"
                     data = json.load(open(loot_table, encoding="utf-8"))
-                    if "type" in data:
-                        n = try_translate(minecraft_lang, get_translate_str(data['type'].split(':')[-1:][0], namespace,
-                                                                            os.path.split(loot_table)[1].split('.')[0]))
+                    if namespace == "minecraft":
+                        if "type" in data:
+                            n = try_translate(minecraft_lang,
+                                              get_translate_str(data['type'].split(':')[-1:][0], namespace,
+                                                                os.path.split(loot_table)[1].split('.')[0]))
+                        else:
+                            n = try_translate(minecraft_lang, get_translate_str("loot_tables", namespace,
+                                                                                os.path.split(loot_table)[1].split('.')[
+                                                                                    0]))
                     else:
-                        n = get_translate_str("loot_tables", namespace, os.path.split(loot_table)[1].split('.')[0])
+                        n = namespace + ":" + loot_table.split(f"data/{namespace}/loot_tables/")[1].split('.')[0]
                     lines += f"\n### {n}\n"
                     if "pools" in data:
                         pools = data["pools"]

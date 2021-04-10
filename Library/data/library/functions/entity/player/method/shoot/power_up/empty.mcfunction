@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 clear @s minecraft:redstone{id:"library:power_orb"} 1
 # 扣除1P点
 loot give @s loot library:items/yin_yang_yu

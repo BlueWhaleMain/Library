@@ -12,6 +12,7 @@ execute if entity @s[nbt={Item:{id:"minecraft:glowstone_dust",Count:64b}}] if bl
 execute if entity @s[nbt={Item:{id:"minecraft:diamond",Count:64b}}] if block ~ ~2 ~ minecraft:moving_piston{blockState:{Name:"minecraft:redstone_block"}} run function library:entity/item/method/release/in_cauldron/diamond_block
 execute if entity @s[nbt={Item:{id:"minecraft:emerald",Count:64b}}] if block ~ ~2 ~ minecraft:moving_piston{blockState:{Name:"minecraft:redstone_block"}} run function library:entity/item/method/release/in_cauldron/emerald_block
 execute if entity @s[nbt={Item:{id:"minecraft:quartz_slab",Count:2b}}] if block ~ ~2 ~ minecraft:moving_piston{blockState:{Name:"minecraft:redstone_block"}} run function library:entity/item/method/release/in_cauldron/quartz_block
+execute if entity @s[nbt={Item:{id:"minecraft:quartz",Count:64b}}] if block ~ ~2 ~ minecraft:moving_piston{blockState:{Name:"minecraft:redstone_block"}} run function library:entity/item/method/release/in_cauldron/quartz_block
 execute if entity @s[nbt={Item:{id:"minecraft:stone_slab",Count:2b}}] if block ~ ~2 ~ minecraft:moving_piston{blockState:{Name:"minecraft:redstone_block"}} run function library:entity/item/method/release/in_cauldron/stone
 #
 ## 青金石块（魔法）

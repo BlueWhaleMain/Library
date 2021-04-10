@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 say loading hostile...
 ##执行
 scoreboard players set #LibEntityHostile libScoreCheck 0

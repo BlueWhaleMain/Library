@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players set @s slw_damage_dealt 0
 # 变量：造成伤害
 scoreboard players set @s slw_damage_taken 0

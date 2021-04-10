@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 tag @s remove is_already_bomb_empty
 tag @s remove is_already_bomb
 tag @s remove is_already_bomb_last

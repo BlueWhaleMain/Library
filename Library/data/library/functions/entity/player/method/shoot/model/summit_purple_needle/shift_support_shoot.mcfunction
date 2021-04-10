@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 ##生成弹幕
 summon minecraft:arrow ^0.5 ^-0.2 ^ {Motion:[0.0d,0.0d,0.0d],NoGravity:true,pickup:2b,damage:2.0d,crit:true,Tags:["library_shoot","library_shoot_spy","library_shoot_pierce","player"]}
 # 召唤火球

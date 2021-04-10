@@ -6,7 +6,8 @@ effect give @s minecraft:slowness 1 255 true
 # 无视玩家
 attribute @s minecraft:generic.follow_range base set 0
 # 1血
-data modify entity @s AbsorptionAmount set value 0f
+data merge entity @s {NoGravity:0b,Invulnerable:0b,AbsorptionAmount:0f,Health:1f}
 attribute @s minecraft:generic.max_health base set 1
-data modify entity @s Health set value 1f
+# 云
+execute anchored eyes run particle minecraft:cloud ~ ~ ~ 0.2 0.2 0.2 0.2 1
 tag @s remove sleep

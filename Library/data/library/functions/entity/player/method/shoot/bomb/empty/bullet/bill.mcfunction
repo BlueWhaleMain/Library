@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 function library:entity/player/method/shoot/model/bill/powered_circular
 # 更密的圆形弹幕
 function library:entity/player/method/shoot/model/bill/powered_hemispherical_up

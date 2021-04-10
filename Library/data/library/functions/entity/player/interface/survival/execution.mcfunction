@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 ##计算参数初始化
 # 检查libraryFat
 scoreboard players set @s libScoreCheck 0

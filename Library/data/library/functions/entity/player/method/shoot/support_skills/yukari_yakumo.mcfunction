@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 playsound library:item.support_yukari_yakumo.in player @a ~ ~1 ~ 1.0
 # 播放声音：入间隙
 effect give @s minecraft:resistance 1 10 true

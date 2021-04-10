@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "block": "minecraft:water",
+          "state": {
+            "level": 0
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "block": "minecraft:water",
+          "state": {
+            "level": {
+              "max": 15,
+              "min": 8
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 function library:entity/player/method/battle/death
 effect give @s minecraft:wither 2 0 true
 effect give @s minecraft:nausea 15 0 true

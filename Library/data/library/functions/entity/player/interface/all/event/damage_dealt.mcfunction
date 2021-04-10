@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 scoreboard players add @s[gamemode=survival] libConsumeLvlCac 100
 scoreboard players add @s[scores={libAtkFever=..200}] libAtkFever 1
 scoreboard players remove @s[scores={libDefFever=-50..}] libDefFever 1

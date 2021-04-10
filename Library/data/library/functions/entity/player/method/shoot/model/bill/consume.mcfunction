@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 # 清除一个御札，并储存执行结果
 execute store result score @s libTemp run clear @s minecraft:fire_charge{id:"library:bill"} 1
 # 若清除失败，则额外添加1000

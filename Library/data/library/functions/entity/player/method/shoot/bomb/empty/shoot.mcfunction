@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 execute if score @s libTouhouCFlag matches 10 run function library:entity/player/method/shoot/bomb/empty/bullet
 execute if score @s libTouhouCFlag matches 20 run function library:entity/player/method/shoot/bomb/empty/spy
 execute if score @s libTouhouCFlag matches 30 run function library:entity/player/method/shoot/bomb/empty/bullet

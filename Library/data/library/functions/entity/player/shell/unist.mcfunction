@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 ##变量：使用
 scoreboard objectives remove used_COAS
 scoreboard objectives remove _used_COAS

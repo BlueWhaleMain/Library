@@ -1,4 +1,4 @@
-# (c) Copyright by BlueWhale. All Rights Reserved.
+# Copyright by BlueWhale. All Rights Reserved.
 say loading small_fireball...
 ##执行
 scoreboard players set #LibEntitySmallFireball libScoreCheck 0
