@@ -10,9 +10,9 @@ execute if entity @s[nbt={EnderItems:[{tag:{permission:"admin"}}]},tag=!admin,ta
 tag @s[tag=confession] remove confession
 #
 # 博丽大结界
-execute if entity @s[nbt={SelectedItem:{tag:{id:"library:touhou"}}}] run function library:entity/player/method/touhou/select
+execute at @s[nbt={SelectedItem:{tag:{id:"library:touhou"}}}] run function library:entity/player/method/touhou/select
 # 副手也能工作
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:touhou"}}]}] run function library:entity/player/method/touhou/select
+execute at @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:touhou"}}]}] run function library:entity/player/method/touhou/select
 # 管理员头盔
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{id:"library:admin_helmet"}}]}] run function library:entity/player/method/admin/helmet
 # 管理员胸甲

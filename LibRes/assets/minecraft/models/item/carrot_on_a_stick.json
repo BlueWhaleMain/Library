@@ -1,50 +1,50 @@
 {
-    "parent": "minecraft:item/handheld_rod",
-    "textures": {
-        "layer0": "item/carrot_on_a_stick"
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 12760001
+      },
+      "model": "library:item/shoot"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 12760001
-            },
-            "model": "library:item/shoot"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760002
-            },
-            "model": "library:item/examination_device"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760003
-            },
-            "model": "library:item/controller/off"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760004
-            },
-            "model": "library:item/controller/on"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760005
-            },
-            "model": "library:item/crafting_ring"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760006
-            },
-            "model": "library:item/factory_ring"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760007
-            },
-            "model": "library:item/bag/white"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 12760002
+      },
+      "model": "library:item/examination_device"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760003
+      },
+      "model": "library:item/controller/off"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760004
+      },
+      "model": "library:item/controller/on"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760005
+      },
+      "model": "library:item/crafting_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760006
+      },
+      "model": "library:item/factory_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760007
+      },
+      "model": "library:item/bag/white"
+    }
+  ]
 }

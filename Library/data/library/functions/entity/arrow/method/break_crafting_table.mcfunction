@@ -2,7 +2,7 @@
 scoreboard players set @s libTemp 0
 execute unless block ~ ~ ~ minecraft:crafting_table store success score @s libTemp run kill @e[distance=..3,sort=nearest,type=minecraft:item,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}]
 # 销毁工作台物品
-execute if block ~ ~ ~ minecraft:crafting_table store success score @s[scores={libTemp=..0}] libTemp run setblock ~ ~ ~ minecraft:air replace
+execute if block ~ ~ ~ minecraft:crafting_table store success score @s[scores={libTemp=..0}] libTemp run setblock ~ ~ ~ minecraft:air
 # 销毁工作台
 tag @s[scores={libTemp=..0}] add no_recycle
 scoreboard players set @s libTemp 0

@@ -1,20 +1,20 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "item/arrow"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/arrow"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 12760001
+      },
+      "model": "library:item/tick_arrow"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 12760001
-            },
-            "model": "library:item/tick_arrow"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760002
-            },
-            "model": "library:item/s_arrow"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 12760002
+      },
+      "model": "library:item/s_arrow"
+    }
+  ]
 }

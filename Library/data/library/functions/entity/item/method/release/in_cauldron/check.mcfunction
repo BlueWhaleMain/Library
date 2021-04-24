@@ -19,4 +19,4 @@ execute if entity @s[nbt={Item:{id:"minecraft:stone_slab",Count:2b}}] if block ~
 execute if entity @s[nbt={Item:{id:"minecraft:bone_meal",Count:64b}}] if block ~ ~2 ~ minecraft:moving_piston{blockState:{Name:"minecraft:lapis_block"}} run function library:entity/item/method/release/in_cauldron/bone_block
 #
 # 清空炼药锅
-setblock ~ ~ ~ minecraft:cauldron replace
+setblock ~ ~ ~ minecraft:cauldron

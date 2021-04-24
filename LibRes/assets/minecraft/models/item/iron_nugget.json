@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "item/iron_nugget"
-    },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 12760001
-            },
-            "model": "library:item/iron_needle"
-        }
-    ]
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/iron_nugget"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 12760001
+      },
+      "model": "library:item/iron_needle"
+    }
+  ]
 }

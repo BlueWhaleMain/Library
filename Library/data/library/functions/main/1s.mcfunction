@@ -3,6 +3,8 @@
 execute store result score #LibDifficulty libTemp run difficulty
 # 更新规则：生物破坏
 execute store result score #LibMobGriefing libTemp run gamerule mobGriefing
+# 更新规则：死亡不掉落
+execute store result score #LibKeepInventory libTemp run gamerule keepInventory
 # 更新时间
 execute store result score #LibDayTime libTemp run time query daytime
 scoreboard players set #Lib1666 libTemp 1666

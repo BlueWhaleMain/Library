@@ -1,26 +1,26 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "item/paper"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 12760000
+      },
+      "model": "library:item/touhou"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 12760000
-            },
-            "model": "library:item/touhou"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760001
-            },
-            "model": "library:item/player_orb"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760002
-            },
-            "model": "library:item/cloth/white"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 12760001
+      },
+      "model": "library:item/player_orb"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760002
+      },
+      "model": "library:item/cloth/white"
+    }
+  ]
 }

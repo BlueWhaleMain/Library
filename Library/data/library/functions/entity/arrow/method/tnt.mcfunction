@@ -1,3 +1,3 @@
 # Copyright by BlueWhale. All Rights Reserved.
-kill
-setblock ~ ~ ~ minecraft:fire
+summon minecraft:tnt ~ ~ ~
+tag @s remove tnt

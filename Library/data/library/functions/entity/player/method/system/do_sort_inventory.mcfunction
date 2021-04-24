@@ -11,9 +11,9 @@ data modify storage library:trim_inventory Items[{Slot:33b}].Slot set value 6b
 data modify storage library:trim_inventory Items[{Slot:34b}].Slot set value 7b
 data modify storage library:trim_inventory Items[{Slot:35b}].Slot set value 8b
 # 忽略快捷栏
-setblock ~ 255 ~ shulker_box
+setblock ~ 255 ~ minecraft:shulker_box
 data modify block ~ 255 ~ Items set from storage library:trim_inventory Items
-setblock ~ 254 ~ shulker_box
+setblock ~ 254 ~ minecraft:shulker_box
 loot insert ~ 254 ~ mine ~ 255 ~ minecraft:iron_pickaxe{isShulkerMarker:1b}
 loot replace entity @s inventory.0 27 mine ~ 254 ~ minecraft:iron_pickaxe{isShulkerMarker:1b}
 # 使用潜影盒整理物品（依赖Minecraft命名空间的潜影盒战利品表）

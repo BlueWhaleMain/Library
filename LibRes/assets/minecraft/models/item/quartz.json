@@ -1,32 +1,32 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "item/quartz"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/quartz"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 12760001
+      },
+      "model": "library:item/yin_yang_yu"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 12760001
-            },
-            "model": "library:item/yin_yang_yu"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760002
-            },
-            "model": "library:item/yin_yang_yu/support_yukari_yakumo"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760003
-            },
-            "model": "library:item/yin_yang_yu/support_ibuki_suika"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 12760004
-            },
-            "model": "library:item/yin_yang_yu/support_syameimaru_aya"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 12760002
+      },
+      "model": "library:item/yin_yang_yu/support_yukari_yakumo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760003
+      },
+      "model": "library:item/yin_yang_yu/support_ibuki_suika"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760004
+      },
+      "model": "library:item/yin_yang_yu/support_syameimaru_aya"
+    }
+  ]
 }

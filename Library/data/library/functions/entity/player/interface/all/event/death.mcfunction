@@ -4,7 +4,7 @@ scoreboard players set @s libConsumeLevel 0
 scoreboard players set @s libConsumeLvlCac 0
 #
 ##肥胖
-scoreboard players set @s libraryFat 10
+execute if score #LibKeepInventory libTemp matches ..0 run scoreboard players set @s libraryFat 10
 scoreboard players set @s libFood 0
 #
 scoreboard players set @s libraryFatigue 0

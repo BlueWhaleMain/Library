@@ -3,7 +3,9 @@
 # execute at @s[tag=hostile,tag=!hasOwner] run function library:entity/method/owner/hostile
 execute at @s[tag=player,tag=!hasOwner] run function library:entity/method/owner/player
 # 酸液
-execute if entity @s[nbt={inGround:true},tag=acid] run function library:entity/arrow/method/acid
+execute at @s[nbt={inGround:true},tag=acid] run function library:entity/arrow/method/acid
+# TNT
+execute at @s[nbt={inGround:true},tag=tnt] run function library:entity/arrow/method/tnt
 ## 地面清除
 execute if entity @s[nbt={inGround:true},tag=weak] run kill
 execute if entity @s[nbt={inGround:true},tag=player] run kill

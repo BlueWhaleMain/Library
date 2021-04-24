@@ -23,10 +23,16 @@ scoreboard players set @s[scores={libScoreCheck=..0}] libFood 0
 #
 # 减速
 effect give @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] minecraft:slowness 2 1 true
-scoreboard players add @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] libConsumeLvlCac 20
+scoreboard players add @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] libConsumeLvlCac 200
 # 副手减速
 effect give @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:gatling"}}]}] minecraft:slowness 2 0 true
-scoreboard players add @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] libConsumeLvlCac 10
+scoreboard players add @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] libConsumeLvlCac 100
+# 手持发射器
+effect give @s[nbt={SelectedItem:{tag:{id:"library:launcher"}}}] minecraft:slowness 2 2 true
+scoreboard players add @s[nbt={SelectedItem:{tag:{id:"library:launcher"}}}] libConsumeLvlCac 300
+# 副手也能减速
+effect give @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:launcher"}}]}] minecraft:slowness 2 1 true
+scoreboard players add @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] libConsumeLvlCac 200
 ##组合动作
 # 格挡
 execute if entity @s[scores={slw_sneak_time=1..,slw_damage_taken=1..}] run function library:entity/player/interface/survival/event/block

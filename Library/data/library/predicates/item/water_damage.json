@@ -440,6 +440,14 @@
       "predicate": {
         "nbt": "{Item:{id:'minecraft:pink_concrete_powder'}}"
       }
+    },
+    {
+      "_comment": "烟花火箭",
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:'minecraft:firework_rocket'}}"
+      }
     }
   ]
 }

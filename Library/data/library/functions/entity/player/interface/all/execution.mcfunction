@@ -26,8 +26,8 @@ scoreboard players set @s[scores={libDefValue=0..}] libScoreCheck 1
 scoreboard players set @s[scores={libDefValue=..-1}] libScoreCheck 1
 scoreboard players set @s[scores={libScoreCheck=..0}] libDefValue 0
 # 危
-execute if entity @p[distance=..2,tag=admin,nbt={SelectedItem:{tag:{id:"admin_sword"}}}] unless entity @s[tag=admin,nbt={SelectedItem:{tag:{id:"admin_sword"}}}] run function library:entity/player/method/message/critical
-execute if entity @e[distance=..2,nbt={SelectedItem:{tag:{id:"library:true_knife"}}},limit=1] unless entity @s[nbt={SelectedItem:{tag:{id:"library:true_knife"}}}] run function library:entity/player/method/message/critical
+execute if entity @p[distance=..8,tag=admin,nbt={SelectedItem:{tag:{id:"library:admin_sword"}}}] unless entity @s[tag=admin,nbt={SelectedItem:{tag:{id:"admin_sword"}}}] run function library:entity/player/method/message/critical
+execute if entity @p[distance=..8,nbt={SelectedItem:{tag:{id:"library:true_knife"}}}] unless entity @s[nbt={SelectedItem:{tag:{id:"library:true_knife"}}}] run function library:entity/player/method/message/critical
 # 真正的刀
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:true_knife"}}}] run function library:entity/player/method/true_knife/l_o_v_e_check
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{id:"library:true_knife"}}]}] run function library:entity/player/method/true_knife/l_o_v_e_check
