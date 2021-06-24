@@ -5,7 +5,27 @@ Minecraft数据包&资源包
 [![Contributors](https://img.shields.io/github/contributors/bluewhalemain/Library.svg)](https://github.com/bluewhalemain/Library/graphs/contributors)![GitHub
 repo size in bytes](https://img.shields.io/github/repo-size/bluewhalemain/Library.svg)
 
-修改原版机制使游戏规则趋于常理化，添加新机制拓展原版内容
+拓展与修改原版内容，以此获得更多玩法
+
+实现强大的管理员工具，节省重复劳动
+
+任何对原版的修改，都是为了借此添加更多内容或游戏步骤
+
+## 核心内容
+
+模组的主题：Minecraft
+
+除了联动以外，模组是围绕Minecraft展开的
+
+联动的内容支持禁用，最好的方案是等待Mojang优化数据包的兼容性后（比如添加计分板的命名空间或者提供变量声明功能，隔离指令的运行环境等），将项目拆分成多个数据包
+
+## 状态
+
+不排除伴随原版更新对重复内容的删减，这是最好的结果
+
+拒绝使用影响性能的实现，如：常驻盔甲架、常加载区域等
+
+该模组同时作为学习用，会衍生出各种数据包开发工具，乃至一个全新的IDE（计划外）
 
 已添加的外来内容：
 
