@@ -5,7 +5,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:golden_carrot"
+          "items": [
+            "minecraft:golden_carrot"
+          ]
         }
       }
     }

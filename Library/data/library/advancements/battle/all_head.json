@@ -21,67 +21,101 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:skeleton_skull"
+            "items": [
+              "minecraft:skeleton_skull"
+            ]
           },
           {
-            "item": "minecraft:wither_skeleton_skull"
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ]
           },
           {
-            "item": "minecraft:zombie_head"
+            "items": [
+              "minecraft:zombie_head"
+            ]
           },
           {
-            "item": "minecraft:creeper_head"
+            "items": [
+              "minecraft:creeper_head"
+            ]
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:blaze_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:cavespider_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:chicken_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:cow_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:enderman_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:iron_golem_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:mooshroom_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:ocelot_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:pig_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:sheep_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:spider_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:villager_head'}"
           },
           {
-            "item": "minecraft:player_head",
+            "items": [
+              "minecraft:player_head"
+            ],
             "nbt": "{id:'library:zombified_piglin_head'}"
           }
         ]

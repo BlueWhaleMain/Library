@@ -19,5 +19,5 @@ execute store result entity @s[nbt={Item:{tag:{"CustomModelData":12760003}}}] po
 # 跟踪Z
 tag @s remove library_shoot_spy
 # 结束标记
-kill @e[distance=..2,sort=nearest,type=minecraft:armor_stand,tag=library_shoot_target,limit=1]
+kill @e[distance=..2,sort=nearest,tag=library_shoot_target,limit=1]
 # 清除靶子
