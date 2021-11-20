@@ -165,8 +165,10 @@ def condition_to_str(condition_data: dict) -> str:
             result += f"{condition_data['chance'] * 100}%\n"
         if "looting_multiplier" in condition_data:
             result += f"+{condition_data['looting_multiplier'] * 100}%\n"
+    elif condition_name == "minecraft:survives_explosion":
+        result += "生存模式破坏\n"
     else:
-        result += f"（未知的条件类型：{condition_name}）\n"
+        result += f"（未知的条件类型：{condition_name}）\n``` json\n{json.dumps(condition_data)}\n```"
     return result
 
 
@@ -187,6 +189,13 @@ def predicate_to_str(predicate: dict) -> str:
                                                                             predicate["item"].split(':')[0],
                                                                             predicate["item"].split(':')[-1:][
                                                                                 0])) + "\n\n"
+    elif "items" in predicate:
+        result += "检查下列物品：\n"
+        for item in predicate['items']:
+            result += " - " + try_translate(minecraft_lang, get_translate_str("item",
+                                                                              item.split(':')[0],
+                                                                              item.split(':')[-1:][
+                                                                                  0])) + "\n"
     elif "enchantments" in predicate:
         result += "检查附魔\n\n"
         enchantments = predicate["enchantments"]
@@ -207,7 +216,7 @@ def predicate_to_str(predicate: dict) -> str:
                                                                               predicate["biome"].split(':')[-1:][
                                                                                   0])) + "\n"
     else:
-        result += f"（未知的谓词：{predicate}）\n"
+        result += f"（未知的谓词）\n``` json\n{json.dumps(predicate)}\n```"
     return result
 
 
@@ -251,7 +260,7 @@ def entries_to_str(entries_data: dict) -> str:
     elif entries_type == "minecraft:empty":
         result += "空\n"
     else:
-        result += f"（未知的类型：{entries_type}）\n"
+        result += f"（未知的类型：{entries_type}）\n``` json\n{json.dumps(entries_data)}\n```"
     if "conditions" in entries_data:
         if isinstance(entries_data["conditions"], list):
             for c in entries_data["conditions"]:
@@ -317,8 +326,10 @@ def function_to_str(function_data: dict) -> str:
         result += "抢夺数量：" + count_to_str(function_data["count"]) + "\n"
         if "limit" in function_data:
             result += f"（最多{function_data['limit']}）\n"
+    elif function == "minecraft:explosion_decay":
+        result += "爆炸破坏\n"
     else:
-        result += f"（未知的函数：{function}）\n"
+        result += f"（未知的函数：{function}）\n``` json\n{json.dumps(function_data)}\n```"
     if "conditions" in function_data:
         if isinstance(function_data["conditions"], list):
             for c in function_data["conditions"]:
