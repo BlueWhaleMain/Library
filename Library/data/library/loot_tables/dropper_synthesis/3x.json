@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "_comment": "雪傀儡",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:1b,id:'minecraft:carved_pumpkin',Count:1b},{Slot:4b,id:'minecraft:snow_block',Count:1b},{Slot:7b,id:'minecraft:snow_block',Count:1b}]}"
+                    }
+                  }
+                }
+              ],
+              "type": "minecraft:loot_table",
+              "name": "library:items/spawn_egg/snow_golem"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

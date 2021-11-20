@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.tomb"
+                },
+                [
+                  {
+                    "translate": "system.library.degree_of_strength"
+                  },
+                  "§r§b★★★§r"
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:iron_golem_tomb',CustomModelData:12760002}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "CustomName",
+                  "target": "EntityTag.CustomName",
+                  "op": "replace"
+                },
+                {
+                  "source": "CustomName",
+                  "target": "display.Name",
+                  "op": "replace"
+                },
+                {
+                  "source": "UUID",
+                  "target": "EntityTag.UUID",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

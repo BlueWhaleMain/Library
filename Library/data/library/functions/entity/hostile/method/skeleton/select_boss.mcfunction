@@ -1,6 +1,6 @@
 # Copyright by BlueWhale. All Rights Reserved.
 # 改名，不会自然消失，必然掉装备，不捡装备
-data merge entity @s {DeathLootTable:"library:entities/boss/skeleton",HandDropChances:[1f,1f],ArmorDropChances:[1f,1f,1f,1f],CustomName:'{"translate":"entity.library.skeleton.boss"}',CustomNameVisible:1b,CanPickUpLoot:0b}
+data merge entity @s {DeathLootTable:"library:entities/boss/skeleton",HandDropChances:[1f,1f],ArmorDropChances:[1f,1f,1f,1f],CustomName:'{"translate":"entity.library.sans"}',CustomNameVisible:1b,CanPickUpLoot:0b}
 ## 难度分支
 execute if score #LibDifficulty libTemp matches 3 run function library:entity/hostile/method/skeleton/select_boss/hard
 execute if score #LibDifficulty libTemp matches 2 run function library:entity/hostile/method/skeleton/select_boss/normal

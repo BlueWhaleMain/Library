@@ -11,7 +11,7 @@ scoreboard players set #LibrarySystem libScoreCheck 0
 execute if score #LibrarySystem libTemp matches 0.. run scoreboard players set #LibrarySystem libScoreCheck 1
 execute if score #LibrarySystem libTemp matches ..-1 run scoreboard players set #LibrarySystem libScoreCheck 1
 execute if score #LibrarySystem libScoreCheck matches 0 run function library:main/init
-execute unless score #LibrarySystem libTemp matches 13 run function library:main/init
+execute unless score #LibrarySystem libTemp matches 15 run function library:main/init
 #
 ## 默认设置
 scoreboard players set #LibDefault libScoreCheck 0

@@ -12,7 +12,10 @@ scoreboard objectives add libraryRandomMin dummy {"translate":"score.library.lib
 #
 ##执行
 function #library:open
-scoreboard players set #LibrarySystem libTemp 13
+scoreboard players set #LibrarySystem libTemp 15
 execute if score #LibrarySystem libScoreCheck matches 0 run say Main load success!
 execute if score #LibrarySystem libScoreCheck matches 1 run say Main update success!
 #
+# 卸载2.3.1.5 ~ 2.6.1.0版本的残留
+scoreboard players reset #LibExperienceOrb libTemp
+say Main CleanUp!

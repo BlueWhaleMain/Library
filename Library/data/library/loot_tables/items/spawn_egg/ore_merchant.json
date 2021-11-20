@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wandering_trader_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "item.library.spawn_egg"
+                },
+                {
+                  "translate": "entity.library.ore_merchant"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.summon"
+                },
+                [
+                  {
+                    "translate": "system.library.degree_of_value"
+                  },
+                  "§r§e★★★§r"
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:ore_merchant',CustomModelData:12760002,EntityTag:{Tags:['ore_merchant_spawn']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

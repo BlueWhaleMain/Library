@@ -18,7 +18,7 @@ scoreboard objectives add LibMZ dummy {"translate":"score.library.LibMZ"}
 #
 ##执行
 function #library:entity/open
-scoreboard players set #LibEntity libTemp 9
+scoreboard players set #LibEntity libTemp 10
 execute if score #LibEntity libScoreCheck matches 0 run say Entity load success!
 execute if score #LibEntity libScoreCheck matches 1 run say Entity update success!
 #

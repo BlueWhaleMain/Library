@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wandering_trader_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "item.library.spawn_egg"
+                },
+                {
+                  "translate": "entity.library.tool_vendor"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.summon"
+                },
+                [
+                  {
+                    "translate": "system.library.degree_of_value"
+                  },
+                  "§r§7★★★§r"
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:tool_vendor',CustomModelData:12760003,EntityTag:{Tags:['tool_vendor_spawn']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

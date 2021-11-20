@@ -16,4 +16,4 @@ scoreboard players remove @s[tag=crafting_ring,nbt={Item:{id:"minecraft:paper",t
 scoreboard players remove @s[tag=factory_ring,nbt={Item:{id:"minecraft:paper",tag:{id:"library:factory_ring"}}},scores={libTouhouCTime=1..}] libTouhouCTime 1
 #
 # 给予进度：放电台
-advancement grant @a[distance=..1,advancements={library:guide/iron_block_synthesis=false}] only library:guide/iron_block_synthesis
+advancement grant @a[distance=..2,advancements={library:guide/iron_block_synthesis=false}] only library:guide/iron_block_synthesis

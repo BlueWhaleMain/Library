@@ -9,6 +9,12 @@
         "custom_model_data": 12760001
       },
       "model": "library:item/magnet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760002
+      },
+      "model": "minecraft:item/iron_ingot"
     }
   ]
 }

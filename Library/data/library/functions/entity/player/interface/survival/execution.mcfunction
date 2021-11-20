@@ -87,5 +87,3 @@ advancement grant @s[scores={libThirsty=-99..99},advancements={library:state/thi
 advancement grant @s[scores={libThirsty=-299..-100},advancements={library:state/thirsty/water_bucket=false}] only library:state/thirsty/water_bucket
 advancement grant @s[scores={libThirsty=..-300},advancements={library:state/thirsty/water=false}] only library:state/thirsty/water
 #
-# 正常消耗
-scoreboard players add @s libConsumeLvlCac 10

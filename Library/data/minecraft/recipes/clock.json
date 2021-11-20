@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " #O"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "O": {
+      "item": "minecraft:barrier"
+    }
+  },
+  "result": {
+    "item": "minecraft:clock"
+  }
+}

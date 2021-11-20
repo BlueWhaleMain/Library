@@ -35,12 +35,12 @@ execute at @s[tag=iron_block_synthesis] run function library:entity/item_frame/m
 tag @s[tag=crafting_table_synthesis] remove crafting_table_synthesis
 execute at @s if block ^ ^ ^-1 minecraft:crafting_table run tag @s add crafting_table_synthesis
 # 给予进度：扩展工作台
-execute at @s[tag=crafting_table_synthesis] run advancement grant @a[distance=..1,advancements={library:guide/crafting_table_synthesis=false}] only library:guide/crafting_table_synthesis
+execute at @s[tag=crafting_table_synthesis] run advancement grant @a[distance=..2,advancements={library:guide/crafting_table_synthesis=false}] only library:guide/crafting_table_synthesis
 # 更新
 tag @s[tag=loom_synthesis] remove loom_synthesis
 execute at @s if block ^ ^ ^-1 minecraft:loom run tag @s add loom_synthesis
 # 给予进度：拓展织布机
-execute at @s[tag=loom_synthesis] run advancement grant @a[distance=..1,advancements={library:guide/loom_synthesis=false}] only library:guide/loom_synthesis
+execute at @s[tag=loom_synthesis] run advancement grant @a[distance=..2,advancements={library:guide/loom_synthesis=false}] only library:guide/loom_synthesis
 # 更新
 # tag @s[tag=anvil_synthesis] remove anvil_synthesis
 # execute at @s if block ^ ^ ^-1 minecraft:anvil run tag @s add anvil_synthesis
@@ -50,4 +50,4 @@ execute at @s[tag=loom_synthesis] run advancement grant @a[distance=..1,advancem
 # 漏斗压缩机
 # execute at @s[tag=hopper_compressor] positioned ~ ~-1 ~ run function library:entity/item_frame/method/hopper_compressor/execution
 # 给予进度：物品展示框合成
-execute at @s run advancement grant @a[distance=..1,advancements={library:guide/item_frame=false}] only library:guide/item_frame
+execute at @s run advancement grant @a[distance=..2,advancements={library:guide/item_frame=false}] only library:guide/item_frame

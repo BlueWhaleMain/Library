@@ -9,6 +9,15 @@
           "nbt": "{Items:[{Slot:2b,id:'minecraft:stick',Count:1b},{Slot:4b,id:'minecraft:stick',Count:1b},{Slot:5b,id:'minecraft:paper',Count:1b},{Slot:6b,id:'minecraft:stick',Count:1b},{Slot:8b,id:'minecraft:paper',Count:1b}]}"
         }
       }
+    },
+    {
+      "_comment": "铁傀儡",
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:1b,id:'minecraft:carved_pumpkin',Count:1b},{Slot:3b,id:'minecraft:iron_block',Count:1b},{Slot:4b,id:'minecraft:iron_block',Count:1b},{Slot:5b,id:'minecraft:iron_block',Count:1b},{Slot:7b,id:'minecraft:iron_block',Count:1b}]}"
+        }
+      }
     }
   ]
 }

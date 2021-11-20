@@ -6,6 +6,12 @@
   "overrides": [
     {
       "predicate": {
+        "custom_model_data": 0
+      },
+      "model": "library:item/none"
+    },
+    {
+      "predicate": {
         "custom_model_data": 12760000
       },
       "model": "library:item/touhou"

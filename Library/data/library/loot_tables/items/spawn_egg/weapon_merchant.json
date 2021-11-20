@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wandering_trader_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "item.library.spawn_egg"
+                },
+                {
+                  "translate": "entity.library.weapon_merchant"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.summon"
+                },
+                [
+                  {
+                    "translate": "system.library.degree_of_value"
+                  },
+                  "§r§c★★★§r"
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:weapon_merchant',CustomModelData:12760004,EntityTag:{Tags:['weapon_merchant_spawn']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

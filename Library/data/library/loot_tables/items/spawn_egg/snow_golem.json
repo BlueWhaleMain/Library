@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "entity.minecraft.snow_golem"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.summon"
+                },
+                [
+                  {
+                    "translate": "system.library.degree_of_strength"
+                  },
+                  "§r§7★§r"
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:snow_golem',CustomModelData:12760002,EntityTag:{id:'minecraft:snow_golem',DeathLootTable:'library:entities/summon/snow_golem'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

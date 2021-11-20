@@ -1,0 +1,29 @@
+{
+  "parent": "library:guide/meet_trader",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:12760001,Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "advancements.library.stay_trader.title"
+    },
+    "frame": "goal",
+    "description": {
+      "translate": "advancements.library.stay_trader.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "stay_trader": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "stay_trader"
+    ]
+  ]
+}

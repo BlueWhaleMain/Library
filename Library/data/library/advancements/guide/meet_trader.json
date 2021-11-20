@@ -1,0 +1,29 @@
+{
+  "parent": "library:guide/sleep",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:12760001}"
+    },
+    "title": {
+      "translate": "advancements.library.meet_trader.title"
+    },
+    "frame": "task",
+    "description": {
+      "translate": "advancements.library.meet_trader.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "meet_trader": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "meet_trader"
+    ]
+  ]
+}

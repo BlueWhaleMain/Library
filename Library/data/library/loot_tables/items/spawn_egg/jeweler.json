@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wandering_trader_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "item.library.spawn_egg"
+                },
+                {
+                  "translate": "entity.library.jeweler"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.summon"
+                },
+                [
+                  {
+                    "translate": "system.library.degree_of_value"
+                  },
+                  "§r§6★★★§r"
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:jeweler',CustomModelData:12760001,EntityTag:{Tags:['jeweler_spawn']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

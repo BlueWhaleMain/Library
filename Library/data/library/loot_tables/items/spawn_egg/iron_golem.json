@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "entity.minecraft.iron_golem"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.summon"
+                },
+                [
+                  {
+                    "translate": "system.library.degree_of_strength"
+                  },
+                  "§r§b★★★§r"
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:iron_golem',CustomModelData:12760001,EntityTag:{id:'minecraft:iron_golem',PlayerCreated:1b,DeathLootTable:'library:entities/summon/iron_golem'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,2 +1,2 @@
 # Copyright by BlueWhale. All Rights Reserved.
-scoreboard players add @s[gamemode=survival] libConsumeLvlCac 50
+scoreboard players add @s[gamemode=survival] libConsumeLvlCac 500

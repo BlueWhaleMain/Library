@@ -22,6 +22,26 @@
               "name": "library:items/shoot/empty"
             }
           ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "_comment": "铁傀儡",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:1b,id:'minecraft:carved_pumpkin',Count:1b},{Slot:3b,id:'minecraft:iron_block',Count:1b},{Slot:4b,id:'minecraft:iron_block',Count:1b},{Slot:5b,id:'minecraft:iron_block',Count:1b},{Slot:7b,id:'minecraft:iron_block',Count:1b}]}"
+                    }
+                  }
+                }
+              ],
+              "type": "minecraft:loot_table",
+              "name": "library:items/spawn_egg/iron_golem"
+            }
+          ]
         }
       ]
     }

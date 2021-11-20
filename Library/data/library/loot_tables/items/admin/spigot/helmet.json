@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.admin_helmet"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.admin_helmet.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ],
+                {
+                  "translate": "system.library.spigot.compatible"
+                }
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "generic.armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 3,
+                  "slot": "head"
+                },
+                {
+                  "name": "generic.armor_toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "amount": 3,
+                  "slot": "head"
+                },
+                {
+                  "name": "generic.knockback_resistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "amount": 1,
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:admin_helmet',permission:'admin',CustomModelData:12760000,Enchantments:[{id:'minecraft:blast_protection',lvl:2147483646},{id:'minecraft:respiration',lvl:2147483646},{id:'minecraft:aqua_affinity',lvl:1}],Unbreakable:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

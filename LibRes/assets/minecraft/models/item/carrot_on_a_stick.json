@@ -45,6 +45,30 @@
         "custom_model_data": 12760007
       },
       "model": "library:item/bag/white"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760008
+      },
+      "model": "minecraft:item/carrot_on_a_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12760009
+      },
+      "model": "minecraft:item/carrot_on_a_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12761000
+      },
+      "model": "minecraft:item/carrot_on_a_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12761001
+      },
+      "model": "minecraft:item/carrot_on_a_stick"
     }
   ]
 }

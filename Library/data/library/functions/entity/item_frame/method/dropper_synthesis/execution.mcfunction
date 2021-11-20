@@ -17,4 +17,4 @@ execute if block ~ ~-1 ~ minecraft:lapis_block run scoreboard players remove @s[
 # 冷却倒计时
 execute unless block ~ ~-1 ~ minecraft:lapis_block run scoreboard players remove @s[scores={libTouhouCEscape=1..,libTemp=1..},tag=s] libTouhouCEscape 1
 # 给予进度：祭坛
-advancement grant @a[distance=..1,advancements={library:guide/dropper_synthesis=false}] only library:guide/dropper_synthesis
+advancement grant @a[distance=..2,advancements={library:guide/dropper_synthesis=false}] only library:guide/dropper_synthesis

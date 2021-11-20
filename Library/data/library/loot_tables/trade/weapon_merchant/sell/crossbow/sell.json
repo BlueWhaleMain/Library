@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "functions": [
+    {
+      "function": "minecraft:set_count",
+      "count": 1
+    },
+    {
+      "function": "minecraft:enchant_with_levels",
+      "levels": {
+        "type": "minecraft:uniform",
+        "min": 30.0,
+        "max": 40.0
+      },
+      "treasure": false
+    }
+  ],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow"
+        }
+      ]
+    }
+  ]
+}

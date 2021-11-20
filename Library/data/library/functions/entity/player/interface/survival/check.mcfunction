@@ -7,3 +7,5 @@ execute if score @s ctm_eatCake matches 1.. run function library:entity/player/i
 execute if score @s ctm_damage_taken matches 1.. run function library:entity/player/interface/survival/event/damage_taken
 # 消耗肥胖
 execute if score @s libFood matches 100.. run function library:entity/player/method/state/slim
+# 正常消耗
+scoreboard players add @s libConsumeLvlCac 10

@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.admin_chestplate"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.admin_chestplate.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ],
+                {
+                  "translate": "system.library.spigot.compatible"
+                }
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "generic.armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 8,
+                  "slot": "chest"
+                },
+                {
+                  "name": "generic.armor_toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "amount": 3,
+                  "slot": "chest"
+                },
+                {
+                  "name": "generic.knockback_resistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "amount": 1,
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:admin_chestplate',permission:'admin',CustomModelData:12760000,Enchantments:[{id:'minecraft:projectile_protection',lvl:2147483646}],Unbreakable:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

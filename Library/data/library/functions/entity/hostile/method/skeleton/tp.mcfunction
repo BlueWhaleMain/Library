@@ -14,5 +14,5 @@ scoreboard players remove @s libDefFever 1
 # 生成粒子：灵魂火焰
 particle minecraft:soul_fire_flame ^0.15 ^1.65 ^0.05 0.01 0.01 0.01 0 10
 # 生成粒子：掉落水
-execute anchored eyes run particle minecraft:falling_water ~ ~ ~ 0.01 0.01 0.01 0 10
+execute at @s anchored eyes run particle minecraft:falling_water ~ ~ ~ 0.01 0.01 0.01 0 10
 tag @s remove tp

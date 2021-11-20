@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    "O#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:barrier"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_hoe"
+  }
+}

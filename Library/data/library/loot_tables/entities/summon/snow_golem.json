@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "system.library.tomb"
+                },
+                [
+                  {
+                    "translate": "system.library.degree_of_strength"
+                  },
+                  "§r§7★§r"
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:snow_golem_tomb',CustomModelData:12760001}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "CustomName",
+                  "target": "EntityTag.CustomName",
+                  "op": "replace"
+                },
+                {
+                  "source": "CustomName",
+                  "target": "display.Name",
+                  "op": "replace"
+                },
+                {
+                  "source": "UUID",
+                  "target": "EntityTag.UUID",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

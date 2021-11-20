@@ -10,3 +10,7 @@ scoreboard players add @s[scores={libTouhouCTime=1..,libTouhouCEscape=..0,libTou
 #
 # 骷髅
 execute at @s[type=minecraft:skeleton] run function library:entity/hostile/interface/skeleton/check
+## Boss直接生成任务-无敌时间
+data merge entity @s[tag=boss_spawn] {NoGravity:1b,Invulnerable:1b}
+effect give @s[tag=boss_spawn] minecraft:slowness 1 255 true
+#

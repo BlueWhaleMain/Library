@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "XOX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:barrier"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_leggings"
+  }
+}

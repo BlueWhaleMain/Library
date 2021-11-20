@@ -6,7 +6,7 @@
     "#library:entity/item/unist",
     "#library:entity/player/unist",
     "#library:entity/small_fireball/unist",
-    "#library:entity/experience_orb/unist",
+    "#library:entity/wandering_trader/unist",
     "library:entity/shell/unist"
   ]
 }

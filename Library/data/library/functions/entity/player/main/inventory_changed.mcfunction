@@ -2,7 +2,7 @@
 # 创建还原点
 #scoreboard players operation #InventoryChanged libTemp = @s libTemp
 # 必要的消耗
-scoreboard players add @s[gamemode=survival] libConsumeLvlCac 10
+scoreboard players add @s[gamemode=survival] libConsumeLvlCac 100
 ### 所有需要检测背包的逻辑，都只在背包改变时检测
 
 ##

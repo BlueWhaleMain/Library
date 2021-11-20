@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.admin_sword"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.admin_sword.lore"
+                },
+                [
+                  {
+                    "translate": "system.library.owner"
+                  },
+                  {
+                    "translate": "system.library.punctuation.colon"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ],
+                {
+                  "translate": "system.library.spigot.compatible"
+                }
+              ],
+              "entity": "this",
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "generic.attack_speed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "multiply_total",
+                  "amount": 10,
+                  "slot": "mainhand"
+                },
+                {
+                  "name": "generic.armor_toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "multiply_total",
+                  "amount": 3,
+                  "slot": "mainhand"
+                },
+                {
+                  "name": "generic.knockback_resistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "multiply_total",
+                  "amount": 1,
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:admin_sword',permission:'admin',CustomModelData:12760000,Enchantments:[{id:'minecraft:sharpness',lvl:2147483646},{id:'minecraft:sweeping',lvl:50},{id:'minecraft:thorns',lvl:2147483646}],Unbreakable:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

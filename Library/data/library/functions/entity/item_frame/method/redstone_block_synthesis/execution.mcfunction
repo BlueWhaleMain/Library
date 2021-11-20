@@ -46,4 +46,4 @@ execute if entity @s[tag=crafting_ring] run function library:entity/item_frame/m
 # 执行工厂环
 execute if entity @s[tag=factory_ring] run function library:entity/item_frame/method/redstone_block_synthesis/recipe/factory_ring
 # 给予进度：充能台
-advancement grant @a[distance=..1,advancements={library:guide/redstone_block_synthesis=false}] only library:guide/redstone_block_synthesis
+advancement grant @a[distance=..2,advancements={library:guide/redstone_block_synthesis=false}] only library:guide/redstone_block_synthesis

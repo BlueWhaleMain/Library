@@ -5,6 +5,8 @@ execute at @s[tag=!hostile,tag=!not_allowed_touhou] if score @p[distance=..32,ga
 execute at @s[tag=hostile] unless entity @p[distance=..32,gamemode=!spectator] run function library:entity/hostile/interface/all/reset
 # 执行生成任务
 execute at @s[tag=!spawned,nbt={PersistenceRequired:0b}] run function library:entity/hostile/interface/all/spawn
+# Boss直接生成任务
+execute at @s[tag=boss_spawn] run function library:entity/hostile/interface/all/boss_spawn
 # boss常驻加成
 execute at @s[tag=boss] if entity @p[gamemode=survival,distance=..32] run function library:entity/hostile/interface/all/boss
 # 僵尸

@@ -11,6 +11,6 @@ data merge entity @s {NoGravity:1b,Invulnerable:1b}
 # 消耗
 scoreboard players remove @s libDefValue 1
 # 生成粒子：灵魂火焰
-execute anchored eyes run particle minecraft:soul_fire_flame ^0.15 ^ ^0.05 0.01 0.01 0.01 0 20
+execute at @s anchored eyes run particle minecraft:soul_fire_flame ^0.15 ^ ^0.05 0.01 0.01 0.01 0 20
 # 停止控制
 tag @s remove g

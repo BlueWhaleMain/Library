@@ -13,3 +13,4 @@ execute if entity @s[nbt={Item:{id:"minecraft:rabbit_stew"}}] run data modify en
 # 兔肉煲
 execute if entity @s[nbt={Item:{id:"minecraft:suspicious_stew"}}] run data modify entity @s Item.id set value "minecraft:bowl"
 # 迷之炖菜
+execute at @s[nbt={Item:{id:"minecraft:tnt"}}] run function library:entity/item/method/tnt_explode

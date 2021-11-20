@@ -7,6 +7,6 @@
     "library:entity/arrow/main/load",
     "library:entity/hostile/main/load",
     "library:entity/small_fireball/main/load",
-    "library:entity/experience_orb/main/load"
+    "library:entity/wandering_trader/main/load"
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "parent": "library:trigger/root",
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item"
+    }
+  },
+  "rewards": {
+    "function": "library:entity/player/main/enchanted_item"
+  },
+  "requirements": [
+    [
+      "enchanted_item"
+    ]
+  ]
+}
