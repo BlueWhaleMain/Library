@@ -2,8 +2,10 @@
 
 Minecraft数据包&资源包
 
-[![Contributors](https://img.shields.io/github/contributors/bluewhalemain/Library.svg)](https://github.com/bluewhalemain/Library/graphs/contributors)![GitHub
-repo size in bytes](https://img.shields.io/github/repo-size/bluewhalemain/Library.svg)
+[![GitHub Release](https://img.shields.io/github/release/BlueWhaleMain/Library?color=brightgreen)](https://github.com/BlueWhaleMain/Library/releases)
+[![TotalDownloads](https://img.shields.io/github/downloads/BlueWhaleMain/Library/total.svg)](https://github.com/BlueWhaleMain/Library/releases)
+[![Contributors](https://img.shields.io/github/contributors/BlueWhaleMain/Library.svg)](https://github.com/BlueWhaleMain/Library/graphs/contributors)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/BlueWhaleMain/Library.svg)
 
 拓展与修改原版内容，以此获得更多玩法
 
@@ -51,4 +53,4 @@ repo size in bytes](https://img.shields.io/github/repo-size/bluewhalemain/Librar
 
 ## License
 
-MIT.
+MIT, see [LICENSE](https://github.com/BlueWhaleMain/Library/blob/master/LICENSE).
