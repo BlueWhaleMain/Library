@@ -21,6 +21,8 @@ effect give @s[nbt={Inventory:[{Slot:102b,tag:{id:"library:admin_chestplate"}}]}
 effect give @s[nbt={Inventory:[{Slot:101b,tag:{id:"library:admin_leggings"}}]}] minecraft:fire_resistance 2 127 true
 # 加特林
 execute if entity @s[nbt={SelectedItem:{tag:{id:"library:gatling"}}}] run function library:entity/player/method/gatling/check
+# 无限弩
+execute if entity @s[nbt={SelectedItem:{tag:{id:"library:infinity_crossbow"}}}] run function library:entity/player/method/infinity_crossbow/check
 # 磁铁
 tag @s[nbt={SelectedItem:{tag:{id:"library:magnet"}}},tag=!magnet] add magnet
 # 尝试去除标签

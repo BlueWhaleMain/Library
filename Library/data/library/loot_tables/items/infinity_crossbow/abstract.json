@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.library.infinity_crossbow"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.library.infinity_crossbow.lore"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:'library:infinity_crossbow',CustomModelData:12760002,ChargedProjectiles:[],MemoryProjectiles:[],Charged:1b,Enchantments:[{id:'minecraft:piercing',lvl:5},{id:'minecraft:quick_charge',lvl:5},{id:'minecraft:unbreaking',lvl:3}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "library:items/infinity_crossbow/abstract",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Items[{Slot:1b}]",
+                  "target": "ChargedProjectiles",
+                  "op": "append"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Items[{Slot:1b}]",
+                  "target": "MemoryProjectiles",
+                  "op": "append"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
