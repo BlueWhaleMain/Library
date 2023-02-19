@@ -2,7 +2,7 @@
 
 **阅读前注意：本文档默认玩家具备原版所有知识，新手请参考[Wikipedia](https://minecraft-zh.gamepedia.com)**
 
-**该文档仅适用于：Library-2.7.0.0-1.17.1**
+**该文档仅适用于：Library-2.7.0.0-1.19.3**
 
 # 文档
 

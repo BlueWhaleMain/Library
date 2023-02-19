@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{id:'library:experience_orb',CustomModelData:0,Value:100s}"
+              "tag": "{id:'library:experience_orb',CustomModelData:-10000000,Value:100s}"
             }
           ]
         }

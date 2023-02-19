@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "item/fire_charge"
+    "layer0": "minecraft:item/fire_charge"
   },
   "overrides": [
     {
@@ -20,25 +20,25 @@
       "predicate": {
         "custom_model_data": 12760003
       },
-      "model": "library:entity/bill/red"
+      "model": "library:item/entity/bill/red"
     },
     {
       "predicate": {
         "custom_model_data": 12760004
       },
-      "model": "library:entity/small_jade/purple"
+      "model": "library:item/entity/small_jade/purple"
     },
     {
       "predicate": {
         "custom_model_data": 12760005
       },
-      "model": "library:entity/small_jade/yellow-green"
+      "model": "library:item/entity/small_jade/yellow-green"
     },
     {
       "predicate": {
         "custom_model_data": 12760006
       },
-      "model": "library:entity/small_jade/red"
+      "model": "library:item/entity/small_jade/red"
     }
   ]
 }

@@ -1,7 +1,7 @@
 # Copyright by BlueWhale. All Rights Reserved.
 execute store result score #PlayerPos libTemp run data get entity @s Pos[1]
 # 获取自身Y轴
-execute if score #PlayerPos libTemp matches ..1 run tp @s ~ 2 ~
+execute if score #PlayerPos libTemp matches ..-64 run tp @s ~ 2 ~
 # 错误修正
 execute unless block ~ ~1 ~ #library:tp_head_safe run tp @s ~ ~1 ~
 # 冒头

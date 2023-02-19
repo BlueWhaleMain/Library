@@ -48,15 +48,15 @@ execute if entity @s[scores={slw_sprint_cm=1..,slw_damage_dealt=1..}] run functi
 # 高跳
 execute if entity @s[scores={slw_jump=1..,slw_sneak_time=1..}] run function library:entity/player/interface/all/event/high_jump
 # 暴击
-execute if entity @s[scores={slw_jump=1..,slw_damage_dealt=1..},nbt=!{ActiveEffects:[{Id:27b}]},nbt=!{ActiveEffects:[{Id:15b}]}] run function library:entity/player/interface/all/event/crit
+execute if entity @s[scores={slw_jump=1..,slw_damage_dealt=1..},nbt=!{ActiveEffects:[{Id:27}]},nbt=!{ActiveEffects:[{Id:15}]}] run function library:entity/player/interface/all/event/crit
 # 会心一击
-execute if entity @s[scores={slw_sprint_cm=1..,slw_jump=1..,slw_damage_dealt=1..},nbt=!{ActiveEffects:[{Id:27b}]},nbt=!{ActiveEffects:[{Id:15b}]}] run function library:entity/player/interface/all/event/hit_a_heart
+execute if entity @s[scores={slw_sprint_cm=1..,slw_jump=1..,slw_damage_dealt=1..},nbt=!{ActiveEffects:[{Id:27}]},nbt=!{ActiveEffects:[{Id:15}]}] run function library:entity/player/interface/all/event/hit_a_heart
 # 致命一击
-execute if entity @s[scores={slw_sneak_time=1..,slw_jump=1..,slw_damage_dealt=1..},nbt=!{ActiveEffects:[{Id:27b}]},nbt=!{ActiveEffects:[{Id:15b}]}] run function library:entity/player/interface/all/event/backstab_crit
+execute if entity @s[scores={slw_sneak_time=1..,slw_jump=1..,slw_damage_dealt=1..},nbt=!{ActiveEffects:[{Id:27}]},nbt=!{ActiveEffects:[{Id:15}]}] run function library:entity/player/interface/all/event/backstab_crit
 # 蓄力助跑跳
 execute if entity @s[scores={slw_sneak_time=1..,slw_sprint_cm=1..,slw_jump=1..}] run function library:entity/player/interface/all/event/strength_a_running_jump
 # God
-execute if entity @s[scores={slw_sneak_time=1..,slw_sprint_cm=1..,slw_jump=1..,slw_damage_dealt=1..},nbt=!{ActiveEffects:[{Id:27b}]},nbt=!{ActiveEffects:[{Id:15b}]}] run function library:entity/player/interface/all/event/god
+execute if entity @s[scores={slw_sneak_time=1..,slw_sprint_cm=1..,slw_jump=1..,slw_damage_dealt=1..},nbt=!{ActiveEffects:[{Id:27}]},nbt=!{ActiveEffects:[{Id:15}]}] run function library:entity/player/interface/all/event/god
 #
 # 关闭传送循环
 tag @s[tag=teleport] remove teleport
