@@ -38,6 +38,7 @@ execute at @s[tag=library_tp_admin] run function library:entity/player/method/sy
 #
 ## 结束tp
 execute at @s[tag=library_tp_spy,tag=!slow_falling] if block ~ ~ ~ #library:tp_body_safe if block ~ ~1 ~ #library:tp_body_safe run function library:entity/player/method/shoot/support_skills/yukari_yakumo/close
+execute at @s[tag=library_tp_spy,tag=slow_falling,nbt=!{SelectedItem:{tag:{id:"library:yin_yang_yu",mode:"support_yukari_yakumo"}}}] run function library:entity/player/method/shoot/support_skills/yukari_yakumo/cancel
 execute at @s[tag=library_tp_admin,tag=!slow_falling] if block ~ ~ ~ #library:tp_body_safe if block ~ ~1 ~ #library:tp_body_safe run function library:entity/player/method/admin/teleport/close
 #
 ##符卡运行
