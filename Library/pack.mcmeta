@@ -2,5 +2,433 @@
    "pack": {
       "pack_format": 10,
       "description": "LibraryV2.7.0.0 datapack.\n§9by BlueWhaleMain§r"
+   },
+   "filter": {
+      "block": [
+         {
+            "namespace": "minecraft",
+            "path": "recipes/amethyst_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/bone_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/clay.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/clock.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/coal_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/coal_from_blasting.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/coal_from_blasting_coal_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/coal_from_blasting_deepslate_coal_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/coal_from_smelting.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/coal_from_smelting_coal_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/coal_from_smelting_deepslate_coal_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/compass.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/crafting_table.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_axe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_boots.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_chestplate.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_from_blasting.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_from_smelting.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_helmet.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_hoe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_leggings.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_pickaxe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_shovel.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_sword.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/dried_kelp_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/emerald_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/glass_bottle.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/glowstone.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/hay_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/lapis_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/paper.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/quartz.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/quartz_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/quartz_from_blasting.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/raw_copper.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/raw_copper_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/raw_gold.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/raw_gold_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/raw_iron.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/raw_iron_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/redstone_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/slime_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/snow_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/stone.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/stone_axe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/stone_hoe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/stone_pickaxe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/stone_shovel.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/stone_sword.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/tinted_glass.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/wheat.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/white_wool_from_string.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/brewing/glass_bottle.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/amethyst_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/bone_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/clay.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/coal_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/diamond_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/dried_kelp_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/emerald_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/glowstone.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/hay_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/lapis_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/quartz_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/raw_copper_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/raw_gold_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/raw_iron_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/snow_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/stone.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/tinted_glass.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/white_wool_from_string.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/combat/diamond_boots.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/combat/diamond_chestplate.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/combat/diamond_helmet.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/combat/diamond_leggings.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/combat/diamond_sword.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/combat/stone_sword.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/decorations/crafting_table.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/coal_from_blasting_coal_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/coal_from_blasting_deepslate_coal_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/coal_from_smelting_coal_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/coal_from_smelting_deepslate_coal_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/diamond_from_blasting_deepslate_diamond_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/diamond_from_blasting_diamond_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/diamond_from_smelting_deepslate_diamond_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/diamond_from_smelting_diamond_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/paper.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/quartz.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/quartz_from_blasting.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/raw_copper.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/raw_gold.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/raw_iron.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/misc/wheat.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/redstone/redstone_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/redstone/slime_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/clock.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/compass.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/diamond_axe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/diamond_hoe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/diamond_pickaxe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/diamond_shovel.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/stone_axe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/stone_hoe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/stone_pickaxe.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/tools/stone_shovel.json"
+         }
+      ]
    }
 }
