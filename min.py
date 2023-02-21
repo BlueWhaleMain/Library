@@ -57,7 +57,7 @@ if __name__ == "__main__":
             try:
                 before_size += os.path.getsize(file)
                 with open(file, encoding=get_encoding(file, None)) as f:
-                    d = json.dumps(json.load(f))
+                    d = json.dumps(json.load(f), ensure_ascii=False)
                 with open(file, 'w', encoding="utf-8") as f:
                     f.write(d)
                 after_size += os.path.getsize(file)
