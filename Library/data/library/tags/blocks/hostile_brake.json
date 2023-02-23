@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#minecraft:crops",
-    "minecraft:redstone_wire"
-  ]
-}
