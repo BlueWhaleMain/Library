@@ -20,6 +20,8 @@
     "minecraft:cave_spider",
     "minecraft:enderman",
     "minecraft:spider",
-    "minecraft:hoglin"
+    "minecraft:hoglin",
+    "minecraft:piglin_brute",
+    "minecraft:warden"
   ]
 }

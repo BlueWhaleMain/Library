@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
   "group": "wash",
   "ingredients": [
     {
