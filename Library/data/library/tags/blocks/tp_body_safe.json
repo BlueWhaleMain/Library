@@ -2,7 +2,29 @@
   "replace": false,
   "values": [
     "#library:tp_head_safe",
+    "#minecraft:walls",
+    "#minecraft:anvil",
+    "#minecraft:saplings",
+    "#minecraft:rails",
+    "#minecraft:pressure_plates",
+    "#minecraft:replaceable_plants",
+    "#minecraft:stairs",
+    "#minecraft:beds",
+    "#minecraft:crops",
+    "#minecraft:fence_gates",
+    "#minecraft:flower_pots",
     "minecraft:water",
-    "minecraft:dirt_path"
+    "minecraft:brewing_stand",
+    "minecraft:dirt_path",
+    "minecraft:farmland",
+    "minecraft:cake",
+    "minecraft:cauldron",
+    "minecraft:chest",
+    "minecraft:daylight_detector",
+    "minecraft:dragon_egg",
+    "minecraft:ender_chest",
+    "minecraft:redstone_wire",
+    "minecraft:repeater",
+    "minecraft:comparator"
   ]
 }
