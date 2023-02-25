@@ -51,6 +51,22 @@
          },
          {
             "namespace": "minecraft",
+            "path": "recipes/diamond_from_blasting_deepslate_diamond_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_from_blasting_diamond_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_from_smelting_deepslate_diamond_ore.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "recipes/diamond_from_smelting_diamond_ore.json"
+         },
+         {
+            "namespace": "minecraft",
             "path": "recipes/compass.json"
          },
          {
