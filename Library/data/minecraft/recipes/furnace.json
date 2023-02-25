@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "###",
-    "# #",
-    "###"
-  ],
   "key": {
     "#": {
       "tag": "minecraft:stone_crafting_materials"
     }
   },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:furnace",
-    "count": 8
+    "count": 8,
+    "item": "minecraft:furnace"
   }
 }

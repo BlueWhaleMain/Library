@@ -147,6 +147,10 @@
          },
          {
             "namespace": "minecraft",
+            "path": "recipes/magma_block.json"
+         },
+         {
+            "namespace": "minecraft",
             "path": "recipes/paper.json"
          },
          {
@@ -276,6 +280,10 @@
          {
             "namespace": "minecraft",
             "path": "advancements/recipes/building_blocks/lapis_block.json"
+         },
+         {
+            "namespace": "minecraft",
+            "path": "advancements/recipes/building_blocks/magma_block.json"
          },
          {
             "namespace": "minecraft",

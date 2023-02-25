@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "pattern": [
-    "ooo",
-    "oWo",
-    "ooo"
-  ],
   "key": {
     "W": {
       "tag": "minecraft:wooden_slabs"
@@ -14,6 +9,11 @@
       "item": "minecraft:iron_nugget"
     }
   },
+  "pattern": [
+    "ooo",
+    "oWo",
+    "ooo"
+  ],
   "result": {
     "item": "minecraft:shield"
   }

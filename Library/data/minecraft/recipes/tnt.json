@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "XPX",
-    "P#P",
-    "XPX"
-  ],
   "key": {
     "#": {
       "item": "minecraft:red_sand"
@@ -17,6 +12,11 @@
       "item": "minecraft:paper"
     }
   },
+  "pattern": [
+    "XPX",
+    "P#P",
+    "XPX"
+  ],
   "result": {
     "item": "minecraft:tnt"
   }

@@ -7,7 +7,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:emerald",
-    "count": 64
+    "count": 64,
+    "item": "minecraft:emerald"
   }
 }

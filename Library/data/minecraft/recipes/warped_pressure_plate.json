@@ -2,10 +2,6 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "group": "wooden_pressure_plate",
-  "pattern": [
-    "#",
-    "X"
-  ],
   "key": {
     "#": {
       "item": "minecraft:warped_planks"
@@ -14,8 +10,12 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    "#",
+    "X"
+  ],
   "result": {
-    "item": "minecraft:warped_pressure_plate",
-    "count": 16
+    "count": 16,
+    "item": "minecraft:warped_pressure_plate"
   }
 }

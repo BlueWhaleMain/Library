@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "R#Q"
-  ],
   "key": {
     "Q": {
       "item": "minecraft:quartz"
@@ -15,6 +12,9 @@
       "item": "minecraft:furnace"
     }
   },
+  "pattern": [
+    "R#Q"
+  ],
   "result": {
     "item": "minecraft:observer"
   }

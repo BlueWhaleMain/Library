@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    " # ",
-    "#X#",
-    "RIR"
-  ],
   "key": {
     "#": {
       "item": "minecraft:redstone_torch"
@@ -20,6 +15,11 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    " # ",
+    "#X#",
+    "RIR"
+  ],
   "result": {
     "item": "minecraft:comparator"
   }

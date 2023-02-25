@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "I I",
-    "I I",
-    " I "
-  ],
   "key": {
     "I": {
       "item": "minecraft:iron_ingot"
     }
   },
+  "pattern": [
+    "I I",
+    "I I",
+    " I "
+  ],
   "result": {
     "item": "minecraft:hopper"
   }

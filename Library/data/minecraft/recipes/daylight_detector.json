@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "RGR",
-    "QQQ",
-    "RWR"
-  ],
   "key": {
     "Q": {
       "item": "minecraft:quartz"
@@ -20,6 +15,11 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    "RGR",
+    "QQQ",
+    "RWR"
+  ],
   "result": {
     "item": "minecraft:daylight_detector"
   }

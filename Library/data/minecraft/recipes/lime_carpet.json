@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "carpet",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": {
       "item": "minecraft:lime_wool"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "item": "minecraft:lime_carpet",
-    "count": 32
+    "count": 32,
+    "item": "minecraft:lime_carpet"
   }
 }

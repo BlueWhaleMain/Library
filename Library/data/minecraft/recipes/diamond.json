@@ -7,7 +7,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:diamond",
-    "count": 64
+    "count": 64,
+    "item": "minecraft:diamond"
   }
 }

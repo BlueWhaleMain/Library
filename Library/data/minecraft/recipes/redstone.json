@@ -7,7 +7,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:redstone",
-    "count": 64
+    "count": 64,
+    "item": "minecraft:redstone"
   }
 }

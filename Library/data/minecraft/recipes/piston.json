@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "R  ",
-    "#XT",
-    "R  "
-  ],
   "key": {
     "R": {
       "item": "minecraft:redstone"
@@ -20,6 +15,11 @@
       "item": "minecraft:iron_ingot"
     }
   },
+  "pattern": [
+    "R  ",
+    "#XT",
+    "R  "
+  ],
   "result": {
     "item": "minecraft:piston"
   }

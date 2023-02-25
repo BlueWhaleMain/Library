@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "carpet",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": {
       "item": "minecraft:pink_wool"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "item": "minecraft:pink_carpet",
-    "count": 32
+    "count": 32,
+    "item": "minecraft:pink_carpet"
   }
 }

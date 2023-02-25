@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    " S ",
-    " B ",
-    "RSR"
-  ],
   "key": {
     "S": {
       "tag": "minecraft:wooden_slabs"
@@ -17,6 +12,11 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    " S ",
+    " B ",
+    "RSR"
+  ],
   "result": {
     "item": "minecraft:lectern"
   }

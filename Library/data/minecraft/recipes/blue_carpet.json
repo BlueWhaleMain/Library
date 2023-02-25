@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "carpet",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": {
       "item": "minecraft:blue_wool"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "item": "minecraft:blue_carpet",
-    "count": 32
+    "count": 32,
+    "item": "minecraft:blue_carpet"
   }
 }

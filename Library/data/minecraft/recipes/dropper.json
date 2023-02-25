@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "C#R"
-  ],
   "key": {
     "R": {
       "item": "minecraft:redstone"
@@ -15,6 +12,9 @@
       "item": "minecraft:cobblestone"
     }
   },
+  "pattern": [
+    "C#R"
+  ],
   "result": {
     "item": "minecraft:dropper"
   }

@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "###"
-  ],
   "key": {
     "#": {
       "item": "minecraft:snow_block"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "minecraft:snow",
-    "count": 24
+    "count": 24,
+    "item": "minecraft:snow"
   }
 }

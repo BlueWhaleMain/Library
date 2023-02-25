@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "XSX",
-    "P P",
-    "XSX"
-  ],
   "key": {
     "P": {
       "tag": "minecraft:planks"
@@ -17,8 +12,13 @@
       "item": "minecraft:string"
     }
   },
+  "pattern": [
+    "XSX",
+    "P P",
+    "XSX"
+  ],
   "result": {
-    "item": "minecraft:barrel",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:barrel"
   }
 }

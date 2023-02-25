@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:arrow",
+    "#minecraft:arrows",
     "minecraft:snowball",
     "minecraft:egg",
     "minecraft:llama_spit",
@@ -12,7 +12,6 @@
     "minecraft:small_fireball",
     "minecraft:wither_skull",
     "minecraft:dragon_fireball",
-    "minecraft:shulker_bullet",
-    "minecraft:spectral_arrow"
+    "minecraft:shulker_bullet"
   ]
 }

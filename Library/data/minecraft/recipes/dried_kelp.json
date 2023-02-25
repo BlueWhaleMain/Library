@@ -7,7 +7,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:dried_kelp",
-    "count": 64
+    "count": 64,
+    "item": "minecraft:dried_kelp"
   }
 }

@@ -2,10 +2,6 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "boat",
-  "pattern": [
-    "#X#",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "minecraft:dark_oak_planks"
@@ -14,6 +10,10 @@
       "item": "minecraft:wooden_shovel"
     }
   },
+  "pattern": [
+    "#X#",
+    "###"
+  ],
   "result": {
     "item": "minecraft:dark_oak_boat"
   }

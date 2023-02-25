@@ -7,7 +7,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:coal",
-    "count": 64
+    "count": 64,
+    "item": "minecraft:coal"
   }
 }

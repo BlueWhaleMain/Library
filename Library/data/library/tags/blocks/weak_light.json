@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:candles",
     "minecraft:torch",
     "minecraft:wall_torch",
     "minecraft:soul_torch",

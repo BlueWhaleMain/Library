@@ -2,10 +2,6 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "wooden_fence",
-  "pattern": [
-    "W#W",
-    "W#W"
-  ],
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -14,8 +10,12 @@
       "item": "minecraft:crimson_planks"
     }
   },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
   "result": {
-    "item": "minecraft:crimson_fence",
-    "count": 20
+    "count": 20,
+    "item": "minecraft:crimson_fence"
   }
 }

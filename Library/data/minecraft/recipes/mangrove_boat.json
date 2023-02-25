@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "X": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:mangrove_boat"
+  }
+}

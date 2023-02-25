@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "minecraft:glass"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:glass_pane",
-    "count": 48
+    "count": 48,
+    "item": "minecraft:glass_pane"
   }
 }

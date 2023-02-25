@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "X",
-    "#",
-    "R"
-  ],
   "key": {
     "#": {
       "item": "minecraft:cobblestone"
@@ -17,8 +12,13 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    "X",
+    "#",
+    "R"
+  ],
   "result": {
-    "item": "minecraft:lever",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:lever"
   }
 }

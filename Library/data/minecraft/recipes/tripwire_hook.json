@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "I",
-    "L"
-  ],
   "key": {
     "L": {
       "item": "minecraft:lever"
@@ -13,8 +9,12 @@
       "item": "minecraft:iron_nugget"
     }
   },
+  "pattern": [
+    "I",
+    "L"
+  ],
   "result": {
-    "item": "minecraft:tripwire_hook",
-    "count": 2
+    "count": 2,
+    "item": "minecraft:tripwire_hook"
   }
 }

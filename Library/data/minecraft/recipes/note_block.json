@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    " X ",
-    "X#X",
-    " X "
-  ],
   "key": {
     "#": {
       "tag": "minecraft:planks"
@@ -14,6 +9,11 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    " X ",
+    "X#X",
+    " X "
+  ],
   "result": {
     "item": "minecraft:note_block"
   }

@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "X#"
-  ],
   "key": {
     "#": {
       "item": "minecraft:polished_blackstone"
@@ -12,8 +9,11 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    "X#"
+  ],
   "result": {
-    "item": "minecraft:polished_blackstone_button",
-    "count": 64
+    "count": 64,
+    "item": "minecraft:polished_blackstone_button"
   }
 }

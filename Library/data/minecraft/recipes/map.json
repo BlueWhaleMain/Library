@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    " R ",
-    "B#Y",
-    " X "
-  ],
   "key": {
     "#": {
       "item": "minecraft:paper"
@@ -23,6 +18,11 @@
       "item": "minecraft:blue_dye"
     }
   },
+  "pattern": [
+    " R ",
+    "B#Y",
+    " X "
+  ],
   "result": {
     "item": "minecraft:map"
   }

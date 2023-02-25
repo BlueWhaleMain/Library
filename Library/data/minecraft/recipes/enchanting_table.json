@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "DBD",
-    "FRI",
-    "D#D"
-  ],
   "key": {
     "B": {
       "item": "minecraft:book"
@@ -26,6 +21,11 @@
       "item": "minecraft:red_carpet"
     }
   },
+  "pattern": [
+    "DBD",
+    "FRI",
+    "D#D"
+  ],
   "result": {
     "item": "minecraft:enchanting_table"
   }

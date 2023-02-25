@@ -8,7 +8,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:bone_meal",
-    "count": 64
+    "count": 64,
+    "item": "minecraft:bone_meal"
   }
 }

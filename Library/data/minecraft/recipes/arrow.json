@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "pattern": [
-    " X ",
-    " # ",
-    "Y#Y"
-  ],
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -17,8 +12,13 @@
       "item": "minecraft:feather"
     }
   },
+  "pattern": [
+    " X ",
+    " # ",
+    "Y#Y"
+  ],
   "result": {
-    "item": "minecraft:arrow",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:arrow"
   }
 }

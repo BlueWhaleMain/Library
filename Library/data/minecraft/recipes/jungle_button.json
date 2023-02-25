@@ -2,9 +2,6 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "group": "wooden_button",
-  "pattern": [
-    "X#"
-  ],
   "key": {
     "#": {
       "item": "minecraft:jungle_planks"
@@ -13,8 +10,11 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    "X#"
+  ],
   "result": {
-    "item": "minecraft:jungle_button",
-    "count": 64
+    "count": 64,
+    "item": "minecraft:jungle_button"
   }
 }
