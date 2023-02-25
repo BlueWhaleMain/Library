@@ -1,6 +1,4 @@
 # Copyright by BlueWhale. All Rights Reserved.
-# 重置进度触发器
-advancement revoke @s from library:trigger
 # 变量：爬梯子（厘米）
 scoreboard players set @s ctm_climb_cm 0
 # 变量：造成伤害
